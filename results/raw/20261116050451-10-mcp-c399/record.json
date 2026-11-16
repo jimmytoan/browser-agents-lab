@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116050451-10-mcp-c399",
+  "ts": "2026-11-16T05:05:11.708Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 19.8,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 1484,
+    "cache_read": 129916,
+    "cache_write": 23826,
+    "total_in": 153764
+  },
+  "peak_prompt_tokens": 23828,
+  "cost_usd": 0.005022,
+  "tool_calls": 16,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Elin Fors – Approved; Maria Sund – Rejected",
+  "instruction": "On the Expenses page, approve the expense report submitted by Elin Fors and reject the expense report submitted by Maria Sund. Leave every other expense report pending."
+}

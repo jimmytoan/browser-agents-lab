@@ -1,0 +1,42 @@
+{
+  "run_id": "20261115233802-13-mcp-9cff",
+  "ts": "2026-11-15T23:38:46.560Z",
+  "tag": "pilot",
+  "task": "13_bulk_policy",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "all 24 statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 43.5,
+  "model_calls": 16,
+  "tokens": {
+    "input": 34,
+    "output": 4678,
+    "cache_read": 259393,
+    "cache_write": 26960,
+    "total_in": 286387
+  },
+  "peak_prompt_tokens": 26962,
+  "cost_usd": 0.008306,
+  "tool_calls": 26,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 28,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Approved RF-38612 and RF-44116; rejected RF-4715, RF-9546, RF-22413, RF-98014, RF-75523; the other 17 remain pending.",
+  "instruction": "On the Refunds page (it has several pages), process the pending refund requests by this policy: reject every request from a customer marked \"Blocked\"; of the remaining requests, approve those whose reason is \"Damaged item\" and whose amount is at most SEK 500; leave all other requests pending. Go through every page."
+}

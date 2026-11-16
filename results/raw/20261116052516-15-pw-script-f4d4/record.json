@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116052516-15-pw-script-f4d4",
+  "ts": "2026-11-16T05:27:23.641Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 127.3,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 3752,
+    "cache_read": 38073,
+    "cache_write": 7989,
+    "total_in": 46082
+  },
+  "peak_prompt_tokens": 7991,
+  "cost_usd": 0.003257,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 8,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 43,
+    "directApi": 0,
+    "logins": 7
+  },
+  "answer": "Annual, 10 seats",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 10 seats and confirm the plan."
+}

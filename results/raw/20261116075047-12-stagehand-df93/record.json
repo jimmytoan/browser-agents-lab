@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116075047-12-stagehand-df93",
+  "ts": "2026-11-16T07:53:35.442Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "discounts {}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 168,
+  "model_calls": 27,
+  "tokens": {
+    "input": 78680,
+    "output": 14080,
+    "cache_read": 125031,
+    "cache_write": 9195,
+    "total_in": 212906
+  },
+  "peak_prompt_tokens": 9197,
+  "cost_usd": 0.017308,
+  "tool_calls": 37,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 78624,
+      "output": 10746,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.013235,
+      "raw": {
+        "actPromptTokens": 32546,
+        "actCompletionTokens": 3053,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 31835,
+        "extractPromptTokens": 24175,
+        "extractCompletionTokens": 5609,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 54576,
+        "observePromptTokens": 21903,
+        "observeCompletionTokens": 2084,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 26239,
+        "totalPromptTokens": 78624,
+        "totalCompletionTokens": 10746,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 112650
+      }
+    },
+    "outer_cost_usd": 0.004072
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1043 to exactly 17% and apply it. Do not change any other product's discount."
+}

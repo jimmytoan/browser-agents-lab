@@ -1,0 +1,23 @@
+{"ms":1165,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4897,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4897,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1214,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2477,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6331,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6331,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":2742,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":2852,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3106,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3189,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3443,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5445,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5471,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":7118,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6331,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[748,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7377,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9379,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9409,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":12037,"t":"model","stop":"tool_use","text":"Lena Strid's card is in the second row, second column, and Tomas Rask's is in the first row, second column. I'll approve Lena Strid's report first, then check the layout before rejecting Tomas Rask's.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7964,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":168,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[296,406]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":12294,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14297,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":14330,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15875,"t":"model","stop":"tool_use","text":"Lena Strid's report is approved and the grid has reflowed. Tomas Rask's card is still in the first row, second column, so I'll reject it there.","usage":{"input_tokens":2,"cache_creation_input_tokens":1566,"cache_read_input_tokens":9460,"cache_creation":{"ephemeral_5m_input_tokens":1566,"ephemeral_1h_input_tokens":0},"output_tokens":148,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[332,252]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":16130,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18131,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18164,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19173,"t":"model","stop":"end_turn","text":"Lena Strid's expense report is approved and Tomas Rask's is rejected. All other expense reports still show Pending.","usage":{"input_tokens":2,"cache_creation_input_tokens":1546,"cache_read_input_tokens":11026,"cache_creation":{"ephemeral_5m_input_tokens":1546,"ephemeral_1h_input_tokens":0},"output_tokens":41,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

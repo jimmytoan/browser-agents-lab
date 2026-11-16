@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116050609-10-stagehand-8a0c",
+  "ts": "2026-11-16T05:07:40.752Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "wrong: Elin Fors=Pending, Maria Sund=Pending",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 90.8,
+  "model_calls": 20,
+  "tokens": {
+    "input": 58649,
+    "output": 9856,
+    "cache_read": 73570,
+    "cache_write": 7272,
+    "total_in": 139491
+  },
+  "peak_prompt_tokens": 7274,
+  "cost_usd": 0.012438,
+  "tool_calls": 23,
+  "tool_errors": 6,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 58607,
+      "output": 7426,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.009574,
+      "raw": {
+        "actPromptTokens": 37045,
+        "actCompletionTokens": 3309,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 31697,
+        "extractPromptTokens": 8918,
+        "extractCompletionTokens": 2911,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 17198,
+        "observePromptTokens": 12644,
+        "observeCompletionTokens": 1206,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 10903,
+        "totalPromptTokens": 58607,
+        "totalCompletionTokens": 7426,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 59798
+      }
+    },
+    "outer_cost_usd": 0.002864
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Elin Fors and reject the expense report submitted by Maria Sund. Leave every other expense report pending."
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116105215-04-cua-b0b2",
+  "ts": "2026-11-16T11:08:07.663Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": false,
+  "why": "changed rows: none",
+  "stopped_by": "wall_clock",
+  "error": null,
+  "elapsed_s": 952.2,
+  "model_calls": 3,
+  "tokens": {
+    "input": 8,
+    "output": 323,
+    "cache_read": 6318,
+    "cache_write": 12801,
+    "total_in": 19127
+  },
+  "peak_prompt_tokens": 7919,
+  "cost_usd": 0.03588,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 3
+  },
+  "app": {
+    "requests": 6,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Products page, change product P-1347: set its price to 502 and its stock to 287, then save the row. Do not change any other product."
+}

@@ -1,0 +1,1 @@
+I booked one delivery for order SO-1438 on 13 January 2027 with Best Transport in the Evening window. The Deliveries page confirmed it and lists it under Booked deliveries.

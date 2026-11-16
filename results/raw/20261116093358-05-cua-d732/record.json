@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116093358-05-cua-d732",
+  "ts": "2026-11-16T09:34:18.858Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 20,
+  "model_calls": 8,
+  "tokens": {
+    "input": 18,
+    "output": 913,
+    "cache_read": 60130,
+    "cache_write": 19261,
+    "total_in": 79409
+  },
+  "peak_prompt_tokens": 14358,
+  "cost_usd": 0.063331,
+  "tool_calls": 24,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 7
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Booked",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-4743: delivery date 4 January 2027, carrier \"DHL Freight\", time window Evening. Make exactly one booking."
+}

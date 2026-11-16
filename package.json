@@ -1,0 +1,23 @@
+{
+  "name": "browser-agents-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Four ways to let an agent drive a browser: Playwright MCP vs Playwright CLI/scripts vs computer use vs Stagehand, on identical local tasks",
+  "scripts": {
+    "selftest": "node harness/selftest.mjs",
+    "run": "node harness/run.mjs",
+    "report": "node harness/report.mjs",
+    "app": "node app/serve.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.8.0",
+    "@browserbasehq/stagehand": "4.4.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@playwright/cli": "0.1.24",
+    "@playwright/mcp": "0.0.85",
+    "dotenv": "18.0.10",
+    "playwright": "1.65.1",
+    "zod": "4.6.7"
+  }
+}

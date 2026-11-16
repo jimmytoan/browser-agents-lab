@@ -1,0 +1,1 @@
+The pipeline stages are now in the required order (Intake, Picking, Invoicing, Packing, Shipping, Quality check, Credit check) and the page confirms "Order saved".

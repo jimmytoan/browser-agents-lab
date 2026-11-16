@@ -1,0 +1,1 @@
+I set P-1048 (Thermal Filter 45) to a 33% discount on the Pricing page and applied it. The row now shows 33%. I didn't change any other product's discount.

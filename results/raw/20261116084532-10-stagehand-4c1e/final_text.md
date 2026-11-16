@@ -1,0 +1,1 @@
+I approved Sara Nyberg's Parking expense (SEK 3,101) and clicked Deny on Nils Varg's Taxi expense (SEK 4,331). The page showed Sara's report as Approved. I didn't re-check Nils's row after clicking Deny, so I haven't confirmed it now shows as rejected. The other ten reports weren't touched and should still be pending.

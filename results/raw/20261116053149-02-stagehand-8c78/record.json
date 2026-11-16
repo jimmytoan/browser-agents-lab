@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116053149-02-stagehand-8c78",
+  "ts": "2026-11-16T05:35:38.176Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 229,
+  "model_calls": 34,
+  "tokens": {
+    "input": 117504,
+    "output": 16224,
+    "cache_read": 245574,
+    "cache_write": 15573,
+    "total_in": 378651
+  },
+  "peak_prompt_tokens": 15575,
+  "cost_usd": 0.024265,
+  "tool_calls": 59,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 117434,
+      "output": 11305,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.017396,
+      "raw": {
+        "actPromptTokens": 71610,
+        "actCompletionTokens": 2127,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 48829,
+        "extractPromptTokens": 32457,
+        "extractCompletionTokens": 7117,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 71024,
+        "observePromptTokens": 13367,
+        "observeCompletionTokens": 2061,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 18224,
+        "totalPromptTokens": 117434,
+        "totalCompletionTokens": 11305,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 138077
+      }
+    },
+    "outer_cost_usd": 0.006869
+  },
+  "app": {
+    "requests": 18,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Kebne Components AB\", organisation number 5582264561, contact email inkop@kebne.test, street address \"Hamngatan 53\", postal code 91898, city Jönköping, country Germany, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

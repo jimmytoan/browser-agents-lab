@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116044939-05-pw-cli-6845",
+  "ts": "2026-11-16T04:50:10.109Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 30,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 1490,
+    "cache_read": 113313,
+    "cache_write": 15879,
+    "total_in": 129216
+  },
+  "peak_prompt_tokens": 15881,
+  "cost_usd": 0.003865,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 10,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Booked SO-4743 · 2027-01-04 · DHL Freight · Evening",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-4743: delivery date 4 January 2027, carrier \"DHL Freight\", time window Evening. Make exactly one booking."
+}

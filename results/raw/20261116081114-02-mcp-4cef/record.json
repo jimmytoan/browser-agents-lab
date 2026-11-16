@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116081114-02-mcp-4cef",
+  "ts": "2026-11-16T08:11:30.008Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 15.2,
+  "model_calls": 7,
+  "tokens": {
+    "input": 16,
+    "output": 1292,
+    "cache_read": 62184,
+    "cache_write": 14483,
+    "total_in": 76683
+  },
+  "peak_prompt_tokens": 14485,
+  "cost_usd": 0.055378,
+  "tool_calls": 16,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Siljan Industri AB\", organisation number 5596487578, contact email inkop@siljan.test, street address \"Verkstadsgatan 19\", postal code 71450, city Karlstad, country Finland, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

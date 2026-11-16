@@ -1,0 +1,1 @@
+I processed all 24 refund requests across the 3 pages. I rejected the 7 from Blocked customers, approved 3 Damaged-item requests of SEK 500 or less (RF-1691, RF-19818, RF-27422), and left the other 14 pending.

@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116065812-12-pw-script-4e79",
+  "ts": "2026-11-16T06:58:34.999Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 22.7,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 2088,
+    "cache_read": 21031,
+    "cache_write": 7955,
+    "total_in": 29000
+  },
+  "peak_prompt_tokens": 7957,
+  "cost_usd": 0.00225,
+  "tool_calls": 5,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 5,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 22,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "11%",
+  "instruction": "On the Pricing page, set the discount for product P-1034 to exactly 11% and apply it. Do not change any other product's discount."
+}

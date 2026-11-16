@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116045355-06-mcp-d3df",
+  "ts": "2026-11-16T04:54:15.689Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 20.4,
+  "model_calls": 8,
+  "tokens": {
+    "input": 18,
+    "output": 1660,
+    "cache_read": 85428,
+    "cache_write": 19999,
+    "total_in": 105445
+  },
+  "peak_prompt_tokens": 20001,
+  "cost_usd": 0.004186,
+  "tool_calls": 20,
+  "tool_errors": 3,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Uploaded invoice-4023.pdf (Hansa Tooling GmbH, Invoice)",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116045355-06-mcp-d3df/invoice-4023.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

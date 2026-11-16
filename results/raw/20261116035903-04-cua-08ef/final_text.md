@@ -1,0 +1,1 @@
+Product P-1215 (Compact Filter 30) is saved with price 626 and stock 409. No other rows were changed.

@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116080804-15-stagehand-7a79",
+  "ts": "2026-11-16T08:08:42.732Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 38.5,
+  "model_calls": 9,
+  "tokens": {
+    "input": 22091,
+    "output": 2684,
+    "cache_read": 20158,
+    "cache_write": 4370,
+    "total_in": 46619
+  },
+  "peak_prompt_tokens": 4372,
+  "cost_usd": 0.004299,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 22071,
+      "output": 1806,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.00311,
+      "raw": {
+        "actPromptTokens": 14802,
+        "actCompletionTokens": 409,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 9641,
+        "extractPromptTokens": 3244,
+        "extractCompletionTokens": 554,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 7144,
+        "observePromptTokens": 4025,
+        "observeCompletionTokens": 843,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 6976,
+        "totalPromptTokens": 22071,
+        "totalCompletionTokens": 1806,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 23761
+      }
+    },
+    "outer_cost_usd": 0.001189
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Billing page, change the subscription to the Enterprise plan with 14 seats and confirm the plan."
+}

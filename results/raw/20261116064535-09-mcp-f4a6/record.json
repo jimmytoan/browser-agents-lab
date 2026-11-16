@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116064535-09-mcp-f4a6",
+  "ts": "2026-11-16T06:45:50.500Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 14.6,
+  "model_calls": 7,
+  "tokens": {
+    "input": 16,
+    "output": 1282,
+    "cache_read": 63156,
+    "cache_write": 16397,
+    "total_in": 79569
+  },
+  "peak_prompt_tokens": 16399,
+  "cost_usd": 0.003324,
+  "tool_calls": 14,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Invoicing, Shipping, Quality check, Packing, Credit check, Intake, Picking",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Invoicing, Shipping, Quality check, Packing, Credit check, Intake, Picking. Then save the order."
+}

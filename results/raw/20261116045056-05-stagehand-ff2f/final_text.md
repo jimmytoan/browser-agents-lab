@@ -1,0 +1,3 @@
+I could not confirm a booking for SO-4743. The Deliveries page shows no booked deliveries after reloading, so I can't verify that the booking was saved.
+
+The form was filled in correctly each time: order reference SO-4743, delivery date 4 January 2027, carrier DHL Freight, time window Evening. Each click on "Book delivery" returned an error from the automation layer, and nothing appeared on the page afterward. I clicked the button about four times across the attempts, so if the server processed any of them without showing it, there could be duplicate bookings. Please check the backend records for SO-4743 before retrying.

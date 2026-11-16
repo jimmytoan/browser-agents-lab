@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116075335-13-mcp-c7aa",
+  "ts": "2026-11-16T07:54:33.695Z",
+  "tag": "full",
+  "task": "13_bulk_policy",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": false,
+  "why": "1 wrong, e.g. RF-57115=Rejected (want Approved)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 58.2,
+  "model_calls": 19,
+  "tokens": {
+    "input": 40,
+    "output": 6106,
+    "cache_read": 369565,
+    "cache_write": 38362,
+    "total_in": 407967
+  },
+  "peak_prompt_tokens": 38364,
+  "cost_usd": 0.011548,
+  "tool_calls": 38,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 32,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "RF-57115 was wrongly rejected instead of approved (no undo available); all other requests were handled per policy.",
+  "instruction": "On the Refunds page (it has several pages), process the pending refund requests by this policy: reject every request from a customer marked \"Blocked\"; of the remaining requests, approve those whose reason is \"Damaged item\" and whose amount is at most SEK 500; leave all other requests pending. Go through every page."
+}

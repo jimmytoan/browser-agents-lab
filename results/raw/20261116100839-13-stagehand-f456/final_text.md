@@ -1,0 +1,1 @@
+I couldn't process any refund requests. The browser connection dropped (CDP connection closed) when I clicked Sign in. Every call after that, including two attempts to load the Refunds page, failed with "RPC client is closed". I never reached the Refunds page, so no requests were approved, rejected or changed, and all of them are still pending.

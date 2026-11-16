@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116063153-03-stagehand-2801",
+  "ts": "2026-11-16T06:33:02.935Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 69,
+  "model_calls": 15,
+  "tokens": {
+    "input": 39877,
+    "output": 5523,
+    "cache_read": 48731,
+    "cache_write": 5667,
+    "total_in": 94275
+  },
+  "peak_prompt_tokens": 5669,
+  "cost_usd": 0.007945,
+  "tool_calls": 20,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 39845,
+      "output": 4047,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.006008,
+      "raw": {
+        "actPromptTokens": 19706,
+        "actCompletionTokens": 509,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 13582,
+        "extractPromptTokens": 9317,
+        "extractCompletionTokens": 3020,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 21471,
+        "observePromptTokens": 10822,
+        "observeCompletionTokens": 518,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 9511,
+        "totalPromptTokens": 39845,
+        "totalCompletionTokens": 4047,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 44564
+      }
+    },
+    "outer_cost_usd": 0.001937
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SO-1565",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

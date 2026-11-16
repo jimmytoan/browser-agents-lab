@@ -1,0 +1,70 @@
+{
+  "run_id": "20261115234608-14-stagehand-5911",
+  "ts": "2026-11-15T23:47:09.743Z",
+  "tag": "pilot",
+  "task": "14_transient_key",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "secret matches (keys generated: 1)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 61.6,
+  "model_calls": 14,
+  "tokens": {
+    "input": 32407,
+    "output": 3446,
+    "cache_read": 38119,
+    "cache_write": 4951,
+    "total_in": 75477
+  },
+  "peak_prompt_tokens": 4953,
+  "cost_usd": 0.005964,
+  "tool_calls": 19,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 32377,
+      "output": 2008,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.004242,
+      "raw": {
+        "actPromptTokens": 18256,
+        "actCompletionTokens": 664,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 12478,
+        "extractPromptTokens": 6181,
+        "extractCompletionTokens": 874,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 13814,
+        "observePromptTokens": 7940,
+        "observeCompletionTokens": 470,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 9109,
+        "totalPromptTokens": 32377,
+        "totalCompletionTokens": 2008,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 35401
+      }
+    },
+    "outer_cost_usd": 0.001722
+  },
+  "app": {
+    "requests": 13,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "2UEO-8FQ7-FYRL-NE8P",
+  "instruction": "On the Integrations page, generate a new signing key. The key is shown only briefly. Then enter that exact key as the signing secret on the Webhooks page and save. Generate a key only once if you can; the saved secret must equal the most recently generated key."
+}

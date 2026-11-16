@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116094012-07-stagehand-cea1",
+  "ts": "2026-11-16T09:41:03.562Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 50.7,
+  "model_calls": 11,
+  "tokens": {
+    "input": 32982,
+    "output": 2291,
+    "cache_read": 23706,
+    "cache_write": 3773,
+    "total_in": 60461
+  },
+  "peak_prompt_tokens": 3775,
+  "cost_usd": 0.100677,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 32958,
+      "output": 1493,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.080846,
+      "raw": {
+        "actPromptTokens": 19559,
+        "actCompletionTokens": 506,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 14702,
+        "extractPromptTokens": 9225,
+        "extractCompletionTokens": 449,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 13313,
+        "observePromptTokens": 4174,
+        "observeCompletionTokens": 538,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 5748,
+        "totalPromptTokens": 32958,
+        "totalCompletionTokens": 1493,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 33763
+      }
+    },
+    "outer_cost_usd": 0.019831
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-39353C",
+  "instruction": "On the Customers page, archive the customer \"Berg & Co\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

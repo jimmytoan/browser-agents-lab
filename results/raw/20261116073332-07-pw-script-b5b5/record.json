@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116073332-07-pw-script-b5b5",
+  "ts": "2026-11-16T07:33:45.382Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 13,
+  "model_calls": 4,
+  "tokens": {
+    "input": 10,
+    "output": 973,
+    "cache_read": 8865,
+    "cache_write": 6083,
+    "total_in": 14958
+  },
+  "peak_prompt_tokens": 6085,
+  "cost_usd": 0.001337,
+  "tool_calls": 3,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 3,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 13,
+    "directApi": 0,
+    "logins": 2
+  },
+  "answer": "ARC-BC8094",
+  "instruction": "On the Customers page, archive the customer \"Nordlys AB\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

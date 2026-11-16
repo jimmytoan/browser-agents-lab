@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116044009-02-pw-cli-28b6",
+  "ts": "2026-11-16T04:40:34.842Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 25.6,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1206,
+    "cache_read": 94149,
+    "cache_write": 18230,
+    "total_in": 112399
+  },
+  "peak_prompt_tokens": 18232,
+  "cost_usd": 0.003825,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 8,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Supplier \"Vättern Components AB\" created (org no. 557304-6397)",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Vättern Components AB\", organisation number 5573046397, contact email inkop@vattern.test, street address \"Hamngatan 62\", postal code 79188, city Sundsvall, country Norway, payment terms 60 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

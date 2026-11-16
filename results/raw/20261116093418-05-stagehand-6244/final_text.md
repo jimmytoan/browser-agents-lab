@@ -1,0 +1,1 @@
+I booked one delivery for order SO-4743 on 2027-01-04 with DHL Freight in the Evening window. Before submitting, the form showed those exact values, and the page confirmed "Delivery booked for 2027-01-04."

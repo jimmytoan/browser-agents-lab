@@ -1,0 +1,1 @@
+Uploaded invoice-4789.pdf for Baltic Polymers as an Invoice, once. It now appears in the Uploaded documents table with supplier Baltic Polymers and type Invoice. The draft file was not uploaded.

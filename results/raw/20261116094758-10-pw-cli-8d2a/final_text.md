@@ -1,0 +1,3 @@
+I approved Elin Fors's expense report and rejected Maria Sund's. The Expenses page now shows Elin Fors as Approved and Maria Sund as Rejected. I only re-checked the first three reports after the clicks, and Karin Lund's was still Pending. I didn't re-check the others, but I didn't click them.
+
+My first click on Elin's approve button showed no change, so I clicked it a second time and then saw Approved. The status may have been slow to update, so the approval could have been submitted twice.

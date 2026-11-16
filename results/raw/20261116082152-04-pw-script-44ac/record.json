@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116082152-04-pw-script-44ac",
+  "ts": "2026-11-16T08:23:36.964Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "row updated",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 104.8,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 985,
+    "cache_read": 11102,
+    "cache_write": 3295,
+    "total_in": 14411
+  },
+  "peak_prompt_tokens": 3297,
+  "cost_usd": 0.019226,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 6,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 23,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "",
+  "instruction": "On the Products page, change product P-1215: set its price to 626 and its stock to 409, then save the row. Do not change any other product."
+}

@@ -1,0 +1,1 @@
+I set the alert threshold to 485, turned the weekly digest on, and saved the notification settings; the page shows "Saved ✓".

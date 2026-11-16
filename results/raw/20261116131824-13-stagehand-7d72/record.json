@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116131824-13-stagehand-7d72",
+  "ts": "2026-11-16T13:23:26.473Z",
+  "tag": "full",
+  "task": "13_bulk_policy",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "5 wrong, e.g. RF-20717=Pending (want Rejected), RF-19818=Pending (want Approved), RF-94120=Pending (want Rejected)",
+  "stopped_by": "wall_clock",
+  "error": null,
+  "elapsed_s": 302.3,
+  "model_calls": 32,
+  "tokens": {
+    "input": 156744,
+    "output": 17208,
+    "cache_read": 268460,
+    "cache_write": 19866,
+    "total_in": 445070
+  },
+  "peak_prompt_tokens": 19868,
+  "cost_usd": 0.562079,
+  "tool_calls": 64,
+  "tool_errors": 3,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 156678,
+      "output": 12726,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.440616,
+      "raw": {
+        "actPromptTokens": 90026,
+        "actCompletionTokens": 1993,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 85725,
+        "extractPromptTokens": 54152,
+        "extractCompletionTokens": 9225,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 129115,
+        "observePromptTokens": 12500,
+        "observeCompletionTokens": 1508,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 15841,
+        "totalPromptTokens": 156678,
+        "totalCompletionTokens": 12726,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 230681
+      }
+    },
+    "outer_cost_usd": 0.121463
+  },
+  "app": {
+    "requests": 58,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Refunds page (it has several pages), process the pending refund requests by this policy: reject every request from a customer marked \"Blocked\"; of the remaining requests, approve those whose reason is \"Damaged item\" and whose amount is at most SEK 500; leave all other requests pending. Go through every page."
+}

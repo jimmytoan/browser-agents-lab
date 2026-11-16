@@ -1,0 +1,3 @@
+Product P-1215 (Compact Filter 30) now has price 626 and stock 409, and the row is saved. Its row shows the new values in view mode, and no other product was edited.
+
+ANSWER: P-1215 updated to price 626, stock 409

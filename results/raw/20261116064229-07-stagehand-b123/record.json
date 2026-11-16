@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116064229-07-stagehand-b123",
+  "ts": "2026-11-16T06:43:39.779Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 70.6,
+  "model_calls": 12,
+  "tokens": {
+    "input": 47962,
+    "output": 7640,
+    "cache_read": 36819,
+    "cache_write": 7938,
+    "total_in": 92719
+  },
+  "peak_prompt_tokens": 7940,
+  "cost_usd": 0.009977,
+  "tool_calls": 18,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 47936,
+      "output": 6105,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.007846,
+      "raw": {
+        "actPromptTokens": 23016,
+        "actCompletionTokens": 777,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 14206,
+        "extractPromptTokens": 13255,
+        "extractCompletionTokens": 3188,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 22029,
+        "observePromptTokens": 11665,
+        "observeCompletionTokens": 2140,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 14763,
+        "totalPromptTokens": 47936,
+        "totalCompletionTokens": 6105,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 50998
+      }
+    },
+    "outer_cost_usd": 0.002131
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-DE10B7",
+  "instruction": "On the Customers page, archive the customer \"Lind Bygg\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

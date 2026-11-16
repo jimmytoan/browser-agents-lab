@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116082014-03-stagehand-8939",
+  "ts": "2026-11-16T08:21:19.306Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 65,
+  "model_calls": 12,
+  "tokens": {
+    "input": 28850,
+    "output": 2830,
+    "cache_read": 28335,
+    "cache_write": 4262,
+    "total_in": 61447
+  },
+  "peak_prompt_tokens": 4264,
+  "cost_usd": 0.099489,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 28824,
+      "output": 1949,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.077138,
+      "raw": {
+        "actPromptTokens": 19174,
+        "actCompletionTokens": 623,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 23131,
+        "extractPromptTokens": 8483,
+        "extractCompletionTokens": 1240,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 20838,
+        "observePromptTokens": 1167,
+        "observeCompletionTokens": 86,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 1925,
+        "totalPromptTokens": 28824,
+        "totalCompletionTokens": 1949,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 45894
+      }
+    },
+    "outer_cost_usd": 0.022351
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

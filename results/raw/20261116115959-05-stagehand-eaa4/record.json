@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116115959-05-stagehand-eaa4",
+  "ts": "2026-11-16T12:07:16.121Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "0 bookings",
+  "stopped_by": "wall_clock",
+  "error": null,
+  "elapsed_s": 436.5,
+  "model_calls": 4,
+  "tokens": {
+    "input": 10,
+    "output": 312,
+    "cache_read": 3440,
+    "cache_write": 2018,
+    "total_in": 5468
+  },
+  "peak_prompt_tokens": 2020,
+  "cost_usd": 0.008529,
+  "tool_calls": 6,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner_error": "Stagehand is unavailable. Create a new instance with await Stagehand.create()."
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-7218: delivery date 16 March 2027, carrier \"DHL Express\", time window Morning. Make exactly one booking."
+}

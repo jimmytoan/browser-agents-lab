@@ -1,0 +1,1 @@
+I approved Sara Nyberg's expense report (SEK 3,101) and rejected Nils Varg's (SEK 4,331). All other reports are still Pending.

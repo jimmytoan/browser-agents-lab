@@ -1,0 +1,54 @@
+{"ms":1123,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4974,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4974,"ephemeral_1h_input_tokens":0},"output_tokens":75,"output_tokens_details":{"thinking_tokens":15},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1161,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2710,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6424,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6424,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":2975,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3087,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3341,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3423,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3678,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5680,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5709,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":7156,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6424,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[230,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7411,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9418,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9443,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":12476,"t":"model","stop":"tool_use","text":"Existing org numbers use the format NNNNNN-NNNN, so the 5597675415 I was given will likely need the hyphen. I'll open the form and check.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":8057,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":151,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[81,150]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":12734,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14737,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":14780,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":16885,"t":"model","stop":"tool_use","text":"The org number field expects NNNNNN-NNNN, so I'll enter 559767-5415.","usage":{"input_tokens":2,"cache_creation_input_tokens":1549,"cache_read_input_tokens":9553,"cache_creation":{"ephemeral_5m_input_tokens":1549,"ephemeral_1h_input_tokens":0},"output_tokens":265,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[264,192]}},{"name":"type","input":{"text":"Dalälv Components AB"}},{"name":"left_click","input":{"coordinate":[264,235]}},{"name":"type","input":{"text":"559767-5415"}},{"name":"left_click","input":{"coordinate":[264,278]}},{"name":"type","input":{"text":"inkop@dalalv.test"}},{"name":"left_click","input":{"coordinate":[52,327]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":17138,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17271,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":17524,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17593,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":17846,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17957,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":18211,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20213,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":20246,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":23167,"t":"model","stop":"tool_use","text":"The postal code field expects \"NNN NN\", so 48754 becomes 487 54. I'll fill step 2 and open the country list.","usage":{"input_tokens":2,"cache_creation_input_tokens":1740,"cache_read_input_tokens":11102,"cache_creation":{"ephemeral_5m_input_tokens":1740,"ephemeral_1h_input_tokens":0},"output_tokens":400,"output_tokens_details":{"thinking_tokens":117},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[264,192]}},{"name":"type","input":{"text":"Industrivägen 5"}},{"name":"left_click","input":{"coordinate":[264,235]}},{"name":"type","input":{"text":"487 54"}},{"name":"left_click","input":{"coordinate":[264,278]}},{"name":"type","input":{"text":"Jönköping"}},{"name":"left_click","input":{"coordinate":[233,321]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":23421,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23524,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":23778,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23822,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":24076,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24138,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":24394,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":25396,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":25432,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":28378,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1870,"cache_read_input_tokens":12842,"cache_creation":{"ephemeral_5m_input_tokens":1870,"ephemeral_1h_input_tokens":0},"output_tokens":137,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[211,405]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[185,357]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":28632,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29633,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":29887,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":30889,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":30929,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":32492,"t":"model","stop":"tool_use","text":"Step 2 is filled in with Norway and 15 days selected. Moving on to step 3.","usage":{"input_tokens":2,"cache_creation_input_tokens":1560,"cache_read_input_tokens":14712,"cache_creation":{"ephemeral_5m_input_tokens":1560,"ephemeral_1h_input_tokens":0},"output_tokens":129,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[116,400]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":32748,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":34750,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":34778,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":36995,"t":"model","stop":"tool_use","text":"The review shows all values as intended. I'll confirm and create the supplier.","usage":{"input_tokens":2,"cache_creation_input_tokens":1527,"cache_read_input_tokens":16272,"cache_creation":{"ephemeral_5m_input_tokens":1527,"ephemeral_1h_input_tokens":0},"output_tokens":145,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[34,458]}},{"name":"left_click","input":{"coordinate":[152,501]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":37249,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":37507,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":39509,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":39537,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":41996,"t":"model","stop":"end_turn","text":"I created the supplier Dalälv Components AB and it now appears in the Suppliers list with 15 days terms.\n\nThe form required two format changes from the values you gave:\n- Org. number: entered as 559767-5415 (the form expects NNNNNN-NNNN), not 5597675415.\n- Postal code: entered as 487 54 (the form expects NNN NN), not 48754.\n\nThe country is Norway as you specified, but the city Jönköping and the Swedish-style address are in Sweden, so you may want to check that the country is correct.","usage":{"input_tokens":2,"cache_creation_input_tokens":1556,"cache_read_input_tokens":17799,"cache_creation":{"ephemeral_5m_input_tokens":1556,"ephemeral_1h_input_tokens":0},"output_tokens":174,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

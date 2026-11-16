@@ -1,0 +1,1 @@
+The invoice file was uploaded once for supplier Baltic Polymers with document type Invoice. The Uploaded documents table now lists invoice-4445.pdf (Baltic Polymers, Invoice, 53 bytes). I did not upload the draft file.

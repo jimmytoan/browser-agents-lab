@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116084702-11-pw-script-218e",
+  "ts": "2026-11-16T08:48:57.079Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 114.4,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 1337,
+    "cache_read": 18324,
+    "cache_write": 8300,
+    "total_in": 26638
+  },
+  "peak_prompt_tokens": 8302,
+  "cost_usd": 0.03598,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 6,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 30,
+    "directApi": 0,
+    "logins": 5
+  },
+  "answer": "done",
+  "instruction": "On the Warehouse page, assign pallet PAL-5866 to bay B-02: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116045558-06-stagehand-ec32",
+  "ts": "2026-11-16T04:56:47.318Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "0 documents uploaded",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 49,
+  "model_calls": 11,
+  "tokens": {
+    "input": 28464,
+    "output": 3323,
+    "cache_read": 29637,
+    "cache_write": 4801,
+    "total_in": 62902
+  },
+  "peak_prompt_tokens": 4803,
+  "cost_usd": 0.005404,
+  "tool_calls": 15,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 28440,
+      "output": 1845,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.003766,
+      "raw": {
+        "actPromptTokens": 18250,
+        "actCompletionTokens": 639,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 12522,
+        "extractPromptTokens": 3908,
+        "extractCompletionTokens": 708,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 7908,
+        "observePromptTokens": 6282,
+        "observeCompletionTokens": 498,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 7098,
+        "totalPromptTokens": 28440,
+        "totalCompletionTokens": 1845,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 27528
+      }
+    },
+    "outer_cost_usd": 0.001638
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Not uploaded. The file could not be attached through the browser tools.",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116045558-06-stagehand-ec32/invoice-4023.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

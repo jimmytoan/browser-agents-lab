@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116050912-11-stagehand-5ac0",
+  "ts": "2026-11-16T05:10:36.537Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "assignments {}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 83.5,
+  "model_calls": 13,
+  "tokens": {
+    "input": 38072,
+    "output": 6483,
+    "cache_read": 43326,
+    "cache_write": 6025,
+    "total_in": 87423
+  },
+  "peak_prompt_tokens": 6027,
+  "cost_usd": 0.008235,
+  "tool_calls": 22,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 38044,
+      "output": 4383,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.005996,
+      "raw": {
+        "actPromptTokens": 21496,
+        "actCompletionTokens": 653,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 18724,
+        "extractPromptTokens": 12529,
+        "extractCompletionTokens": 2753,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 30568,
+        "observePromptTokens": 4019,
+        "observeCompletionTokens": 977,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 7958,
+        "totalPromptTokens": 38044,
+        "totalCompletionTokens": 4383,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 57250
+      }
+    },
+    "outer_cost_usd": 0.002239
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Not completed. Bay A-03 could not be selected on the canvas map, so no assignment was made.",
+  "instruction": "On the Warehouse page, assign pallet PAL-6076 to bay A-03: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

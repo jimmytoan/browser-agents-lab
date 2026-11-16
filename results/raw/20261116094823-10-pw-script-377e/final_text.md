@@ -1,0 +1,1 @@
+I approved Elin Fors's expense report and rejected Maria Sund's. The Expenses page now shows Elin Fors as Approved and Maria Sund as Rejected. I didn't touch the other reports. I only checked the page as far as Karin Lund's row, which still showed Pending.

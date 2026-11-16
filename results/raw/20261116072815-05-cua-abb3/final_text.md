@@ -1,0 +1,1 @@
+The delivery for order SO-1162 is booked for 2027-03-02 with DHL Express, Evening window, and it appears once in the Booked deliveries list.

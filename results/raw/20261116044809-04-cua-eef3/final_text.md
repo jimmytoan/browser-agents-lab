@@ -1,0 +1,1 @@
+Product P-1160 (Micro Spindle 59) is saved with price 866 and stock 146. No other rows were edited.

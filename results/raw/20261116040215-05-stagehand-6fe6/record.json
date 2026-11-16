@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116040215-05-stagehand-6fe6",
+  "ts": "2026-11-16T04:04:50.517Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 155.4,
+  "model_calls": 23,
+  "tokens": {
+    "input": 94262,
+    "output": 11987,
+    "cache_read": 132512,
+    "cache_write": 10732,
+    "total_in": 237506
+  },
+  "peak_prompt_tokens": 10734,
+  "cost_usd": 0.018086,
+  "tool_calls": 42,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 94214,
+      "output": 8733,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.013788,
+      "raw": {
+        "actPromptTokens": 56073,
+        "actCompletionTokens": 2134,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 39848,
+        "extractPromptTokens": 30755,
+        "extractCompletionTokens": 6247,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 56632,
+        "observePromptTokens": 7386,
+        "observeCompletionTokens": 352,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 6666,
+        "totalPromptTokens": 94214,
+        "totalCompletionTokens": 8733,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 103146
+      }
+    },
+    "outer_cost_usd": 0.004298
+  },
+  "app": {
+    "requests": 22,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-1438: delivery date 13 January 2027, carrier \"Best Transport\", time window Evening. Make exactly one booking."
+}

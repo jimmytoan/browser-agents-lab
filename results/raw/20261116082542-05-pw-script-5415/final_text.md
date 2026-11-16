@@ -1,0 +1,1 @@
+I booked one delivery for SO-1438 on 13 January 2027 with Best Transport, Evening window. The app confirmed "Delivery booked for 2027-01-13", and the Booked deliveries list now shows SO-1438 · 2027-01-13 · Best Transport · Evening.

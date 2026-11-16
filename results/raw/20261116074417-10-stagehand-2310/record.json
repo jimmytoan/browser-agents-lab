@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116074417-10-stagehand-2310",
+  "ts": "2026-11-16T07:45:41.651Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "wrong: Karin Lund=Approved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 84,
+  "model_calls": 15,
+  "tokens": {
+    "input": 44864,
+    "output": 8745,
+    "cache_read": 46815,
+    "cache_write": 6307,
+    "total_in": 97986
+  },
+  "peak_prompt_tokens": 6309,
+  "cost_usd": 0.010115,
+  "tool_calls": 19,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 44832,
+      "output": 6776,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.007871,
+      "raw": {
+        "actPromptTokens": 20331,
+        "actCompletionTokens": 878,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 16086,
+        "extractPromptTokens": 15123,
+        "extractCompletionTokens": 5672,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 37594,
+        "observePromptTokens": 9378,
+        "observeCompletionTokens": 226,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 6871,
+        "totalPromptTokens": 44832,
+        "totalCompletionTokens": 6776,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 60551
+      }
+    },
+    "outer_cost_usd": 0.002244
+  },
+  "app": {
+    "requests": 13,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Elin Fors's report approved; Karin Lund's report was mistakenly approved instead of rejected and could not be reverted.",
+  "instruction": "On the Expenses page, approve the expense report submitted by Elin Fors and reject the expense report submitted by Karin Lund. Leave every other expense report pending."
+}

@@ -1,0 +1,1 @@
+The Pipeline stages are now ordered Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing, and the page shows "Order saved."

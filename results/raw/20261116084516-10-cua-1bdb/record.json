@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116084516-10-cua-1bdb",
+  "ts": "2026-11-16T08:45:32.732Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 15.7,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 640,
+    "cache_read": 34630,
+    "cache_write": 17334,
+    "total_in": 51978
+  },
+  "peak_prompt_tokens": 12438,
+  "cost_usd": 0.053226,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 5
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "done",
+  "instruction": "On the Expenses page, approve the expense report submitted by Sara Nyberg and reject the expense report submitted by Nils Varg. Leave every other expense report pending."
+}

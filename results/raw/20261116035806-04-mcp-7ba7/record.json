@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116035806-04-mcp-7ba7",
+  "ts": "2026-11-16T03:58:21.036Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "row updated",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 14,
+  "model_calls": 8,
+  "tokens": {
+    "input": 18,
+    "output": 1210,
+    "cache_read": 133141,
+    "cache_write": 30677,
+    "total_in": 163836
+  },
+  "peak_prompt_tokens": 30679,
+  "cost_usd": 0.005773,
+  "tool_calls": 16,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "P-1215 updated to price 626, stock 409",
+  "instruction": "On the Products page, change product P-1215: set its price to 626 and its stock to 409, then save the row. Do not change any other product."
+}

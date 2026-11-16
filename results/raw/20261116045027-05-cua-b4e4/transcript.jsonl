@@ -1,0 +1,39 @@
+{"ms":1278,"t":"model","stop":"tool_use","text":"I'll start by taking a screenshot to see the current state of the application.","usage":{"input_tokens":4,"cache_creation_input_tokens":4905,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4905,"ephemeral_1h_input_tokens":0},"output_tokens":81,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1314,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2994,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6361,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6361,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[701,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[701,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3263,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3383,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3636,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3724,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3979,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5980,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6010,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":7418,"t":"model","stop":"tool_use","text":"Signed in. Opening the Deliveries page.","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6361,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":115,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[436,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7678,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9679,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9726,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":11476,"t":"model","stop":"tool_use","text":"The form is open. I'll enter the order reference, then move the calendar forward two months to January 2027.","usage":{"input_tokens":2,"cache_creation_input_tokens":1513,"cache_read_input_tokens":7994,"cache_creation":{"ephemeral_5m_input_tokens":1513,"ephemeral_1h_input_tokens":0},"output_tokens":211,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,155]}},{"name":"type","input":{"text":"SO-4743"}},{"name":"left_click","input":{"coordinate":[438,210]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[438,210]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":11730,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11781,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":12036,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13039,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13294,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14295,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":14325,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":16101,"t":"model","stop":"tool_use","text":"The calendar is on January 2027. I'll select the 4th, then open the carrier dropdown.","usage":{"input_tokens":2,"cache_creation_input_tokens":1658,"cache_read_input_tokens":9507,"cache_creation":{"ephemeral_5m_input_tokens":1658,"ephemeral_1h_input_tokens":0},"output_tokens":169,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[202,309]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[274,478]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":16357,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17360,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17613,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18615,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18661,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":21068,"t":"model","stop":"tool_use","text":"The date is set to 2027-01-04. I'll pick \"DHL Freight\", then select Evening.","usage":{"input_tokens":2,"cache_creation_input_tokens":1592,"cache_read_input_tokens":11165,"cache_creation":{"ephemeral_5m_input_tokens":1592,"ephemeral_1h_input_tokens":0},"output_tokens":170,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[226,578]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[384,515]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":21324,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22326,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":22578,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23579,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":23626,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":25265,"t":"model","stop":"tool_use","text":"All fields are set: order SO-4743, date 2027-01-04, DHL Freight, Evening. Submitting the booking once.","usage":{"input_tokens":2,"cache_creation_input_tokens":1593,"cache_read_input_tokens":12757,"cache_creation":{"ephemeral_5m_input_tokens":1593,"ephemeral_1h_input_tokens":0},"output_tokens":141,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[83,558]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":25521,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":27524,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":27560,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":29307,"t":"model","stop":"end_turn","text":"Booked one delivery for order SO-4743 on 2027-01-04 with DHL Freight in the Evening window; the page confirmed it and it now appears under Booked deliveries.","usage":{"input_tokens":2,"cache_creation_input_tokens":1539,"cache_read_input_tokens":14350,"cache_creation":{"ephemeral_5m_input_tokens":1539,"ephemeral_1h_input_tokens":0},"output_tokens":61,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

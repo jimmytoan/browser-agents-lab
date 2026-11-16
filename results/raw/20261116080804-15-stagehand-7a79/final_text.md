@@ -1,0 +1,1 @@
+The subscription is now on the Enterprise plan with 14 seats, and the Billing page shows "Plan confirmed ✓" with Enterprise and 14 seats.

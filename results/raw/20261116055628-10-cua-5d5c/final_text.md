@@ -1,0 +1,1 @@
+Approved Elin Fors's expense report (SEK 8,323) and rejected Per Åberg's (SEK 3,765) on the Expenses page. All other reports remain pending.

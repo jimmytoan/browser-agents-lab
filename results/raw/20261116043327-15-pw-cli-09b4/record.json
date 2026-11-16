@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116043327-15-pw-cli-09b4",
+  "ts": "2026-11-16T04:36:06.912Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 159.3,
+  "model_calls": 16,
+  "tokens": {
+    "input": 34,
+    "output": 4461,
+    "cache_read": 171297,
+    "cache_write": 16489,
+    "total_in": 187820
+  },
+  "peak_prompt_tokens": 16491,
+  "cost_usd": 0.006008,
+  "tool_calls": 15,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 15,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 25,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Annual, 21 seats",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 21 seats and confirm the plan."
+}

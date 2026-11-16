@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116094216-08-stagehand-2c8a",
+  "ts": "2026-11-16T09:42:55.230Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 39,
+  "model_calls": 7,
+  "tokens": {
+    "input": 16893,
+    "output": 1399,
+    "cache_read": 10992,
+    "cache_write": 3554,
+    "total_in": 31439
+  },
+  "peak_prompt_tokens": 3556,
+  "cost_usd": 0.05776,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 16877,
+      "output": 725,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.041004,
+      "raw": {
+        "actPromptTokens": 12560,
+        "actCompletionTokens": 377,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 16259,
+        "extractPromptTokens": 1626,
+        "extractCompletionTokens": 122,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 3850,
+        "observePromptTokens": 2691,
+        "observeCompletionTokens": 226,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 4926,
+        "totalPromptTokens": 16877,
+        "totalCompletionTokens": 725,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 25035
+      }
+    },
+    "outer_cost_usd": 0.016756
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "done",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 165, turn the weekly digest on, and save the notification settings."
+}

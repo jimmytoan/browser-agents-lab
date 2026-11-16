@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116055251-09-stagehand-2c21",
+  "ts": "2026-11-16T05:55:30.901Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 159.5,
+  "model_calls": 21,
+  "tokens": {
+    "input": 65477,
+    "output": 15187,
+    "cache_read": 120555,
+    "cache_write": 13007,
+    "total_in": 199039
+  },
+  "peak_prompt_tokens": 13009,
+  "cost_usd": 0.016973,
+  "tool_calls": 34,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 65433,
+      "output": 9795,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.011441,
+      "raw": {
+        "actPromptTokens": 38956,
+        "actCompletionTokens": 3250,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 36231,
+        "extractPromptTokens": 20637,
+        "extractCompletionTokens": 5162,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 51265,
+        "observePromptTokens": 5840,
+        "observeCompletionTokens": 1383,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 8987,
+        "totalPromptTokens": 65433,
+        "totalCompletionTokens": 9795,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 96483
+      }
+    },
+    "outer_cost_usd": 0.005532
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing. Then save the order."
+}

@@ -1,0 +1,1 @@
+I flagged SO-7271 for review. It's the highest-amount "On hold" order for Nordlys AB, at SEK 33,943. The other two, SO-7977 (SEK 33,336) and SO-1055 (SEK 27,180), were left alone. The order page now shows "Flagged for review".

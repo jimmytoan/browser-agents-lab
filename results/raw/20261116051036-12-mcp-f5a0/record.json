@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116051036-12-mcp-f5a0",
+  "ts": "2026-11-16T05:10:56.769Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 20.1,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1322,
+    "cache_read": 103972,
+    "cache_write": 21176,
+    "total_in": 125168
+  },
+  "peak_prompt_tokens": 21178,
+  "cost_usd": 0.00435,
+  "tool_calls": 17,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "11%",
+  "instruction": "On the Pricing page, set the discount for product P-1017 to exactly 11% and apply it. Do not change any other product's discount."
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116071710-02-pw-cli-0ddb",
+  "ts": "2026-11-16T07:17:37.609Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 27.1,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 1647,
+    "cache_read": 100089,
+    "cache_write": 17214,
+    "total_in": 117325
+  },
+  "peak_prompt_tokens": 17216,
+  "cost_usd": 0.003978,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 9,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 16,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Kebne Components AB created",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Kebne Components AB\", organisation number 5561824434, contact email inkop@kebne.test, street address \"Verkstadsgatan 98\", postal code 68827, city Karlstad, country Germany, payment terms 60 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

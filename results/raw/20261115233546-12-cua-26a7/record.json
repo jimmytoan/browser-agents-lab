@@ -1,0 +1,41 @@
+{
+  "run_id": "20261115233546-12-cua-26a7",
+  "ts": "2026-11-15T23:36:14.937Z",
+  "tag": "pilot",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "cua",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 28.8,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1281,
+    "cache_read": 77170,
+    "cache_write": 22228,
+    "total_in": 99418
+  },
+  "peak_prompt_tokens": 17345,
+  "cost_usd": 0.004193,
+  "tool_calls": 27,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 8
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1047 to exactly 17% and apply it. Do not change any other product's discount."
+}

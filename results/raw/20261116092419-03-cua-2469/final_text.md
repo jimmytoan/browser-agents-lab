@@ -1,0 +1,1 @@
+I flagged SO-7271 for review. It's the highest-amount "On hold" order for Nordlys AB, at SEK 33,943, and the page now shows "Flagged for review". I didn't flag any other order, including SO-2485 (SEK 39,259), which belongs to Nordlys Trading AB, not Nordlys AB.

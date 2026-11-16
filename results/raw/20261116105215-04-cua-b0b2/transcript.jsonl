@@ -1,0 +1,13 @@
+{"ms":4046,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4884,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4884,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":4496,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6873,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6318,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6318,"ephemeral_1h_input_tokens":0},"output_tokens":166,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7156,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7285,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":7543,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7638,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":9641,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9668,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":11553,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6318,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[361,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":11810,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13813,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13837,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}

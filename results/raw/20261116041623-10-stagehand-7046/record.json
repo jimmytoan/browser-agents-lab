@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116041623-10-stagehand-7046",
+  "ts": "2026-11-16T04:17:29.925Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 66,
+  "model_calls": 14,
+  "tokens": {
+    "input": 38026,
+    "output": 6533,
+    "cache_read": 38055,
+    "cache_write": 5403,
+    "total_in": 81484
+  },
+  "peak_prompt_tokens": 5405,
+  "cost_usd": 0.008125,
+  "tool_calls": 17,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 37996,
+      "output": 5209,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.006404,
+      "raw": {
+        "actPromptTokens": 17845,
+        "actCompletionTokens": 1130,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 14604,
+        "extractPromptTokens": 12160,
+        "extractCompletionTokens": 3807,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 21901,
+        "observePromptTokens": 7991,
+        "observeCompletionTokens": 272,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 6324,
+        "totalPromptTokens": 37996,
+        "totalCompletionTokens": 5209,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 42829
+      }
+    },
+    "outer_cost_usd": 0.001721
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Sara Nyberg's report approved; Nils Varg's report rejected",
+  "instruction": "On the Expenses page, approve the expense report submitted by Sara Nyberg and reject the expense report submitted by Nils Varg. Leave every other expense report pending."
+}

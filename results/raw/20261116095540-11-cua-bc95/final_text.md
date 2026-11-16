@@ -1,0 +1,3 @@
+I assigned pallet PAL-6076 to bay A-03 on the Warehouse page. The Assignments list now shows "PAL-6076 → A-03", and A-03 is marked occupied on the map. I made no other assignments.
+
+ANSWER: PAL-6076 → A-03

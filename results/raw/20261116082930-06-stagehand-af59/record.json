@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116082930-06-stagehand-af59",
+  "ts": "2026-11-16T08:30:26.137Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "0 documents uploaded",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 55.5,
+  "model_calls": 10,
+  "tokens": {
+    "input": 24963,
+    "output": 2149,
+    "cache_read": 21792,
+    "cache_write": 3985,
+    "total_in": 50740
+  },
+  "peak_prompt_tokens": 3987,
+  "cost_usd": 0.083558,
+  "tool_calls": 13,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 24941,
+      "output": 1179,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.061672,
+      "raw": {
+        "actPromptTokens": 18218,
+        "actCompletionTokens": 583,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 18955,
+        "extractPromptTokens": 3752,
+        "extractCompletionTokens": 283,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 8557,
+        "observePromptTokens": 2971,
+        "observeCompletionTokens": 313,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 5080,
+        "totalPromptTokens": 24941,
+        "totalCompletionTokens": 1179,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 32592
+      }
+    },
+    "outer_cost_usd": 0.021886
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116082930-06-stagehand-af59/invoice-4231.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

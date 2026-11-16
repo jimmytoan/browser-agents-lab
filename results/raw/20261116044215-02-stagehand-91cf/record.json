@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116044215-02-stagehand-91cf",
+  "ts": "2026-11-16T04:44:34.742Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 139.3,
+  "model_calls": 24,
+  "tokens": {
+    "input": 79381,
+    "output": 12119,
+    "cache_read": 139426,
+    "cache_write": 10999,
+    "total_in": 229806
+  },
+  "peak_prompt_tokens": 11001,
+  "cost_usd": 0.016767,
+  "tool_calls": 40,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 79331,
+      "output": 9381,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.012624,
+      "raw": {
+        "actPromptTokens": 51640,
+        "actCompletionTokens": 2077,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 33710,
+        "extractPromptTokens": 13259,
+        "extractCompletionTokens": 5195,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 37993,
+        "observePromptTokens": 14432,
+        "observeCompletionTokens": 2109,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 17847,
+        "totalPromptTokens": 79331,
+        "totalCompletionTokens": 9381,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 89550
+      }
+    },
+    "outer_cost_usd": 0.004143
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Vättern Components AB created",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Vättern Components AB\", organisation number 5573046397, contact email inkop@vattern.test, street address \"Hamngatan 62\", postal code 79188, city Sundsvall, country Norway, payment terms 60 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116073253-07-mcp-9f22",
+  "ts": "2026-11-16T07:33:11.002Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 17.5,
+  "model_calls": 8,
+  "tokens": {
+    "input": 18,
+    "output": 1307,
+    "cache_read": 98469,
+    "cache_write": 23201,
+    "total_in": 121688
+  },
+  "peak_prompt_tokens": 23203,
+  "cost_usd": 0.00454,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-BC8094",
+  "instruction": "On the Customers page, archive the customer \"Nordlys AB\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

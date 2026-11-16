@@ -1,0 +1,1 @@
+I updated product P-1160 (Micro Spindle 59) to a price of 866 and a stock of 146, and saved the row. The page showed "Saved" next to it. I didn't touch any other product.

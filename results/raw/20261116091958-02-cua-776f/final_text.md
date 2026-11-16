@@ -1,0 +1,1 @@
+I created the supplier "Vättern Components AB" through the three-step New supplier form, and it now shows in the Suppliers list. The row reads: org. number 557304-6397, inkop@vattern.test, Sundsvall, Norway, 60 days. The form asked for the org number as NNNNNN-NNNN and the postal code as NNN NN, so I entered them as 557304-6397 and 791 88.

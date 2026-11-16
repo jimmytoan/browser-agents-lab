@@ -1,0 +1,1 @@
+I booked one delivery for order SO-1162 on 2027-03-02 with carrier DHL Express and the Evening time window. The Booked deliveries list now shows that single entry.

@@ -1,0 +1,1 @@
+The discount for P-1047 (Marine Spindle 60) is now 17% on the Pricing page. The other products are still at 0%.

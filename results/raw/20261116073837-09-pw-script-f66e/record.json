@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116073837-09-pw-script-f66e",
+  "ts": "2026-11-16T07:40:34.278Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 116.3,
+  "model_calls": 7,
+  "tokens": {
+    "input": 16,
+    "output": 2257,
+    "cache_read": 24641,
+    "cache_write": 6974,
+    "total_in": 31631
+  },
+  "peak_prompt_tokens": 6976,
+  "cost_usd": 0.002248,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 6,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 23,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "Credit check, Intake, Packing, Invoicing, Shipping, Picking, Quality check",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Credit check, Intake, Packing, Invoicing, Shipping, Picking, Quality check. Then save the order."
+}

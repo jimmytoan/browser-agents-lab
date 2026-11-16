@@ -1,0 +1,3 @@
+I created the supplier "Vättern Components AB" through the 3-step form, and the app returned me to the Suppliers list after I submitted it. I didn't scroll the list to find the new row, so I haven't seen it listed.
+
+The form wanted two formats, so I entered the organisation number as 557304-6397 and the postal code as 791 88. The other details went in as you gave them: inkop@vattern.test, Hamngatan 62, Sundsvall, Norway and 60 days. I also ticked the "I confirm the details are correct" box on the last step.

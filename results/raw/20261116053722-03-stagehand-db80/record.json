@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116053722-03-stagehand-db80",
+  "ts": "2026-11-16T05:39:09.013Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 106.5,
+  "model_calls": 19,
+  "tokens": {
+    "input": 53465,
+    "output": 10159,
+    "cache_read": 78551,
+    "cache_write": 7612,
+    "total_in": 139628
+  },
+  "peak_prompt_tokens": 7614,
+  "cost_usd": 0.012163,
+  "tool_calls": 27,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 53425,
+      "output": 7891,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.009288,
+      "raw": {
+        "actPromptTokens": 22564,
+        "actCompletionTokens": 569,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 15207,
+        "extractPromptTokens": 19497,
+        "extractCompletionTokens": 6574,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 49729,
+        "observePromptTokens": 11364,
+        "observeCompletionTokens": 748,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 9712,
+        "totalPromptTokens": 53425,
+        "totalCompletionTokens": 7891,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 74648
+      }
+    },
+    "outer_cost_usd": 0.002875
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SO-7560",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

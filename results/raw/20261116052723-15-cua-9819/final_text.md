@@ -1,0 +1,1 @@
+The subscription is now on the Annual plan with 10 seats, and the page shows "Plan confirmed ✓".

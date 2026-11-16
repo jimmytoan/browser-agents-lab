@@ -1,0 +1,1 @@
+I booked one delivery for order SO-7218 on 16 March 2027 with DHL Express in the Morning window. The page confirmed it with "Delivery booked for 2027-03-16."

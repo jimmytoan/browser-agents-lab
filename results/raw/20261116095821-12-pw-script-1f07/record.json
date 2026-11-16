@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116095821-12-pw-script-1f07",
+  "ts": "2026-11-16T10:00:22.221Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 120.8,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 2608,
+    "cache_read": 32492,
+    "cache_write": 5683,
+    "total_in": 38199
+  },
+  "peak_prompt_tokens": 5685,
+  "cost_usd": 0.043585,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 11,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 40,
+    "directApi": 0,
+    "logins": 7
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1017 to exactly 11% and apply it. Do not change any other product's discount."
+}

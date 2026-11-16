@@ -1,0 +1,1 @@
+Lena Strid's expense report is approved and Tomas Rask's is rejected. All other expense reports still show Pending.

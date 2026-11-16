@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116060210-12-pw-cli-58c1",
+  "ts": "2026-11-16T06:02:46.384Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 35.7,
+  "model_calls": 14,
+  "tokens": {
+    "input": 30,
+    "output": 2057,
+    "cache_read": 160737,
+    "cache_write": 16414,
+    "total_in": 177181
+  },
+  "peak_prompt_tokens": 16416,
+  "cost_usd": 0.004691,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 13,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "33%",
+  "instruction": "On the Pricing page, set the discount for product P-1048 to exactly 33% and apply it. Do not change any other product's discount."
+}

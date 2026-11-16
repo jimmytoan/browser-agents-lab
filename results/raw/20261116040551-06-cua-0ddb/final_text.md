@@ -1,0 +1,1 @@
+I uploaded invoice-4231.pdf once for Hansa Tooling GmbH as an Invoice; it now appears in the Uploaded documents table. I did not touch the draft file.

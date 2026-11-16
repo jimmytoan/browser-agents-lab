@@ -1,0 +1,3 @@
+I rejected Per Åberg's expense report (SEK 3,765) as asked, but I made a mistake on Elin Fors's report (SEK 8,323). I clicked the red reject button instead of approve, so it is now Rejected, and it did not revert after a page reload. The app has no control to undo a rejection, so that report needs to be corrected by someone with a way to reopen it, and it should be approved. Every other report is still Pending.
+
+ANSWER: Elin Fors's report was wrongly rejected instead of approved (cannot be undone in the UI); Per Åberg's report is rejected; all other reports remain pending.

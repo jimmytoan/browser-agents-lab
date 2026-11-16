@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116063602-05-pw-cli-1808",
+  "ts": "2026-11-16T06:36:27.470Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 24.9,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 1619,
+    "cache_read": 107570,
+    "cache_write": 17627,
+    "total_in": 125219
+  },
+  "peak_prompt_tokens": 17629,
+  "cost_usd": 0.004091,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 9,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Booked SO-3453 · 2027-02-04 · Best Transport · Afternoon",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-3453: delivery date 4 February 2027, carrier \"Best Transport\", time window Afternoon. Make exactly one booking."
+}

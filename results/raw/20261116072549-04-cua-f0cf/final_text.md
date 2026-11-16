@@ -1,0 +1,1 @@
+P-1349 (Steel Sensor 20) is saved with price 470 and stock 44. No other product rows were changed.

@@ -1,0 +1,1 @@
+I uploaded `invoice-4789.pdf` once on the Documents page for supplier "Baltic Polymers" with document type "Invoice". It now appears in the Uploaded documents table (53 bytes). I didn't upload the draft file.

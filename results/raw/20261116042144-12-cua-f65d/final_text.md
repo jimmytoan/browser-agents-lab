@@ -1,0 +1,1 @@
+I applied a 27% discount to P-1024 (Nylon Bracket 47) on the Pricing page. The table now shows 27% for P-1024, and every other product still shows 0%.

@@ -1,0 +1,70 @@
+{
+  "run_id": "20261115232439-10-stagehand-5271",
+  "ts": "2026-11-15T23:26:21.722Z",
+  "tag": "pilot",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "wrong: Erik Holm=Pending, Karin Lund=Pending",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 101.7,
+  "model_calls": 19,
+  "tokens": {
+    "input": 56376,
+    "output": 12808,
+    "cache_read": 97368,
+    "cache_write": 10894,
+    "total_in": 164638
+  },
+  "peak_prompt_tokens": 10896,
+  "cost_usd": 0.014377,
+  "tool_calls": 23,
+  "tool_errors": 6,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 56336,
+      "output": 10130,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.010699,
+      "raw": {
+        "actPromptTokens": 31853,
+        "actCompletionTokens": 2453,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 23340,
+        "extractPromptTokens": 10974,
+        "extractCompletionTokens": 3103,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 20349,
+        "observePromptTokens": 13509,
+        "observeCompletionTokens": 4574,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 22956,
+        "totalPromptTokens": 56336,
+        "totalCompletionTokens": 10130,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 66645
+      }
+    },
+    "outer_cost_usd": 0.003678
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Karin Lund and reject the expense report submitted by Erik Holm. Leave every other expense report pending."
+}

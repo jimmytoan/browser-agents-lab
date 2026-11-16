@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116071908-02-stagehand-d778",
+  "ts": "2026-11-16T07:22:04.946Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 176.7,
+  "model_calls": 26,
+  "tokens": {
+    "input": 97094,
+    "output": 13967,
+    "cache_read": 168210,
+    "cache_write": 12634,
+    "total_in": 277938
+  },
+  "peak_prompt_tokens": 12636,
+  "cost_usd": 0.019954,
+  "tool_calls": 49,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 97040,
+      "output": 10253,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.01483,
+      "raw": {
+        "actPromptTokens": 58237,
+        "actCompletionTokens": 2087,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 44105,
+        "extractPromptTokens": 24921,
+        "extractCompletionTokens": 6653,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 62046,
+        "observePromptTokens": 13882,
+        "observeCompletionTokens": 1513,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 21046,
+        "totalPromptTokens": 97040,
+        "totalCompletionTokens": 10253,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 127197
+      }
+    },
+    "outer_cost_usd": 0.005124
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Kebne Components AB\", organisation number 5561824434, contact email inkop@kebne.test, street address \"Verkstadsgatan 98\", postal code 68827, city Karlstad, country Germany, payment terms 60 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

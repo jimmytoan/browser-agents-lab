@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116084302-10-mcp-2370",
+  "ts": "2026-11-16T08:43:20.853Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "mcp",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 18,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 776,
+    "cache_read": 78298,
+    "cache_write": 15767,
+    "total_in": 94085
+  },
+  "peak_prompt_tokens": 15769,
+  "cost_usd": 0.055047,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "done",
+  "instruction": "On the Expenses page, approve the expense report submitted by Sara Nyberg and reject the expense report submitted by Nils Varg. Leave every other expense report pending."
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116075725-13-stagehand-aa34",
+  "ts": "2026-11-16T07:59:44.370Z",
+  "tag": "full",
+  "task": "13_bulk_policy",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "1 wrong, e.g. RF-24521=Rejected (want Approved)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 138.4,
+  "model_calls": 28,
+  "tokens": {
+    "input": 87425,
+    "output": 13974,
+    "cache_read": 192968,
+    "cache_write": 12565,
+    "total_in": 292958
+  },
+  "peak_prompt_tokens": 12567,
+  "cost_usd": 0.01923,
+  "tool_calls": 34,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 87367,
+      "output": 9629,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.013551,
+      "raw": {
+        "actPromptTokens": 51191,
+        "actCompletionTokens": 1027,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 30453,
+        "extractPromptTokens": 18924,
+        "extractCompletionTokens": 5986,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 40498,
+        "observePromptTokens": 17252,
+        "observeCompletionTokens": 2616,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 19585,
+        "totalPromptTokens": 87367,
+        "totalCompletionTokens": 9629,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 90536
+      }
+    },
+    "outer_cost_usd": 0.005679
+  },
+  "app": {
+    "requests": 26,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Rejected 6 (RF-9191, RF-3483, RF-5889, RF-66110, RF-96612, RF-51517); approved 2 (RF-57115, RF-61219); misclicked RF-24521 (rejected, should have been approved, needs manual correction); 15 left pending.",
+  "instruction": "On the Refunds page (it has several pages), process the pending refund requests by this policy: reject every request from a customer marked \"Blocked\"; of the remaining requests, approve those whose reason is \"Damaged item\" and whose amount is at most SEK 500; leave all other requests pending. Go through every page."
+}

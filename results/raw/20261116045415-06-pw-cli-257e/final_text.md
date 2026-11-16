@@ -1,0 +1,1 @@
+Uploaded `invoice-4023.pdf` to the Documents page for supplier Hansa Tooling GmbH with type Invoice. The Uploaded documents table now shows one row for it. I did not upload the draft file.

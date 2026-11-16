@@ -1,0 +1,1 @@
+Elin Fors's expense report (SEK 7,369) is approved and Karin Lund's (SEK 1,157) is rejected. The other ten reports are still pending.

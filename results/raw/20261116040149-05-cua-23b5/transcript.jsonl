@@ -1,0 +1,39 @@
+{"ms":1235,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4904,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4904,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1271,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2478,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6338,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6338,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":2743,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":2856,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3110,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3193,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3447,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5451,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5477,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6553,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6338,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[436,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":6812,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":8815,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8862,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":10349,"t":"model","stop":"tool_use","text":"Enter the order reference, then navigate the calendar forward to January 2027 (two months ahead).","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7971,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":211,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,155]}},{"name":"type","input":{"text":"SO-1438"}},{"name":"left_click","input":{"coordinate":[438,210]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[438,210]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":10603,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10652,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":10906,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11909,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12164,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13167,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13212,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":14461,"t":"model","stop":"tool_use","text":"January 2027 is showing. Selecting the 13th, then opening the carrier dropdown.","usage":{"input_tokens":2,"cache_creation_input_tokens":1658,"cache_read_input_tokens":9467,"cache_creation":{"ephemeral_5m_input_tokens":1658,"ephemeral_1h_input_tokens":0},"output_tokens":168,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[281,347]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[274,478]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":14716,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15718,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":15974,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16975,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17013,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":18337,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1591,"cache_read_input_tokens":11125,"cache_creation":{"ephemeral_5m_input_tokens":1591,"ephemeral_1h_input_tokens":0},"output_tokens":137,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[235,743]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[384,515]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":18591,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19593,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":19847,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20849,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":20896,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":22109,"t":"model","stop":"tool_use","text":"All fields are set. Submitting the booking once.","usage":{"input_tokens":2,"cache_creation_input_tokens":1560,"cache_read_input_tokens":12716,"cache_creation":{"ephemeral_5m_input_tokens":1560,"ephemeral_1h_input_tokens":0},"output_tokens":114,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[83,558]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":22363,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24365,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":24414,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":25500,"t":"model","stop":"end_turn","text":"I booked one delivery for order SO-1438 on 2027-01-13 with Best Transport, Evening window. The page confirmed it and it appears in the Booked deliveries list.","usage":{"input_tokens":2,"cache_creation_input_tokens":1512,"cache_read_input_tokens":14276,"cache_creation":{"ephemeral_5m_input_tokens":1512,"ephemeral_1h_input_tokens":0},"output_tokens":60,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

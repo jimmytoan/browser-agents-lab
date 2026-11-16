@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116102126-01-pw-cli-886c",
+  "ts": "2026-11-16T10:21:28.103Z",
+  "tag": "full",
+  "task": "01_login_read",
+  "level": 1,
+  "contestant": "pw-cli",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": false,
+  "why": "answer \"\" != 36533",
+  "stopped_by": "error",
+  "error": "APIConnectionError: Connection error.",
+  "elapsed_s": 1.4,
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total_in": 0
+  },
+  "peak_prompt_tokens": 0,
+  "cost_usd": 0,
+  "tool_calls": 0,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0
+  },
+  "app": {
+    "requests": 0,
+    "directApi": 0,
+    "logins": 0
+  },
+  "answer": "",
+  "instruction": "Report the amount shown for \"Open invoices total\" on the Dashboard page."
+}

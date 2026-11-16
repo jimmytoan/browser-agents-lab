@@ -1,0 +1,1 @@
+Flagged SO-8484 for review. It is the "Nordlys AB" On hold order with the highest amount (SEK 32,359). The other two On hold orders for that customer, SO-4854 and SO-1698, were not flagged, and I left the "Nordlys Trading AB" order SO-1438 alone.

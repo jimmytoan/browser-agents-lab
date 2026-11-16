@@ -1,0 +1,54 @@
+{"ms":1186,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4975,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4975,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1232,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2943,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6409,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6409,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3211,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3393,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3643,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3724,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3977,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5980,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6009,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":9322,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6409,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[230,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":9577,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11580,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":11611,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":13595,"t":"model","stop":"tool_use","text":"Existing org numbers use the format NNNNNN-NNNN, so the form may expect the hyphen. I'll open the New supplier form.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":8042,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":144,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[81,150]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":13850,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15852,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":15897,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19541,"t":"model","stop":"tool_use","text":"The form's placeholder shows NNNNNN-NNNN, so I'll enter the org number as 556182-4434.","usage":{"input_tokens":2,"cache_creation_input_tokens":1542,"cache_read_input_tokens":9538,"cache_creation":{"ephemeral_5m_input_tokens":1542,"ephemeral_1h_input_tokens":0},"output_tokens":270,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,192]}},{"name":"type","input":{"text":"Kebne Components AB"}},{"name":"left_click","input":{"coordinate":[265,235]}},{"name":"type","input":{"text":"556182-4434"}},{"name":"left_click","input":{"coordinate":[265,278]}},{"name":"type","input":{"text":"inkop@kebne.test"}},{"name":"left_click","input":{"coordinate":[52,327]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":19794,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19920,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20175,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20252,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20504,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20615,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20871,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22872,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":22916,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":26186,"t":"model","stop":"tool_use","text":"Step 2 wants the postal code as \"NNN NN\", so 68827 becomes \"688 27\". I'll fill the address fields, then open the country list.","usage":{"input_tokens":2,"cache_creation_input_tokens":1740,"cache_read_input_tokens":11080,"cache_creation":{"ephemeral_5m_input_tokens":1740,"ephemeral_1h_input_tokens":0},"output_tokens":360,"output_tokens_details":{"thinking_tokens":83},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,192]}},{"name":"type","input":{"text":"Verkstadsgatan 98"}},{"name":"left_click","input":{"coordinate":[265,235]}},{"name":"type","input":{"text":"688 27"}},{"name":"left_click","input":{"coordinate":[265,278]}},{"name":"type","input":{"text":"Karlstad"}},{"name":"left_click","input":{"coordinate":[233,321]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":26442,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":26553,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":26806,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":26850,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":27103,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":27159,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":27417,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":28419,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":28470,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":29728,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1830,"cache_read_input_tokens":12820,"cache_creation":{"ephemeral_5m_input_tokens":1830,"ephemeral_1h_input_tokens":0},"output_tokens":137,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[216,486]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[365,357]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":29982,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":30984,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":31238,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":32240,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":32278,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":33693,"t":"model","stop":"tool_use","text":"Step 2 is filled in with Germany and 60 days selected. Moving to Next.","usage":{"input_tokens":2,"cache_creation_input_tokens":1560,"cache_read_input_tokens":14650,"cache_creation":{"ephemeral_5m_input_tokens":1560,"ephemeral_1h_input_tokens":0},"output_tokens":127,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[116,400]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":33949,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":35951,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":35980,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":37484,"t":"model","stop":"tool_use","text":"The review step matches the requested details. I'll confirm and create the supplier.","usage":{"input_tokens":2,"cache_creation_input_tokens":1525,"cache_read_input_tokens":16210,"cache_creation":{"ephemeral_5m_input_tokens":1525,"ephemeral_1h_input_tokens":0},"output_tokens":145,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[34,458]}},{"name":"left_click","input":{"coordinate":[152,501]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":37736,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":37991,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":39993,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":40020,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":42755,"t":"model","stop":"end_turn","text":"The supplier Kebne Components AB was created with org number 556182-4434, email inkop@kebne.test, Karlstad, Germany, and 60-day payment terms.\n\nThe form required two format changes from the values you gave: the org number was entered as 556182-4434 (hyphenated), and the postal code as 688 27 (with a space).","usage":{"input_tokens":2,"cache_creation_input_tokens":1556,"cache_read_input_tokens":17735,"cache_creation":{"ephemeral_5m_input_tokens":1556,"ephemeral_1h_input_tokens":0},"output_tokens":109,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116080850-01-pw-cli-1059",
+  "ts": "2026-11-16T08:08:59.535Z",
+  "tag": "full",
+  "task": "01_login_read",
+  "level": 1,
+  "contestant": "pw-cli",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "answer matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 9.2,
+  "model_calls": 5,
+  "tokens": {
+    "input": 12,
+    "output": 379,
+    "cache_read": 30470,
+    "cache_write": 8763,
+    "total_in": 39245
+  },
+  "peak_prompt_tokens": 8765,
+  "cost_usd": 0.028768,
+  "tool_calls": 4,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 4,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SEK 40,612",
+  "instruction": "Report the amount shown for \"Open invoices total\" on the Dashboard page."
+}

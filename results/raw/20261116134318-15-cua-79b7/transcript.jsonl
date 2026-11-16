@@ -1,0 +1,21 @@
+{"ms":1223,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4876,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4876,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1243,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3408,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6310,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6310,"ephemeral_1h_input_tokens":0},"output_tokens":166,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3674,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3783,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4036,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4126,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":6127,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6151,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":8490,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6310,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[35,55]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":8746,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10748,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":10771,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":14442,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7909,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":160,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[255,227]}},{"name":"triple_click","input":{"coordinate":[125,262]}},{"name":"type","input":{"text":"10"}},{"name":"left_click","input":{"coordinate":[94,305]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":14696,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14951,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":14964,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":15219,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16223,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16247,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":18727,"t":"model","stop":"end_turn","text":"I switched the subscription on the Billing page from Monthly with 5 seats to the Annual plan with 10 seats and clicked Confirm plan. The page showed \"Plan confirmed ✓\".\n\nANSWER: Annual plan, 10 seats, confirmed","usage":{"input_tokens":2,"cache_creation_input_tokens":1596,"cache_read_input_tokens":9405,"cache_creation":{"ephemeral_5m_input_tokens":1596,"ephemeral_1h_input_tokens":0},"output_tokens":89,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

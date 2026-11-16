@@ -1,0 +1,1 @@
+I updated product P-1160 (Micro Spindle 59) to price 866 and stock 146, and saved the row. It now shows 866 and 146 outside edit mode. No other products were changed.

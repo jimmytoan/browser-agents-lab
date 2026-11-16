@@ -1,0 +1,54 @@
+{"ms":1064,"t":"model","stop":"tool_use","text":"I'll start by taking a screenshot to see the application.","usage":{"input_tokens":4,"cache_creation_input_tokens":4976,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4976,"ephemeral_1h_input_tokens":0},"output_tokens":77,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1107,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2589,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6428,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6428,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":2857,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":2970,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3225,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3309,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3563,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5566,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5592,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6825,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6428,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[230,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7079,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9081,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9112,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":10765,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":8061,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[81,150]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":11021,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13024,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13064,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15944,"t":"model","stop":"tool_use","text":"The org number field expects the format NNNNNN-NNNN, so I'll enter 5596487578 as 559648-7578.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":9557,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":273,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,192]}},{"name":"type","input":{"text":"Siljan Industri AB"}},{"name":"left_click","input":{"coordinate":[265,235]}},{"name":"type","input":{"text":"559648-7578"}},{"name":"left_click","input":{"coordinate":[265,278]}},{"name":"type","input":{"text":"inkop@siljan.test"}},{"name":"left_click","input":{"coordinate":[52,327]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":16198,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16325,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":16578,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16649,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":16902,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17020,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":17276,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19279,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":19319,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":22285,"t":"model","stop":"tool_use","text":"The postal code uses the format \"NNN NN\", so 71450 becomes \"714 50\". I'll fill in step 2 and open the country dropdown.","usage":{"input_tokens":2,"cache_creation_input_tokens":1743,"cache_read_input_tokens":11053,"cache_creation":{"ephemeral_5m_input_tokens":1743,"ephemeral_1h_input_tokens":0},"output_tokens":276,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,192]}},{"name":"type","input":{"text":"Verkstadsgatan 19"}},{"name":"left_click","input":{"coordinate":[265,235]}},{"name":"type","input":{"text":"714 50"}},{"name":"left_click","input":{"coordinate":[265,278]}},{"name":"type","input":{"text":"Karlstad"}},{"name":"left_click","input":{"coordinate":[233,321]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":22539,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22654,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22907,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22951,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":23205,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23262,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":23521,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24523,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":24570,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":26574,"t":"model","stop":"tool_use","text":"Selecting Finland (as the task specifies), then setting 15 days payment terms.","usage":{"input_tokens":2,"cache_creation_input_tokens":1746,"cache_read_input_tokens":12796,"cache_creation":{"ephemeral_5m_input_tokens":1746,"ephemeral_1h_input_tokens":0},"output_tokens":165,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[210,459]}},{"name":"wait","input":{"duration":1}},{"name":"left_click","input":{"coordinate":[185,357]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":26832,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":27834,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":28088,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29090,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":29152,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":31733,"t":"model","stop":"tool_use","text":"Step 2 is filled in correctly. Moving on to the next step.","usage":{"input_tokens":2,"cache_creation_input_tokens":1588,"cache_read_input_tokens":14542,"cache_creation":{"ephemeral_5m_input_tokens":1588,"ephemeral_1h_input_tokens":0},"output_tokens":121,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[116,400]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":31989,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":33991,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":34035,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":37231,"t":"model","stop":"tool_use","text":"The review page matches the requested details. I'll tick the confirmation box and create the supplier.","usage":{"input_tokens":2,"cache_creation_input_tokens":1519,"cache_read_input_tokens":16130,"cache_creation":{"ephemeral_5m_input_tokens":1519,"ephemeral_1h_input_tokens":0},"output_tokens":237,"output_tokens_details":{"thinking_tokens":87},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[34,458]}},{"name":"left_click","input":{"coordinate":[152,501]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":37485,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":37741,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":39743,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":39774,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":42302,"t":"model","stop":"end_turn","text":"The supplier Siljan Industri AB is now created, listed with org. number 559648-7578, email inkop@siljan.test, city Karlstad, country Finland, and 15-day payment terms.\n\nThe form required the org number and postal code in specific formats, so I entered them as 559648-7578 and 714 50.","usage":{"input_tokens":2,"cache_creation_input_tokens":1648,"cache_read_input_tokens":17649,"cache_creation":{"ephemeral_5m_input_tokens":1648,"ephemeral_1h_input_tokens":0},"output_tokens":101,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

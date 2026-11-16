@@ -1,0 +1,1 @@
+Pallet PAL-6076 is now assigned to bay A-03, and the Assignments list shows "PAL-6076 → A-03". No other assignments were made.

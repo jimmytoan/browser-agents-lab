@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116063900-06-pw-cli-6e22",
+  "ts": "2026-11-16T06:39:26.779Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 26.4,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1601,
+    "cache_read": 81985,
+    "cache_write": 13951,
+    "total_in": 95956
+  },
+  "peak_prompt_tokens": 13953,
+  "cost_usd": 0.003366,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 8,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Uploaded invoice-4445.pdf (Baltic Polymers, Invoice)",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116063900-06-pw-cli-6e22/invoice-4445.pdf for supplier \"Baltic Polymers\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

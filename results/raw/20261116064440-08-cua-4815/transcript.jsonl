@@ -1,0 +1,25 @@
+{"ms":1023,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4887,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4887,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1070,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3671,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6321,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6321,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3931,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4024,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4276,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4356,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4612,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6614,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6642,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":7913,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6321,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[820,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":8173,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10175,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":10207,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":12369,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7954,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":137,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"triple_click","input":{"coordinate":[304,250]}},{"name":"type","input":{"text":"485"}},{"name":"left_click","input":{"coordinate":[163,292]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":12629,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":12650,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":12904,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13906,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13926,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15505,"t":"model","stop":"tool_use","text":"The threshold reads 485 and the digest is On. Now saving.","usage":{"input_tokens":2,"cache_creation_input_tokens":1560,"cache_read_input_tokens":9450,"cache_creation":{"ephemeral_5m_input_tokens":1560,"ephemeral_1h_input_tokens":0},"output_tokens":120,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[136,335]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":15759,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17760,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17795,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19014,"t":"model","stop":"end_turn","text":"I set the alert threshold to 485, turned the weekly digest on, and saved the notification settings; the page shows \"Saved ✓\".","usage":{"input_tokens":2,"cache_creation_input_tokens":1518,"cache_read_input_tokens":11010,"cache_creation":{"ephemeral_5m_input_tokens":1518,"ephemeral_1h_input_tokens":0},"output_tokens":45,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

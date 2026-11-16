@@ -1,0 +1,1 @@
+On the Expenses page, Sara Nyberg's report (Parking, SEK 3,101) is now Approved and Nils Varg's report (Taxi, SEK 4,331) is now Rejected. All other reports are still Pending.

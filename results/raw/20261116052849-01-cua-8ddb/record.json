@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116052849-01-cua-8ddb",
+  "ts": "2026-11-16T05:28:57.030Z",
+  "tag": "full",
+  "task": "01_login_read",
+  "level": 1,
+  "contestant": "cua",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "answer matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 7,
+  "model_calls": 3,
+  "tokens": {
+    "input": 8,
+    "output": 287,
+    "cache_read": 6302,
+    "cache_write": 12803,
+    "total_in": 19113
+  },
+  "peak_prompt_tokens": 7937,
+  "cost_usd": 0.001808,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 2
+  },
+  "app": {
+    "requests": 5,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SEK 36,533",
+  "instruction": "Report the amount shown for \"Open invoices total\" on the Dashboard page."
+}

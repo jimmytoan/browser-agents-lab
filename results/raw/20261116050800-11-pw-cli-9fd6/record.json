@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116050800-11-pw-cli-9fd6",
+  "ts": "2026-11-16T05:08:40.056Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 39.5,
+  "model_calls": 18,
+  "tokens": {
+    "input": 38,
+    "output": 3180,
+    "cache_read": 229168,
+    "cache_write": 19490,
+    "total_in": 248696
+  },
+  "peak_prompt_tokens": 19492,
+  "cost_usd": 0.006322,
+  "tool_calls": 17,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 17,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "PAL-6076 assigned to A-03",
+  "instruction": "On the Warehouse page, assign pallet PAL-6076 to bay A-03: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

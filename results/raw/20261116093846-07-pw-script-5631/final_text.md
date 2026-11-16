@@ -1,0 +1,3 @@
+I archived "Berg & Co", but I couldn't capture the ARC reference code, so I have nothing to report for it.
+
+The customer is gone from the Customers list, and "Berg & Co AB" is untouched. The confirmation with the code never showed up in the page text I read about 1.5 seconds after confirming. It was probably a brief message that disappeared before then. I couldn't find the code on the Customers, Settings, Billing or Dashboard pages afterwards, and I can't archive the same customer again to see it. I'm not going to guess a code.

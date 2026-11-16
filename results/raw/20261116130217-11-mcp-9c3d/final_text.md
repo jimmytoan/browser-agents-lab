@@ -1,0 +1,1 @@
+I assigned pallet PAL-3202 to bay D-05 on the Warehouse page. The Assignments list now shows "PAL-3202 → D-05". It is the only assignment I made.

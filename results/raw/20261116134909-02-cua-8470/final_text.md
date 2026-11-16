@@ -1,0 +1,1 @@
+I created the supplier Kebne Components AB, and it now shows in the Suppliers list with org. number 558226-4561, inkop@kebne.test, Jönköping, Germany and 15 days terms. The form asked for the org. number as NNNNNN-NNNN and the postal code as NNN NN, so I entered them as 558226-4561 and 918 98.

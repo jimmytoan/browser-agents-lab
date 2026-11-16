@@ -1,0 +1,1 @@
+Product P-1347 (Nylon Spindle 70) is saved with price 502 and stock 287, and the row shows "Saved". No other rows were edited.

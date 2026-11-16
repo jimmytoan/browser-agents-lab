@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116095749-12-pw-cli-bafb",
+  "ts": "2026-11-16T09:58:21.387Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 32.1,
+  "model_calls": 13,
+  "tokens": {
+    "input": 28,
+    "output": 1437,
+    "cache_read": 108883,
+    "cache_write": 11772,
+    "total_in": 120683
+  },
+  "peak_prompt_tokens": 11774,
+  "cost_usd": 0.054744,
+  "tool_calls": 12,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 12,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "11%",
+  "instruction": "On the Pricing page, set the discount for product P-1017 to exactly 11% and apply it. Do not change any other product's discount."
+}

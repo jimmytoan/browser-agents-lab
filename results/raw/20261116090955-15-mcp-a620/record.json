@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116090955-15-mcp-a620",
+  "ts": "2026-11-16T09:11:00.719Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 65.2,
+  "model_calls": 12,
+  "tokens": {
+    "input": 26,
+    "output": 1301,
+    "cache_read": 107456,
+    "cache_write": 16243,
+    "total_in": 123725
+  },
+  "peak_prompt_tokens": 16245,
+  "cost_usd": 0.064415,
+  "tool_calls": 14,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 21 seats and confirm the plan."
+}

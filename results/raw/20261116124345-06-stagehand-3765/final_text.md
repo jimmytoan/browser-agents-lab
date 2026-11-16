@@ -1,0 +1,1 @@
+I couldn't upload the file, so nothing was submitted. I selected supplier "Baltic Polymers" and document type "Invoice" on the Documents page. The file input rejected the file path I typed, and clicking it opened no file chooser that I could use. The page still shows "No file chosen", and I did not click Upload document.
