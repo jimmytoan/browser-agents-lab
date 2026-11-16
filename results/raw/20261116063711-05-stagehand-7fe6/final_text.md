@@ -1,0 +1,1 @@
+The delivery for order SO-3453 is booked: 4 February 2027 with Best Transport, Afternoon window. The Deliveries page confirms it, and I made one booking only.

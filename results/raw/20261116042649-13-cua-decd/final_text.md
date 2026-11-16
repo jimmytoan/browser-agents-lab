@@ -1,0 +1,1 @@
+All 3 pages are processed. I rejected the 5 requests from Blocked customers (RF-6903, RF-74517, RF-49512, RF-16015, RF-84421) and approved the 2 Damaged item requests at or under SEK 500 (RF-2585 at SEK 500, RF-33316 at SEK 141). The other 11 requests remain pending.

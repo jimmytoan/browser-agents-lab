@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116063537-05-mcp-39eb",
+  "ts": "2026-11-16T06:36:02.390Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 24.9,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 1740,
+    "cache_read": 151035,
+    "cache_write": 28579,
+    "total_in": 179638
+  },
+  "peak_prompt_tokens": 28581,
+  "cost_usd": 0.005955,
+  "tool_calls": 24,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-3453: delivery date 4 February 2027, carrier \"Best Transport\", time window Afternoon. Make exactly one booking."
+}

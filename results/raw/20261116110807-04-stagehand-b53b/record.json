@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116110807-04-stagehand-b53b",
+  "ts": "2026-11-16T11:19:03.692Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "changed rows: none",
+  "stopped_by": "wall_clock",
+  "error": null,
+  "elapsed_s": 640.9,
+  "model_calls": 2,
+  "tokens": {
+    "input": 6,
+    "output": 109,
+    "cache_read": 1008,
+    "cache_write": 1089,
+    "total_in": 2103
+  },
+  "peak_prompt_tokens": 1091,
+  "cost_usd": 0.003925,
+  "tool_calls": 2,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner_error": "Stagehand is unavailable. Create a new instance with await Stagehand.create()."
+  },
+  "app": {
+    "requests": 3,
+    "directApi": 0,
+    "logins": 0
+  },
+  "answer": "",
+  "instruction": "On the Products page, change product P-1347: set its price to 502 and its stock to 287, then save the row. Do not change any other product."
+}

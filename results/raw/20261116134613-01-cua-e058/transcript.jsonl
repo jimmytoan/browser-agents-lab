@@ -1,0 +1,10 @@
+{"ms":1477,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4868,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4868,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1519,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3089,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6302,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6302,"ephemeral_1h_input_tokens":0},"output_tokens":166,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[701,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[701,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3404,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3506,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3760,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3847,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5850,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5871,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6857,"t":"model","stop":"end_turn","text":"The Dashboard shows \"Open invoices total\" as SEK 36,533.\n\nANSWER: SEK 36,533","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6302,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":41,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

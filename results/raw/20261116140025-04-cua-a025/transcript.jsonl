@@ -1,0 +1,36 @@
+{"ms":1355,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4884,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4884,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1389,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3854,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6318,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6318,"ephemeral_1h_input_tokens":0},"output_tokens":174,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":4118,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4223,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4478,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4564,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":6566,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6587,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":8907,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6318,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[361,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":9161,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11162,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":11193,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":13595,"t":"model","stop":"tool_use","text":"Long list; try find in page.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7917,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":126,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"key","input":{"text":"ctrl+f"}},{"name":"type","input":{"text":"P-1347\n"}},{"name":"key","input":{"text":"Escape"}},{"name":"screenshot","input":{}}]}
+{"ms":13747,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":13791,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":13944,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":13973,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":16647,"t":"model","stop":"tool_use","text":"Find didn't work. Scroll.","usage":{"input_tokens":2,"cache_creation_input_tokens":1532,"cache_read_input_tokens":9413,"cache_creation":{"ephemeral_5m_input_tokens":1532,"ephemeral_1h_input_tokens":0},"output_tokens":116,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"scroll","input":{"coordinate":[640,500],"scroll_direction":"down","scroll_amount":15}},{"name":"screenshot","input":{}}]}
+{"ms":16901,"t":"tool","name":"scroll","is_error":false,"result":"OK"}
+{"ms":16941,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19222,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1502,"cache_read_input_tokens":10945,"cache_creation":{"ephemeral_5m_input_tokens":1502,"ephemeral_1h_input_tokens":0},"output_tokens":103,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"scroll","input":{"coordinate":[640,500],"scroll_direction":"down","scroll_amount":5}},{"name":"screenshot","input":{}}]}
+{"ms":19486,"t":"tool","name":"scroll","is_error":false,"result":"OK"}
+{"ms":19530,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":21843,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1489,"cache_read_input_tokens":12447,"cache_creation":{"ephemeral_5m_input_tokens":1489,"ephemeral_1h_input_tokens":0},"output_tokens":90,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[987,479]}},{"name":"screenshot","input":{}}]}
+{"ms":22100,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22145,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":24923,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1468,"cache_read_input_tokens":13936,"cache_creation":{"ephemeral_5m_input_tokens":1468,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"triple_click","input":{"coordinate":[484,479]}},{"name":"type","input":{"text":"502"}},{"name":"triple_click","input":{"coordinate":[704,479]}},{"name":"type","input":{"text":"287"}},{"name":"zoom","input":{"region":[0,440,1280,520]}},{"name":"left_click","input":{"coordinate":[898,479]}},{"name":"screenshot","input":{}}]}
+{"ms":25183,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":25205,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":25459,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":25479,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":25523,"t":"tool","name":"zoom","is_error":false,"result":"[image]"}
+{"ms":25778,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":25797,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":28383,"t":"model","stop":"end_turn","text":"I updated product P-1347 (Nylon Spindle 70) on the Products page to price 502 and stock 287, and saved the row. The page showed \"Saved\" next to it. I didn't touch any other product.","usage":{"input_tokens":2,"cache_creation_input_tokens":1787,"cache_read_input_tokens":15404,"cache_creation":{"ephemeral_5m_input_tokens":1787,"ephemeral_1h_input_tokens":0},"output_tokens":68,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

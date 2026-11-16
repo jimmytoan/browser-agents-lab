@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116082759-06-mcp-8a7c",
+  "ts": "2026-11-16T08:28:22.556Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 23.2,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 918,
+    "cache_read": 98052,
+    "cache_write": 12769,
+    "total_in": 110845
+  },
+  "peak_prompt_tokens": 12771,
+  "cost_usd": 0.050956,
+  "tool_calls": 13,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116082759-06-mcp-8a7c/invoice-4231.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

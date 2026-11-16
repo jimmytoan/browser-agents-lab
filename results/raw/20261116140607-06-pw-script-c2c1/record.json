@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116140607-06-pw-script-c2c1",
+  "ts": "2026-11-16T14:06:26.803Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 19.3,
+  "model_calls": 4,
+  "tokens": {
+    "input": 10,
+    "output": 1030,
+    "cache_read": 5866,
+    "cache_write": 2970,
+    "total_in": 8846
+  },
+  "peak_prompt_tokens": 2972,
+  "cost_usd": 0.018332,
+  "tool_calls": 4,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 4,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 19,
+    "directApi": 0,
+    "logins": 3
+  },
+  "answer": "done",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116140607-06-pw-script-c2c1/invoice-4789.pdf for supplier \"Baltic Polymers\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

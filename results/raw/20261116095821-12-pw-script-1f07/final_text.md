@@ -1,0 +1,1 @@
+I set the discount for P-1017 (Nylon Valve 17) to 11% and applied it. The Pricing table now shows 11% for that row, and every other product still shows 0%.

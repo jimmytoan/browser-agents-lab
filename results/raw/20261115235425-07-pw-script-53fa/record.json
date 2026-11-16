@@ -1,0 +1,44 @@
+{
+  "run_id": "20261115235425-07-pw-script-53fa",
+  "ts": "2026-11-15T23:57:03.534Z",
+  "tag": "pilot",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": false,
+  "why": "archived but answer \"unavailable. The customer is archived, but I didn't capture the confirmation code.\" lacks ARC-5A5D96",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 158.1,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 2182,
+    "cache_read": 35914,
+    "cache_write": 6482,
+    "total_in": 42420
+  },
+  "peak_prompt_tokens": 6484,
+  "cost_usd": 0.041664,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 11,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 70,
+    "directApi": 0,
+    "logins": 11
+  },
+  "answer": "unavailable. The customer is archived, but I didn't capture the confirmation code.",
+  "instruction": "On the Customers page, archive the customer \"Nordlys AB\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

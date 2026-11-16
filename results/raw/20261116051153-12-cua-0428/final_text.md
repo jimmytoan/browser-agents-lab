@@ -1,0 +1,1 @@
+The discount for P-1017 (Nylon Valve 17) is now 11% and applied; the table shows it, and all other products remain at 0%.

@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116055530-10-mcp-fe18",
+  "ts": "2026-11-16T05:55:48.332Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": false,
+  "why": "wrong: Elin Fors=Rejected",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 17.4,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1677,
+    "cache_read": 109939,
+    "cache_write": 24172,
+    "total_in": 134131
+  },
+  "peak_prompt_tokens": 24174,
+  "cost_usd": 0.004961,
+  "tool_calls": 15,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 13,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Elin Fors's report was wrongly rejected instead of approved (cannot be undone in the UI); Per Åberg's report is rejected; all other reports remain pending.",
+  "instruction": "On the Expenses page, approve the expense report submitted by Elin Fors and reject the expense report submitted by Per Åberg. Leave every other expense report pending."
+}

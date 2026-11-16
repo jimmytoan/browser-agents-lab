@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116040029-05-pw-cli-0a76",
+  "ts": "2026-11-16T04:00:51.819Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 22.6,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 943,
+    "cache_read": 91551,
+    "cache_write": 16225,
+    "total_in": 107796
+  },
+  "peak_prompt_tokens": 16227,
+  "cost_usd": 0.003417,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 8,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Booked SO-1438 · 2027-01-13 · Best Transport · Evening",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-1438: delivery date 13 January 2027, carrier \"Best Transport\", time window Evening. Make exactly one booking."
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "20261115231631-07-stagehand-423e",
+  "ts": "2026-11-15T23:17:34.718Z",
+  "tag": "pilot",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 63.3,
+  "model_calls": 10,
+  "tokens": {
+    "input": 44252,
+    "output": 5050,
+    "cache_read": 25578,
+    "cache_write": 5367,
+    "total_in": 75197
+  },
+  "peak_prompt_tokens": 5369,
+  "cost_usd": 0.007877,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 44230,
+      "output": 3686,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.006266,
+      "raw": {
+        "actPromptTokens": 20769,
+        "actCompletionTokens": 792,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 12766,
+        "extractPromptTokens": 12651,
+        "extractCompletionTokens": 2296,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 21923,
+        "observePromptTokens": 10810,
+        "observeCompletionTokens": 598,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 10758,
+        "totalPromptTokens": 44230,
+        "totalCompletionTokens": 3686,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 45447
+      }
+    },
+    "outer_cost_usd": 0.001611
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-5A5D96",
+  "instruction": "On the Customers page, archive the customer \"Nordlys AB\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

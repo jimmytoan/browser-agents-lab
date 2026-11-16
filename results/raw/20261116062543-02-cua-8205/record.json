@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116062543-02-cua-8205",
+  "ts": "2026-11-16T06:26:25.132Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "cua",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 42,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 1761,
+    "cache_read": 96761,
+    "cache_write": 24329,
+    "total_in": 121112
+  },
+  "peak_prompt_tokens": 19357,
+  "cost_usd": 0.004891,
+  "tool_calls": 44,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 9
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Dalälv Components AB\", organisation number 5597675415, contact email inkop@dalalv.test, street address \"Industrivägen 5\", postal code 48754, city Jönköping, country Norway, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

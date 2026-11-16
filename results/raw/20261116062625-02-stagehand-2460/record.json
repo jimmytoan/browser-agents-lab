@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116062625-02-stagehand-2460",
+  "ts": "2026-11-16T06:30:31.603Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 246.4,
+  "model_calls": 39,
+  "tokens": {
+    "input": 105939,
+    "output": 20790,
+    "cache_read": 322269,
+    "cache_write": 16137,
+    "total_in": 444345
+  },
+  "peak_prompt_tokens": 16139,
+  "cost_usd": 0.026229,
+  "tool_calls": 67,
+  "tool_errors": 14,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 105859,
+      "output": 14821,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.017996,
+      "raw": {
+        "actPromptTokens": 53743,
+        "actCompletionTokens": 1752,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 40625,
+        "extractPromptTokens": 37723,
+        "extractCompletionTokens": 9900,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 91593,
+        "observePromptTokens": 14393,
+        "observeCompletionTokens": 3169,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 22940,
+        "totalPromptTokens": 105859,
+        "totalCompletionTokens": 14821,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 155158
+      }
+    },
+    "outer_cost_usd": 0.008232
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Supplier \"Dalälv Components AB\" created (org no. 559767-5415, postal code 487 54)",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Dalälv Components AB\", organisation number 5597675415, contact email inkop@dalalv.test, street address \"Industrivägen 5\", postal code 48754, city Jönköping, country Norway, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

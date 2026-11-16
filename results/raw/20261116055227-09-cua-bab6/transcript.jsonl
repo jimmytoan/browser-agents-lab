@@ -1,0 +1,42 @@
+{"ms":2652,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4916,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4916,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":2674,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3981,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6350,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6350,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":4243,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4348,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4601,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4677,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4930,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6933,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6960,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":8138,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6350,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[678,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":8394,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10395,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":10416,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":13321,"t":"model","stop":"tool_use","text":"Current order is Packing, Credit check, Shipping, Intake, Invoicing, Quality check, Picking. I'll move Picking to the top first.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7983,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":557,"output_tokens_details":{"thinking_tokens":252},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"mouse_move","input":{"coordinate":[43,507]}},{"name":"left_mouse_down","input":{}},{"name":"mouse_move","input":{"coordinate":[43,450]}},{"name":"mouse_move","input":{"coordinate":[43,350]}},{"name":"mouse_move","input":{"coordinate":[43,250]}},{"name":"mouse_move","input":{"coordinate":[43,190]}},{"name":"mouse_move","input":{"coordinate":[43,185]}},{"name":"left_mouse_up","input":{}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":13380,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":13382,"t":"tool","name":"left_mouse_down","is_error":false,"result":"OK"}
+{"ms":13465,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":13548,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":13631,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":13716,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":13798,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":13799,"t":"tool","name":"left_mouse_up","is_error":false,"result":"OK"}
+{"ms":14800,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":14827,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":16786,"t":"model","stop":"tool_use","text":"Picking is now at the top. Next I'll move Quality check (bottom) up to sit between Packing and Credit check.","usage":{"input_tokens":2,"cache_creation_input_tokens":2066,"cache_read_input_tokens":9479,"cache_creation":{"ephemeral_5m_input_tokens":2066,"ephemeral_1h_input_tokens":0},"output_tokens":319,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"mouse_move","input":{"coordinate":[43,507]}},{"name":"left_mouse_down","input":{}},{"name":"mouse_move","input":{"coordinate":[43,470]}},{"name":"mouse_move","input":{"coordinate":[43,400]}},{"name":"mouse_move","input":{"coordinate":[43,330]}},{"name":"mouse_move","input":{"coordinate":[43,290]}},{"name":"mouse_move","input":{"coordinate":[43,275]}},{"name":"mouse_move","input":{"coordinate":[43,270]}},{"name":"left_mouse_up","input":{}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":16847,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":16848,"t":"tool","name":"left_mouse_down","is_error":false,"result":"OK"}
+{"ms":16931,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":17014,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":17097,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":17181,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":17264,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":17347,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":17348,"t":"tool","name":"left_mouse_up","is_error":false,"result":"OK"}
+{"ms":18350,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18377,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":20014,"t":"model","stop":"tool_use","text":"The order now matches the target. Saving.","usage":{"input_tokens":2,"cache_creation_input_tokens":1843,"cache_read_input_tokens":11545,"cache_creation":{"ephemeral_5m_input_tokens":1843,"ephemeral_1h_input_tokens":0},"output_tokens":157,"output_tokens_details":{"thinking_tokens":46},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[73,563]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":20270,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22272,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":22303,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":23407,"t":"model","stop":"end_turn","text":"The Pipeline stages are now ordered Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing, and the page shows \"Order saved.\"","usage":{"input_tokens":2,"cache_creation_input_tokens":1555,"cache_read_input_tokens":13388,"cache_creation":{"ephemeral_5m_input_tokens":1555,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

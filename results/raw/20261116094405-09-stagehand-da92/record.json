@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116094405-09-stagehand-da92",
+  "ts": "2026-11-16T09:47:42.325Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 216.8,
+  "model_calls": 27,
+  "tokens": {
+    "input": 76677,
+    "output": 10484,
+    "cache_read": 140610,
+    "cache_write": 11953,
+    "total_in": 229240
+  },
+  "peak_prompt_tokens": 11955,
+  "cost_usd": 0.302138,
+  "tool_calls": 40,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 76621,
+      "output": 6039,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.213632,
+      "raw": {
+        "actPromptTokens": 39309,
+        "actCompletionTokens": 2244,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 62371,
+        "extractPromptTokens": 32330,
+        "extractCompletionTokens": 2171,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 79693,
+        "observePromptTokens": 4982,
+        "observeCompletionTokens": 1624,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 13788,
+        "totalPromptTokens": 76621,
+        "totalCompletionTokens": 6039,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 155852
+      }
+    },
+    "outer_cost_usd": 0.088506
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Invoicing, Picking, Quality check, Credit check, Intake, Packing, Shipping. Then save the order."
+}

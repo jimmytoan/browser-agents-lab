@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116000009-13-cua-75f7",
+  "ts": "2026-11-16T00:00:49.696Z",
+  "tag": "pilot",
+  "task": "13_bulk_policy",
+  "level": 5,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "all 24 statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 40.4,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 1582,
+    "cache_read": 97929,
+    "cache_write": 24671,
+    "total_in": 122622
+  },
+  "peak_prompt_tokens": 19734,
+  "cost_usd": 0.087334,
+  "tool_calls": 37,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 10
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "5 rejected, 2 approved",
+  "instruction": "On the Refunds page (it has several pages), process the pending refund requests by this policy: reject every request from a customer marked \"Blocked\"; of the remaining requests, approve those whose reason is \"Damaged item\" and whose amount is at most SEK 500; leave all other requests pending. Go through every page."
+}

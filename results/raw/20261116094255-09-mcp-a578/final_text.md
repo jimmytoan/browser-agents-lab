@@ -1,0 +1,1 @@
+I dragged the stages into the order Invoicing, Picking, Quality check, Credit check, Intake, Packing, Shipping and clicked Save order. The page then showed "Order saved".

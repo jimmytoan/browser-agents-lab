@@ -1,0 +1,3 @@
+I created the supplier "Vättern Components AB", and it now appears in the Suppliers list. The list shows organisation number 557304-6397, contact email inkop@vattern.test, city Sundsvall, country Norway and 60-day payment terms.
+
+The form asked for specific formats, so I entered the organisation number as 557304-6397 and the postal code as 791 88. The list doesn't show the street address, so I haven't confirmed Hamngatan 62 saved.

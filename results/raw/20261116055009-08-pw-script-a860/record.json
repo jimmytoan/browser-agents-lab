@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116055009-08-pw-script-a860",
+  "ts": "2026-11-16T05:50:26.996Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 17.4,
+  "model_calls": 5,
+  "tokens": {
+    "input": 12,
+    "output": 1382,
+    "cache_read": 11096,
+    "cache_write": 5002,
+    "total_in": 16110
+  },
+  "peak_prompt_tokens": 5004,
+  "cost_usd": 0.001428,
+  "tool_calls": 4,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 4,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 20,
+    "directApi": 0,
+    "logins": 3
+  },
+  "answer": "Saved notification settings (threshold 745, weekly digest on)",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 745, turn the weekly digest on, and save the notification settings."
+}

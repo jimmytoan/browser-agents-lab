@@ -1,0 +1,1 @@
+I changed the subscription on the Billing page to the Enterprise plan with 12 seats and clicked Confirm plan. The page then showed "Plan confirmed ✓", with Enterprise selected and Seats at 12.

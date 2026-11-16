@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116063031-03-mcp-d03e",
+  "ts": "2026-11-16T06:30:46.619Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 14.9,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1243,
+    "cache_read": 104136,
+    "cache_write": 21185,
+    "total_in": 125341
+  },
+  "peak_prompt_tokens": 21187,
+  "cost_usd": 0.004313,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SO-1565",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

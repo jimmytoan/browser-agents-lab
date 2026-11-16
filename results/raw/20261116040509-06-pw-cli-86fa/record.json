@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116040509-06-pw-cli-86fa",
+  "ts": "2026-11-16T04:05:40.337Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 30.7,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 1474,
+    "cache_read": 106863,
+    "cache_write": 15123,
+    "total_in": 122010
+  },
+  "peak_prompt_tokens": 15125,
+  "cost_usd": 0.003698,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 10,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Uploaded invoice-4231.pdf for Hansa Tooling GmbH as Invoice (one upload)",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116040509-06-pw-cli-86fa/invoice-4231.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

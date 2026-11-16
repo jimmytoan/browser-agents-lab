@@ -1,0 +1,1 @@
+I set P-1215 (Compact Filter 30) to price 626 and stock 409 and saved the row. The Products table now shows 626 and 409 for it. I didn't touch any other product.

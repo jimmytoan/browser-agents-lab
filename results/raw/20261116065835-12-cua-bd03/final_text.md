@@ -1,0 +1,1 @@
+The discount for P-1034 (Thermal Relay 75) is now set to 11% and applied. The table shows it at 11%, and every other product remains at 0%.

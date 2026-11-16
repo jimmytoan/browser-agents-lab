@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116054032-04-stagehand-1646",
+  "ts": "2026-11-16T05:41:59.911Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "row updated",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 87.5,
+  "model_calls": 16,
+  "tokens": {
+    "input": 131627,
+    "output": 6277,
+    "cache_read": 62450,
+    "cache_write": 7256,
+    "total_in": 201333
+  },
+  "peak_prompt_tokens": 7258,
+  "cost_usd": 0.017833,
+  "tool_calls": 27,
+  "tool_errors": 3,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 131593,
+      "output": 4082,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.0152,
+      "raw": {
+        "actPromptTokens": 46024,
+        "actCompletionTokens": 599,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 15558,
+        "extractPromptTokens": 27925,
+        "extractCompletionTokens": 2136,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 20645,
+        "observePromptTokens": 57644,
+        "observeCompletionTokens": 1347,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 17851,
+        "totalPromptTokens": 131593,
+        "totalCompletionTokens": 4082,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 54054
+      }
+    },
+    "outer_cost_usd": 0.002632
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Products page, change product P-1347: set its price to 502 and its stock to 287, then save the row. Do not change any other product."
+}

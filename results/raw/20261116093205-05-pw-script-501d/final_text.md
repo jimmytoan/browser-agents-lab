@@ -1,0 +1,1 @@
+I booked the delivery for SO-4743 on 2027-01-04 with DHL Freight in the Evening window. The page confirmed "Delivery booked for 2027-01-04." The Booked deliveries list now shows one entry for it: "SO-4743 · 2027-01-04 · DHL Freight · Evening".

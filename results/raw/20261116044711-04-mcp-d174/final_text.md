@@ -1,0 +1,1 @@
+I updated P-1160 (Micro Spindle 59) to price 866 and stock 146, and saved the row; the table now shows those values. One side effect: I first clicked Save before entering the new values, so the row was saved once with its original 855 / 131, and no other product was touched.

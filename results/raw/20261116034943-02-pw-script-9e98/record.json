@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116034943-02-pw-script-9e98",
+  "ts": "2026-11-16T03:50:46.203Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": false,
+  "why": "2 suppliers created",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 62.6,
+  "model_calls": 8,
+  "tokens": {
+    "input": 18,
+    "output": 3670,
+    "cache_read": 33777,
+    "cache_write": 8450,
+    "total_in": 42245
+  },
+  "peak_prompt_tokens": 8452,
+  "cost_usd": 0.003231,
+  "tool_calls": 7,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 7,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 38,
+    "directApi": 0,
+    "logins": 7
+  },
+  "answer": "Siljan Industri AB created (duplicate entry needs manual deletion)",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Siljan Industri AB\", organisation number 5596487578, contact email inkop@siljan.test, street address \"Verkstadsgatan 19\", postal code 71450, city Karlstad, country Finland, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

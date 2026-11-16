@@ -1,0 +1,3 @@
+I couldn't upload the file, so nothing was uploaded.
+
+I signed in and opened the Documents page. I selected "Hansa Tooling GmbH" as the supplier and "Invoice" as the document type. The file field wouldn't accept `invoice-4231.pdf`. My attempt to enter the path was rejected because the browser tool can't fill file inputs. Clicking the field didn't open a file picker I could use, and it still shows "No file chosen". I didn't click "Upload document", since that would have submitted the form without a file.

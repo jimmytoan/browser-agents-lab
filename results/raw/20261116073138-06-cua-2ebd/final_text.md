@@ -1,0 +1,1 @@
+I uploaded invoice-4793.pdf for Baltic Polymers as an Invoice, once; it now appears in the Uploaded documents table. The draft file was not uploaded.

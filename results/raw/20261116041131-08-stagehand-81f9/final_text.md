@@ -1,0 +1,1 @@
+In the Notifications section on the Settings page, the alert threshold is now 325, the weekly digest is on, and the save showed a "Saved ✓" confirmation.

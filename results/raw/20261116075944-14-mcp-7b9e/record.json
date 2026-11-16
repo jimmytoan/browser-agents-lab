@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116075944-14-mcp-7b9e",
+  "ts": "2026-11-16T08:00:00.502Z",
+  "tag": "full",
+  "task": "14_transient_key",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "secret matches (keys generated: 1)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 16.1,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1373,
+    "cache_read": 85679,
+    "cache_write": 14673,
+    "total_in": 100372
+  },
+  "peak_prompt_tokens": 14675,
+  "cost_usd": 0.003379,
+  "tool_calls": 17,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ELEZ-OPKG-WAEN-9WGZ",
+  "instruction": "On the Integrations page, generate a new signing key. The key is shown only briefly. Then enter that exact key as the signing secret on the Webhooks page and save. Generate a key only once if you can; the saved secret must equal the most recently generated key."
+}

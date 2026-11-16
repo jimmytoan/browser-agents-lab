@@ -1,0 +1,44 @@
+{
+  "run_id": "20261115235151-15-pw-script-3791",
+  "ts": "2026-11-15T23:52:35.149Z",
+  "tag": "pilot",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 43.2,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 4687,
+    "cache_read": 41912,
+    "cache_write": 8840,
+    "total_in": 50774
+  },
+  "peak_prompt_tokens": 8842,
+  "cost_usd": 0.00387,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 9,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 48,
+    "directApi": 0,
+    "logins": 8
+  },
+  "answer": "Enterprise, 8 seats",
+  "instruction": "On the Billing page, change the subscription to the Enterprise plan with 8 seats and confirm the plan."
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116042025-12-mcp-7520",
+  "ts": "2026-11-16T04:20:53.945Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 28.8,
+  "model_calls": 13,
+  "tokens": {
+    "input": 28,
+    "output": 2341,
+    "cache_read": 186275,
+    "cache_write": 24186,
+    "total_in": 210489
+  },
+  "peak_prompt_tokens": 24188,
+  "cost_usd": 0.006059,
+  "tool_calls": 24,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "27%",
+  "instruction": "On the Pricing page, set the discount for product P-1024 to exactly 27% and apply it. Do not change any other product's discount."
+}

@@ -1,0 +1,5 @@
+I could not complete the task. I signed in and reached the Expenses page, but the Approve and Reject controls could not be clicked, so no reports were changed.
+
+Each row has two unlabeled icon buttons, and the automation layer kept failing to find the icon elements (`svg`) inside the Elin Fors and Maria Sund rows, even after reloading the page and scrolling. One click on the Elin Fors row's container did not produce any visible change. The extract after that still showed every report as Pending.
+
+The state is unchanged: all 12 expense reports are still Pending, including Elin Fors (SEK 8,161, Taxi) and Maria Sund (SEK 7,316, Office supplies). Someone with a direct mouse or a different tool would need to click the first icon (approve) in Elin Fors's row and the second icon (reject) in Maria Sund's row.

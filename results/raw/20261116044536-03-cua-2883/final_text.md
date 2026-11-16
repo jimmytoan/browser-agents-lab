@@ -1,0 +1,1 @@
+Flagged SO-7271 for review. It is the "Nordlys AB" order on hold with the highest amount (SEK 33,943), ahead of SO-7977 (SEK 33,336) and SO-1055 (SEK 27,180). No other orders were flagged; I opened SO-7264 by mistake but left it untouched.

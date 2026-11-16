@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116060014-11-pw-script-0838",
+  "ts": "2026-11-16T06:00:29.424Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 14.8,
+  "model_calls": 4,
+  "tokens": {
+    "input": 10,
+    "output": 1155,
+    "cache_read": 8069,
+    "cache_write": 5509,
+    "total_in": 13588
+  },
+  "peak_prompt_tokens": 5511,
+  "cost_usd": 0.001348,
+  "tool_calls": 3,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 3,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 2
+  },
+  "answer": "PAL-3202 → D-05",
+  "instruction": "On the Warehouse page, assign pallet PAL-3202 to bay D-05: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

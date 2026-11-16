@@ -1,0 +1,50 @@
+{"ms":1441,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4976,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4976,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1481,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3584,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6410,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6410,"ephemeral_1h_input_tokens":0},"output_tokens":166,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3850,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3961,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4215,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4299,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":6301,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6326,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":8127,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6410,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":106,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[230,20]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":8385,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9386,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9417,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":11504,"t":"model","stop":"tool_use","text":"Org number format is XXXXXX-XXXX.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":8009,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":124,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[81,150]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":11760,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":12762,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12800,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15303,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1514,"cache_read_input_tokens":9505,"cache_creation":{"ephemeral_5m_input_tokens":1514,"ephemeral_1h_input_tokens":0},"output_tokens":232,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,192]}},{"name":"type","input":{"text":"Siljan Industri AB"}},{"name":"left_click","input":{"coordinate":[265,235]}},{"name":"type","input":{"text":"559648-7578"}},{"name":"left_click","input":{"coordinate":[265,278]}},{"name":"type","input":{"text":"inkop@siljan.test"}},{"name":"left_click","input":{"coordinate":[52,327]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":15558,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15677,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":15930,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16010,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":16264,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16379,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":16636,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17637,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17669,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":20023,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1702,"cache_read_input_tokens":11019,"cache_creation":{"ephemeral_5m_input_tokens":1702,"ephemeral_1h_input_tokens":0},"output_tokens":235,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,192]}},{"name":"type","input":{"text":"Verkstadsgatan 19"}},{"name":"left_click","input":{"coordinate":[265,235]}},{"name":"type","input":{"text":"714 50"}},{"name":"left_click","input":{"coordinate":[265,278]}},{"name":"type","input":{"text":"Karlstad"}},{"name":"left_click","input":{"coordinate":[185,357]}},{"name":"left_click","input":{"coordinate":[233,321]}},{"name":"screenshot","input":{}}]}
+{"ms":20275,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20392,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20646,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20685,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20938,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20994,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":21248,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":21509,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":21557,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":23534,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1706,"cache_read_input_tokens":12721,"cache_creation":{"ephemeral_5m_input_tokens":1706,"ephemeral_1h_input_tokens":0},"output_tokens":96,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[210,460]}},{"name":"zoom","input":{"region":[0,170,640,430]}}]}
+{"ms":23788,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23820,"t":"tool","name":"zoom","is_error":false,"result":"[image]"}
+{"ms":25551,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":377,"cache_read_input_tokens":14427,"cache_creation":{"ephemeral_5m_input_tokens":377,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[116,400]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":25807,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":26808,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":26853,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":28918,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":14804,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":129,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[35,458]}},{"name":"left_click","input":{"coordinate":[152,501]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":29172,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29429,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":30431,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":30464,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":32689,"t":"model","stop":"end_turn","text":"I created the supplier \"Siljan Industri AB\", and it now appears in the Suppliers list. The list shows organisation number 559648-7578, email inkop@siljan.test, city Karlstad, country Finland and terms of 15 days.\n\nThe form required the organisation number as NNNNNN-NNNN and the postal code as NNN NN, so I entered them as 559648-7578 and 714 50.\n\nANSWER: Siljan Industri AB created","usage":{"input_tokens":2,"cache_creation_input_tokens":1532,"cache_read_input_tokens":16300,"cache_creation":{"ephemeral_5m_input_tokens":1532,"ephemeral_1h_input_tokens":0},"output_tokens":148,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

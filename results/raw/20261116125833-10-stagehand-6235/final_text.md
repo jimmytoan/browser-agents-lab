@@ -1,0 +1,3 @@
+I couldn't complete this task. I did not approve Elin Fors's report or reject Per Åberg's, and all 12 expense reports are still pending.
+
+The Action column on the Expenses page has two unlabeled icons per row, which I took to be approve and reject. I could find them, but every attempt to click, hover or reach them with the keyboard either failed with an element-not-found error or had no effect. Clicking the other cells in the row did nothing either.

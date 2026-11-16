@@ -1,0 +1,3 @@
+I created the supplier Siljan Industri AB through the three-step form. After I clicked "Create supplier" the app went to the Suppliers list. I didn't open the list to check that the new supplier appears there.
+
+The form wanted the org number as NNNNNN-NNNN and the postal code as NNN NN. I entered them as 559648-7578 and 714 50. The other details went in as given: inkop@siljan.test, Verkstadsgatan 19, Karlstad, Finland, 15 days.

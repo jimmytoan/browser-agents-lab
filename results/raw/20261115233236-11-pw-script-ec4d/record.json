@@ -1,0 +1,44 @@
+{
+  "run_id": "20261115233236-11-pw-script-ec4d",
+  "ts": "2026-11-15T23:32:54.655Z",
+  "tag": "pilot",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 18.6,
+  "model_calls": 4,
+  "tokens": {
+    "input": 10,
+    "output": 1275,
+    "cache_read": 8305,
+    "cache_write": 5708,
+    "total_in": 14023
+  },
+  "peak_prompt_tokens": 5710,
+  "cost_usd": 0.001435,
+  "tool_calls": 4,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 4,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 2
+  },
+  "answer": "PAL-7054 assigned to D-01",
+  "instruction": "On the Warehouse page, assign pallet PAL-7054 to bay D-01: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

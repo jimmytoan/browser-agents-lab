@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116072335-03-stagehand-0502",
+  "ts": "2026-11-16T07:25:00.611Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 84.7,
+  "model_calls": 14,
+  "tokens": {
+    "input": 49640,
+    "output": 6994,
+    "cache_read": 46278,
+    "cache_write": 6411,
+    "total_in": 102329
+  },
+  "peak_prompt_tokens": 6413,
+  "cost_usd": 0.009725,
+  "tool_calls": 22,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 49610,
+      "output": 5216,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.007569,
+      "raw": {
+        "actPromptTokens": 23548,
+        "actCompletionTokens": 585,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 15486,
+        "extractPromptTokens": 17995,
+        "extractCompletionTokens": 4257,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 38885,
+        "observePromptTokens": 8067,
+        "observeCompletionTokens": 374,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 6924,
+        "totalPromptTokens": 49610,
+        "totalCompletionTokens": 5216,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 61295
+      }
+    },
+    "outer_cost_usd": 0.002156
+  },
+  "app": {
+    "requests": 16,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SO-4287",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

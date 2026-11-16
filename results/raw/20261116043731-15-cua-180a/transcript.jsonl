@@ -1,0 +1,25 @@
+{"ms":1036,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4876,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4876,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1068,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2483,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6310,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6310,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":2749,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":2865,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3118,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3203,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3456,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5457,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5482,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6756,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6310,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[35,54]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7014,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9017,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9044,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":10433,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7943,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":137,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[48,227]}},{"name":"triple_click","input":{"coordinate":[125,262]}},{"name":"type","input":{"text":"21"}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":10690,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10948,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":10965,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":11967,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12008,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":13840,"t":"model","stop":"tool_use","text":"Annual is selected and seats show 21. Now I'll confirm the plan.","usage":{"input_tokens":2,"cache_creation_input_tokens":1560,"cache_read_input_tokens":9439,"cache_creation":{"ephemeral_5m_input_tokens":1560,"ephemeral_1h_input_tokens":0},"output_tokens":124,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[94,305]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":14096,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16098,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16122,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":18124,"t":"model","stop":"end_turn","text":"The subscription is now on the Annual plan with 21 seats, and the page shows \"Plan confirmed ✓\".","usage":{"input_tokens":2,"cache_creation_input_tokens":1522,"cache_read_input_tokens":10999,"cache_creation":{"ephemeral_5m_input_tokens":1522,"ephemeral_1h_input_tokens":0},"output_tokens":39,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

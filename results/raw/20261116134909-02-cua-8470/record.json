@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116134909-02-cua-8470",
+  "ts": "2026-11-16T13:49:43.456Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 34.2,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1288,
+    "cache_read": 78128,
+    "cache_write": 22614,
+    "total_in": 100762
+  },
+  "peak_prompt_tokens": 17644,
+  "cost_usd": 0.077268,
+  "tool_calls": 40,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 9
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Kebne Components AB\", organisation number 5582264561, contact email inkop@kebne.test, street address \"Hamngatan 53\", postal code 91898, city Jönköping, country Germany, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

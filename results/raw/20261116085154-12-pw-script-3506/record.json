@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116085154-12-pw-script-3506",
+  "ts": "2026-11-16T08:53:40.873Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 106.6,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 1134,
+    "cache_read": 10396,
+    "cache_write": 4707,
+    "total_in": 15117
+  },
+  "peak_prompt_tokens": 4709,
+  "cost_usd": 0.024175,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 6,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 2
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1024 to exactly 27% and apply it. Do not change any other product's discount."
+}

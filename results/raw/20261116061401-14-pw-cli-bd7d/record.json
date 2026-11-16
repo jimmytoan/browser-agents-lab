@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116061401-14-pw-cli-bd7d",
+  "ts": "2026-11-16T06:14:28.391Z",
+  "tag": "full",
+  "task": "14_transient_key",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "secret matches (keys generated: 1)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 26.2,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 1487,
+    "cache_read": 109255,
+    "cache_write": 14214,
+    "total_in": 123493
+  },
+  "peak_prompt_tokens": 14216,
+  "cost_usd": 0.003615,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 10,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "JTAN-YXOM-7N9B-RQXP",
+  "instruction": "On the Integrations page, generate a new signing key. The key is shown only briefly. Then enter that exact key as the signing secret on the Webhooks page and save. Generate a key only once if you can; the saved secret must equal the most recently generated key."
+}

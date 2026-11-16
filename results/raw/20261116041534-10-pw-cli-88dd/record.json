@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116041534-10-pw-cli-88dd",
+  "ts": "2026-11-16T04:15:52.211Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 17.1,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 815,
+    "cache_read": 48400,
+    "cache_write": 14615,
+    "total_in": 63029
+  },
+  "peak_prompt_tokens": 14617,
+  "cost_usd": 0.00272,
+  "tool_calls": 5,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 5,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Sara Nyberg's report approved; Nils Varg's report rejected",
+  "instruction": "On the Expenses page, approve the expense report submitted by Sara Nyberg and reject the expense report submitted by Nils Varg. Leave every other expense report pending."
+}

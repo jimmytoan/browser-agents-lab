@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116093418-05-stagehand-6244",
+  "ts": "2026-11-16T09:35:38.959Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 80,
+  "model_calls": 14,
+  "tokens": {
+    "input": 46015,
+    "output": 2891,
+    "cache_read": 41909,
+    "cache_write": 5435,
+    "total_in": 93359
+  },
+  "peak_prompt_tokens": 5437,
+  "cost_usd": 0.138718,
+  "tool_calls": 19,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 45985,
+      "output": 1799,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.10996,
+      "raw": {
+        "actPromptTokens": 33369,
+        "actCompletionTokens": 976,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 36417,
+        "extractPromptTokens": 6870,
+        "extractCompletionTokens": 260,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 10821,
+        "observePromptTokens": 5746,
+        "observeCompletionTokens": 563,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 9107,
+        "totalPromptTokens": 45985,
+        "totalCompletionTokens": 1799,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 56345
+      }
+    },
+    "outer_cost_usd": 0.028758
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-4743: delivery date 4 January 2027, carrier \"DHL Freight\", time window Evening. Make exactly one booking."
+}

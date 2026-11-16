@@ -1,0 +1,1 @@
+I switched the subscription on the Billing page to the Annual plan with 21 seats (it was Monthly with 5). I clicked Confirm plan, and the page showed "Plan confirmed ✓".

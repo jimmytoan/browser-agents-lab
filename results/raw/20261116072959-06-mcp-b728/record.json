@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116072959-06-mcp-b728",
+  "ts": "2026-11-16T07:30:26.737Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 27.1,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 1531,
+    "cache_read": 108791,
+    "cache_write": 18405,
+    "total_in": 127218
+  },
+  "peak_prompt_tokens": 18407,
+  "cost_usd": 0.004156,
+  "tool_calls": 19,
+  "tool_errors": 4,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Uploaded invoice-4793.pdf for Baltic Polymers (Invoice)",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116072959-06-mcp-b728/invoice-4793.pdf for supplier \"Baltic Polymers\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

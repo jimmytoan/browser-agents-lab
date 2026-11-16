@@ -1,0 +1,1 @@
+I set P-1349 (Steel Sensor 20) to a price of 470 and a stock of 44 and saved the row. The table now shows 470 and 44 for that product, and I didn't touch any other row.

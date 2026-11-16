@@ -1,0 +1,1 @@
+Assigned pallet PAL-8541 to bay C-01. The Warehouse page now lists "PAL-8541 → C-01" under Assignments, and PAL-8541 is no longer in the pallet dropdown.

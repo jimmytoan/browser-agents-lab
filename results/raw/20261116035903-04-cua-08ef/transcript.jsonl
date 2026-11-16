@@ -1,0 +1,36 @@
+{"ms":1140,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4884,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4884,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1178,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2472,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6318,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6318,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[701,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[701,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":2736,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":2851,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3105,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3189,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3444,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5447,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5470,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6659,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6318,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[361,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":6920,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":8924,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8960,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":10396,"t":"model","stop":"tool_use","text":"I need to find P-1215. Scrolling down.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7951,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":136,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"scroll","input":{"coordinate":[640,500],"scroll_direction":"down","scroll_amount":10}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":10663,"t":"tool","name":"scroll","is_error":false,"result":"OK"}
+{"ms":11666,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":11706,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":13253,"t":"model","stop":"tool_use","text":"P-1215 (Compact Filter 30) is visible. Clicking its Edit button.","usage":{"input_tokens":2,"cache_creation_input_tokens":1534,"cache_read_input_tokens":9447,"cache_creation":{"ephemeral_5m_input_tokens":1534,"ephemeral_1h_input_tokens":0},"output_tokens":128,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[984,593]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":13514,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15517,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":15554,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":17516,"t":"model","stop":"tool_use","text":"The row for P-1215 is in edit mode. I'll set price to 626 and stock to 409, then check before saving.","usage":{"input_tokens":2,"cache_creation_input_tokens":1526,"cache_read_input_tokens":10981,"cache_creation":{"ephemeral_5m_input_tokens":1526,"ephemeral_1h_input_tokens":0},"output_tokens":246,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"triple_click","input":{"coordinate":[475,593]}},{"name":"key","input":{"text":"ctrl+a"}},{"name":"type","input":{"text":"626"}},{"name":"triple_click","input":{"coordinate":[697,593]}},{"name":"key","input":{"text":"ctrl+a"}},{"name":"type","input":{"text":"409"}},{"name":"wait","input":{"duration":1}},{"name":"zoom","input":{"region":[24,570,1124,616]}}]}
+{"ms":17774,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":17930,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":17955,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":18212,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":18368,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":18393,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":19396,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":19431,"t":"tool","name":"zoom","is_error":false,"result":"[image]"}
+{"ms":20871,"t":"model","stop":"tool_use","text":"Values are correct. Saving the row.","usage":{"input_tokens":2,"cache_creation_input_tokens":448,"cache_read_input_tokens":12507,"cache_creation":{"ephemeral_5m_input_tokens":448,"ephemeral_1h_input_tokens":0},"output_tokens":111,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[894,593]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":21129,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23132,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":23172,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":24582,"t":"model","stop":"end_turn","text":"Product P-1215 (Compact Filter 30) is saved with price 626 and stock 409. No other rows were changed.","usage":{"input_tokens":2,"cache_creation_input_tokens":1509,"cache_read_input_tokens":12955,"cache_creation":{"ephemeral_5m_input_tokens":1509,"ephemeral_1h_input_tokens":0},"output_tokens":41,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

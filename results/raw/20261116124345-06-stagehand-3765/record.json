@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116124345-06-stagehand-3765",
+  "ts": "2026-11-16T12:44:27.436Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "0 documents uploaded",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 42.1,
+  "model_calls": 9,
+  "tokens": {
+    "input": 23023,
+    "output": 1823,
+    "cache_read": 17890,
+    "cache_write": 3798,
+    "total_in": 44711
+  },
+  "peak_prompt_tokens": 3800,
+  "cost_usd": 0.07556,
+  "tool_calls": 12,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 23003,
+      "output": 952,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.055526,
+      "raw": {
+        "actPromptTokens": 18214,
+        "actCompletionTokens": 582,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 15756,
+        "extractPromptTokens": 1818,
+        "extractCompletionTokens": 59,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 3934,
+        "observePromptTokens": 2971,
+        "observeCompletionTokens": 311,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 5429,
+        "totalPromptTokens": 23003,
+        "totalCompletionTokens": 952,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 25119
+      }
+    },
+    "outer_cost_usd": 0.020034
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116124345-06-stagehand-3765/invoice-4789.pdf for supplier \"Baltic Polymers\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

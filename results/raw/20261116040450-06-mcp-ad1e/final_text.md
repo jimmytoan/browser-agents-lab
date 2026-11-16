@@ -1,0 +1,1 @@
+I uploaded invoice-4231.pdf once on the Documents page, with supplier Hansa Tooling GmbH and type Invoice. The uploaded documents table now lists it with those values. I did not upload the draft file.

@@ -1,0 +1,453 @@
+app http://127.0.0.1:54569 | tag full | 15 tasks x 5 contestants x 5 trials on claude-haiku-5-5 | batch budget $6
+20261116034754-01-mcp-8d6d  01_login_read | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; answer matches) calls=4 in=35725 out=450 $0.0018 6.8s
+20261116034801-01-pw-cli-fe58  01_login_read | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; answer matches) calls=3 in=23664 out=225 $0.0014 8.6s
+20261116034810-01-pw-script-903f  01_login_read | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; answer matches) calls=4 in=11233 out=901 $0.0010 9.5s
+20261116034819-01-cua-84e0  01_login_read | cua | claude-haiku-5-5 | seed 200 ... PASS (done; answer matches) calls=3 in=19113 out=288 $0.0018 7.2s
+20261116034827-01-stagehand-12b1  01_login_read | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=8 in=31200 out=3594 $0.0038 39.2s
+20261116034906-02-mcp-c6e4  02_wizard | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; supplier matches) calls=8 in=101145 out=1396 $0.0040 17.5s
+20261116034923-02-pw-cli-60fc  02_wizard | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; supplier matches) calls=9 in=112365 out=1101 $0.0038 19.6s
+20261116034943-02-pw-script-9e98  02_wizard | pw-script | claude-haiku-5-5 | seed 200 ... FAIL (done; 2 suppliers created) calls=8 in=42245 out=3670 $0.0032 62.6s
+20261116035046-02-cua-82c2  02_wizard | cua | claude-haiku-5-5 | seed 200 ... PASS (done; supplier matches) calls=10 in=120511 out=1633 $0.0048 42.3s
+20261116035128-02-stagehand-dd42  02_wizard | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+FAIL (max_calls; 0 suppliers created) calls=40 in=489184 out=20012 $0.0280 239s
+20261116035527-03-mcp-632a  03_search_filter | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; right order flagged) calls=8 in=96604 out=942 $0.0035 13.9s
+20261116035541-03-pw-cli-de4d  03_search_filter | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; right order flagged) calls=9 in=98237 out=1076 $0.0033 25.6s
+20261116035607-03-pw-script-1ecd  03_search_filter | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; right order flagged) calls=7 in=37724 out=2165 $0.0025 29.7s
+20261116035637-03-cua-b357  03_search_filter | cua | claude-haiku-5-5 | seed 200 ... PASS (done; right order flagged) calls=8 in=82730 out=1248 $0.0038 32.3s
+20261116035709-03-stagehand-9978  03_search_filter | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=11 in=75949 out=5808 $0.0076 57.5s
+20261116035806-04-mcp-7ba7  04_table_edit | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; row updated) calls=8 in=163836 out=1210 $0.0058 14s
+20261116035821-04-pw-cli-9c91  04_table_edit | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; row updated) calls=8 in=103748 out=1062 $0.0039 24.2s
+20261116035845-04-pw-script-8641  04_table_edit | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; row updated) calls=5 in=26322 out=1437 $0.0019 17.7s
+20261116035903-04-cua-08ef  04_table_edit | cua | claude-haiku-5-5 | seed 200 ... PASS (done; row updated) calls=8 in=79525 out=1006 $0.0035 24.6s
+20261116035927-04-stagehand-1266  04_table_edit | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=9 in=93100 out=3052 $0.0091 45.6s
+20261116040013-05-mcp-a376  05_datepicker_dropdown | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; booking matches) calls=8 in=111565 out=1378 $0.0045 15.5s
+20261116040029-05-pw-cli-0a76  05_datepicker_dropdown | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; booking matches) calls=9 in=107796 out=943 $0.0034 22.6s
+20261116040051-05-pw-script-5318  05_datepicker_dropdown | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; booking matches) calls=7 in=37487 out=2424 $0.0026 57.7s
+20261116040149-05-cua-23b5  05_datepicker_dropdown | cua | claude-haiku-5-5 | seed 200 ... PASS (done; booking matches) calls=8 in=82603 out=1034 $0.0037 25.5s
+20261116040215-05-stagehand-6fe6  05_datepicker_dropdown | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; booking matches) calls=23 in=237506 out=11987 $0.0181 155.4s
+20261116040450-06-mcp-ad1e  06_upload | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; document matches) calls=9 in=115015 out=1478 $0.0041 18.8s
+20261116040509-06-pw-cli-86fa  06_upload | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; document matches) calls=11 in=122010 out=1474 $0.0037 30.7s
+20261116040540-06-pw-script-6e20  06_upload | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; document matches) calls=4 in=13698 out=1145 $0.0013 11.1s
+20261116040551-06-cua-0ddb  06_upload | cua | claude-haiku-5-5 | seed 200 ... PASS (done; document matches) calls=9 in=96459 out=1189 $0.0040 29.7s
+20261116040621-06-stagehand-f51b  06_upload | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=16 in=90649 out=5066 $0.0073 68.5s
+20261116040729-07-mcp-4796  07_modal_toast | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; archived, reference reported) calls=10 in=148992 out=1268 $0.0047 17.3s
+20261116040747-07-pw-cli-6df4  07_modal_toast | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; archived, reference reported) calls=11 in=147833 out=1418 $0.0042 31.5s
+20261116040818-07-pw-script-ef3d  07_modal_toast | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; archived, reference reported) calls=4 in=14966 out=1028 $0.0014 15.5s
+20261116040834-07-cua-1e85  07_modal_toast | cua | claude-haiku-5-5 | seed 200 ... PASS (done; archived, reference reported) calls=8 in=81229 out=1127 $0.0036 22.3s
+20261116040856-07-stagehand-3cf5  07_modal_toast | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=10 in=78309 out=8805 $0.0100 74.7s
+20261116041011-08-mcp-f369  08_iframe_shadow | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; settings saved) calls=8 in=80733 out=1249 $0.0028 23s
+20261116041034-08-pw-cli-b1d8  08_iframe_shadow | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; settings saved) calls=6 in=56483 out=531 $0.0022 21.5s
+20261116041056-08-pw-script-9b12  08_iframe_shadow | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; settings saved) calls=5 in=15941 out=1220 $0.0013 15.8s
+20261116041112-08-cua-4b66  08_iframe_shadow | cua | claude-haiku-5-5 | seed 200 ... PASS (done; settings saved) calls=6 in=52228 out=669 $0.0029 19.6s
+20261116041131-08-stagehand-81f9  08_iframe_shadow | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=7 in=36874 out=2126 $0.0036 33.9s
+20261116041205-09-mcp-9a2b  09_drag_reorder | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; order saved) calls=7 in=79656 out=1207 $0.0033 16.8s
+20261116041222-09-pw-cli-6d2d  09_drag_reorder | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; order saved) calls=11 in=125126 out=1549 $0.0037 24.5s
+20261116041247-09-pw-script-ca7f  09_drag_reorder | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; order saved) calls=5 in=15961 out=1892 $0.0018 18.4s
+20261116041305-09-cua-3cc4  09_drag_reorder | cua | claude-haiku-5-5 | seed 200 ... PASS (done; order saved) calls=8 in=84112 out=1424 $0.0040 22.5s
+20261116041328-09-stagehand-fc93  09_drag_reorder | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; order saved) calls=17 in=103776 out=9965 $0.0108 112.4s
+20261116041520-10-mcp-9a0c  10_layout_shift | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; statuses match) calls=7 in=96005 out=1125 $0.0041 14.1s
+20261116041534-10-pw-cli-88dd  10_layout_shift | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; statuses match) calls=6 in=63029 out=815 $0.0027 17.1s
+20261116041552-10-pw-script-33af  10_layout_shift | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; statuses match) calls=4 in=14928 out=1147 $0.0015 13.8s
+20261116041606-10-cua-6a27  10_layout_shift | cua | claude-haiku-5-5 | seed 200 ... PASS (done; statuses match) calls=6 in=52254 out=707 $0.0029 17.8s
+20261116041623-10-stagehand-7046  10_layout_shift | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; statuses match) calls=14 in=81484 out=6533 $0.0081 66s
+20261116041729-11-mcp-cb79  11_canvas_map | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; assignment matches) calls=10 in=132102 out=1183 $0.0042 15.9s
+20261116041745-11-pw-cli-9f56  11_canvas_map | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; assignment matches) calls=14 in=175790 out=1961 $0.0047 36.7s
+20261116041822-11-pw-script-3169  11_canvas_map | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; assignment matches) calls=5 in=20481 out=1436 $0.0017 17.1s
+20261116041839-11-cua-8393  11_canvas_map | cua | claude-haiku-5-5 | seed 200 ... PASS (done; assignment matches) calls=7 in=66300 out=793 $0.0032 23s
+20261116041902-11-stagehand-39b5  11_canvas_map | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=13 in=86406 out=7500 $0.0088 82.1s
+20261116042025-12-mcp-7520  12_hover_slider | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; discount matches) calls=13 in=210489 out=2341 $0.0061 28.8s
+20261116042053-12-pw-cli-d793  12_hover_slider | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; discount matches) calls=11 in=136720 out=1643 $0.0041 29.4s
+20261116042123-12-pw-script-181b  12_hover_slider | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; discount matches) calls=6 in=21551 out=1963 $0.0019 21.3s
+20261116042144-12-cua-f65d  12_hover_slider | cua | claude-haiku-5-5 | seed 200 ... PASS (done; discount matches) calls=9 in=100019 out=1513 $0.0043 31.3s
+20261116042216-12-stagehand-6a82  12_hover_slider | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {}) calls=26 in=207033 out=12922 $0.0173 142.8s
+20261116042438-13-mcp-9080  13_bulk_policy | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; all 24 statuses match) calls=12 in=237006 out=3980 $0.0080 34.2s
+20261116042513-13-pw-cli-9374  13_bulk_policy | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; all 24 statuses match) calls=17 in=290203 out=5265 $0.0081 64.9s
+20261116042618-13-pw-script-79db  13_bulk_policy | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; all 24 statuses match) calls=7 in=36995 out=3152 $0.0032 31.1s
+20261116042649-13-cua-decd  13_bulk_policy | cua | claude-haiku-5-5 | seed 200 ... PASS (done; all 24 statuses match) calls=15 in=262740 out=3566 $0.0083 60s
+20261116042749-13-stagehand-8b9b  13_bulk_policy | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; all 24 statuses match) calls=22 in=226295 out=14771 $0.0189 139.4s
+20261116043008-14-mcp-4370  14_transient_key | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; secret matches (keys generated: 1)) calls=8 in=90809 out=1138 $0.0033 16.1s
+20261116043025-14-pw-cli-3c25  14_transient_key | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; secret matches (keys generated: 1)) calls=9 in=93148 out=1119 $0.0030 24.1s
+20261116043049-14-pw-script-f8fc  14_transient_key | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; secret matches (keys generated: 1)) calls=6 in=18977 out=1883 $0.0017 20.3s
+20261116043109-14-cua-26f3  14_transient_key | cua | claude-haiku-5-5 | seed 200 ... PASS (done; secret matches (keys generated: 1)) calls=11 in=117416 out=1559 $0.0043 28.2s
+20261116043137-14-stagehand-2174  14_transient_key | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 1)) calls=11 in=57118 out=3210 $0.0050 51.3s
+20261116043229-15-mcp-fe34  15_closed_shadow | mcp | claude-haiku-5-5 | seed 200 ... PASS (done; plan confirmed) calls=10 in=120575 out=1821 $0.0042 58.1s
+20261116043327-15-pw-cli-09b4  15_closed_shadow | pw-cli | claude-haiku-5-5 | seed 200 ... PASS (done; plan confirmed) calls=16 in=187820 out=4461 $0.0060 159.3s
+20261116043606-15-pw-script-68e9  15_closed_shadow | pw-script | claude-haiku-5-5 | seed 200 ... PASS (done; plan confirmed) calls=13 in=83521 out=7600 $0.0060 84.8s
+20261116043731-15-cua-180a  15_closed_shadow | cua | claude-haiku-5-5 | seed 200 ... PASS (done; plan confirmed) calls=6 in=52102 out=644 $0.0028 18.1s
+20261116043749-15-stagehand-e669  15_closed_shadow | stagehand | claude-haiku-5-5 | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=11 in=56140 out=3778 $0.0053 52.5s
+20261116043842-01-mcp-1df1  01_login_read | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; answer matches) calls=4 in=35718 out=451 $0.0018 8s
+20261116043850-01-pw-cli-c264  01_login_read | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; answer matches) calls=4 in=32714 out=292 $0.0015 9.5s
+20261116043900-01-pw-script-e5ea  01_login_read | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; answer matches) calls=3 in=7728 out=601 $0.0009 7.8s
+20261116043908-01-cua-6a2c  01_login_read | cua | claude-haiku-5-5 | seed 201 ... PASS (done; answer matches) calls=3 in=19113 out=287 $0.0018 7s
+20261116043915-01-stagehand-44d6  01_login_read | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=8 in=30472 out=2601 $0.0032 36s
+20261116043951-02-mcp-62de  02_wizard | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; supplier matches) calls=9 in=109951 out=1713 $0.0042 17.9s
+20261116044009-02-pw-cli-28b6  02_wizard | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; supplier matches) calls=9 in=112399 out=1206 $0.0038 25.6s
+20261116044034-02-pw-script-7ea8  02_wizard | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; supplier matches) calls=6 in=25891 out=2901 $0.0026 62.1s
+20261116044136-02-cua-b74d  02_wizard | cua | claude-haiku-5-5 | seed 201 ... PASS (done; supplier matches) calls=10 in=119736 out=1917 $0.0049 38.3s
+20261116044215-02-stagehand-91cf  02_wizard | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; supplier matches) calls=24 in=229806 out=12119 $0.0168 139.3s
+20261116044434-03-mcp-1ddc  03_search_filter | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; right order flagged) calls=9 in=125816 out=1374 $0.0044 15.9s
+20261116044450-03-pw-cli-100a  03_search_filter | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; right order flagged) calls=10 in=115550 out=1176 $0.0035 24.1s
+20261116044515-03-pw-script-7861  03_search_filter | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; right order flagged) calls=6 in=27636 out=1764 $0.0020 21.4s
+20261116044536-03-cua-2883  03_search_filter | cua | claude-haiku-5-5 | seed 201 ... PASS (done; right order flagged) calls=10 in=119414 out=1621 $0.0048 40s
+20261116044616-03-stagehand-3189  03_search_filter | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=12 in=71840 out=4256 $0.0065 54.5s
+20261116044711-04-mcp-d174  04_table_edit | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; row updated) calls=14 in=229357 out=1639 $0.0058 23.1s
+20261116044734-04-pw-cli-4347  04_table_edit | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; row updated) calls=10 in=100556 out=1194 $0.0031 22.5s
+20261116044757-04-pw-script-3a84  04_table_edit | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; row updated) calls=4 in=14408 out=982 $0.0013 12.5s
+20261116044809-04-cua-eef3  04_table_edit | cua | claude-haiku-5-5 | seed 201 ... PASS (done; row updated) calls=8 in=79542 out=1010 $0.0035 26.5s
+20261116044836-04-stagehand-6a52  04_table_edit | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=9 in=93918 out=3939 $0.0096 47.9s
+20261116044924-05-mcp-cdf5  05_datepicker_dropdown | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; booking matches) calls=8 in=114119 out=1130 $0.0044 15.8s
+20261116044939-05-pw-cli-6845  05_datepicker_dropdown | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; booking matches) calls=11 in=129216 out=1490 $0.0039 30s
+20261116045010-05-pw-script-b95f  05_datepicker_dropdown | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; booking matches) calls=5 in=24324 out=1627 $0.0020 17.2s
+20261116045027-05-cua-b4e4  05_datepicker_dropdown | cua | claude-haiku-5-5 | seed 201 ... PASS (done; booking matches) calls=8 in=82946 out=1135 $0.0038 29.3s
+20261116045056-05-stagehand-ff2f  05_datepicker_dropdown | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 bookings) calls=27 in=281099 out=13594 $0.0204 178.5s
+20261116045355-06-mcp-d3df  06_upload | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; document matches) calls=8 in=105445 out=1660 $0.0042 20.4s
+20261116045415-06-pw-cli-257e  06_upload | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; document matches) calls=11 in=119453 out=1643 $0.0036 53.4s
+20261116045509-06-pw-script-4fe9  06_upload | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; document matches) calls=4 in=10799 out=1295 $0.0012 18.7s
+20261116045527-06-cua-79af  06_upload | cua | claude-haiku-5-5 | seed 201 ... PASS (done; document matches) calls=9 in=96068 out=1108 $0.0039 30.3s
+20261116045558-06-stagehand-ec32  06_upload | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=11 in=62902 out=3323 $0.0054 49s
+20261116045647-07-mcp-6784  07_modal_toast | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; archived, reference reported) calls=9 in=128134 out=1139 $0.0045 14.3s
+20261116045701-07-pw-cli-b89d  07_modal_toast | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; archived, reference reported) calls=14 in=195571 out=1703 $0.0050 35.2s
+20261116045737-07-pw-script-89ed  07_modal_toast | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; archived, reference reported) calls=4 in=15021 out=926 $0.0013 14.8s
+20261116045751-07-cua-ff44  07_modal_toast | cua | claude-haiku-5-5 | seed 201 ... PASS (done; archived, reference reported) calls=8 in=81113 out=1061 $0.0036 22.8s
+20261116045814-07-stagehand-ea9a  07_modal_toast | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=15 in=103666 out=7643 $0.0104 78.3s
+20261116045933-08-mcp-8c90  08_iframe_shadow | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; settings saved) calls=6 in=61831 out=682 $0.0025 16.2s
+20261116045949-08-pw-cli-9235  08_iframe_shadow | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; settings saved) calls=7 in=67856 out=698 $0.0024 25.1s
+20261116050014-08-pw-script-6b9e  08_iframe_shadow | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; settings saved) calls=5 in=16132 out=1358 $0.0014 13.9s
+20261116050028-08-cua-bec1  08_iframe_shadow | cua | claude-haiku-5-5 | seed 201 ... PASS (done; settings saved) calls=6 in=52169 out=649 $0.0029 16s
+20261116050044-08-stagehand-286b  08_iframe_shadow | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=8 in=41721 out=2176 $0.0038 37s
+20261116050121-09-mcp-9f1f  09_drag_reorder | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; order saved) calls=9 in=118320 out=1630 $0.0043 17.5s
+20261116050139-09-pw-cli-c8a7  09_drag_reorder | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; order saved) calls=11 in=122088 out=1839 $0.0037 30.9s
+20261116050210-09-pw-script-256a  09_drag_reorder | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; order saved) calls=4 in=15649 out=1586 $0.0017 13.3s
+20261116050223-09-cua-ccbf  09_drag_reorder | cua | claude-haiku-5-5 | seed 201 ... PASS (done; order saved) calls=7 in=68428 out=1343 $0.0036 22.1s
+20261116050245-09-stagehand-e574  09_drag_reorder | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; saved=false order=Picking, Quality check, Packing, Credit check, Intake, Invoicing, Shipping) calls=20 in=149060 out=14521 $0.0150 125.9s
+20261116050451-10-mcp-c399  10_layout_shift | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; statuses match) calls=10 in=153764 out=1484 $0.0050 19.8s
+20261116050511-10-pw-cli-0644  10_layout_shift | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; statuses match) calls=7 in=78382 out=1276 $0.0031 24.1s
+20261116050535-10-pw-script-86f9  10_layout_shift | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; statuses match) calls=4 in=18080 out=1116 $0.0016 14.3s
+20261116050550-10-cua-4325  10_layout_shift | cua | claude-haiku-5-5 | seed 201 ... PASS (done; statuses match) calls=6 in=52246 out=692 $0.0029 19.5s
+20261116050609-10-stagehand-8a0c  10_layout_shift | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; wrong: Elin Fors=Pending, Maria Sund=Pending) calls=20 in=139491 out=9856 $0.0124 90.8s
+20261116050740-11-mcp-7f27  11_canvas_map | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; assignment matches) calls=9 in=111628 out=1098 $0.0038 19.5s
+20261116050800-11-pw-cli-9fd6  11_canvas_map | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; assignment matches) calls=18 in=248696 out=3180 $0.0063 39.5s
+20261116050840-11-pw-script-fb7f  11_canvas_map | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; assignment matches) calls=4 in=13593 out=1104 $0.0013 13.6s
+20261116050853-11-cua-bacc  11_canvas_map | cua | claude-haiku-5-5 | seed 201 ... PASS (done; assignment matches) calls=7 in=66269 out=784 $0.0032 19.3s
+20261116050912-11-stagehand-5ac0  11_canvas_map | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=13 in=87423 out=6483 $0.0082 83.5s
+20261116051036-12-mcp-f5a0  12_hover_slider | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; discount matches) calls=9 in=125168 out=1322 $0.0043 20.1s
+20261116051056-12-pw-cli-5c52  12_hover_slider | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; discount matches) calls=13 in=163958 out=1701 $0.0043 34.1s
+20261116051131-12-pw-script-ce27  12_hover_slider | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; discount matches) calls=6 in=28672 out=1944 $0.0022 22s
+20261116051153-12-cua-0428  12_hover_slider | cua | claude-haiku-5-5 | seed 201 ... PASS (done; discount matches) calls=9 in=97308 out=1402 $0.0041 31.8s
+20261116051224-12-stagehand-c7fc  12_hover_slider | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {}) calls=22 in=177201 out=11723 $0.0151 120.2s
+20261116051425-13-mcp-48de  13_bulk_policy | mcp | claude-haiku-5-5 | seed 201 ... FAIL (done; 1 wrong, e.g. RF-5259=Approved (want Rejected)) calls=19 in=557624 out=4727 $0.0134 48.6s
+20261116051513-13-pw-cli-716d  13_bulk_policy | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; all 24 statuses match) calls=11 in=153714 out=3727 $0.0058 53s
+20261116051607-13-pw-script-0f33  13_bulk_policy | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; all 24 statuses match) calls=6 in=33693 out=2782 $0.0030 39.7s
+20261116051646-13-cua-ea02  13_bulk_policy | cua | claude-haiku-5-5 | seed 201 ... PASS (done; all 24 statuses match) calls=16 in=294488 out=3801 $0.0090 62s
+20261116051748-13-stagehand-89ec  13_bulk_policy | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; all 24 statuses match) calls=23 in=236199 out=15057 $0.0198 138.4s
+20261116052007-14-mcp-c345  14_transient_key | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; secret matches (keys generated: 1)) calls=7 in=77274 out=1135 $0.0031 13.4s
+20261116052020-14-pw-cli-1349  14_transient_key | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; secret matches (keys generated: 1)) calls=10 in=102996 out=1276 $0.0031 24.6s
+20261116052045-14-pw-script-9209  14_transient_key | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; secret matches (keys generated: 1)) calls=5 in=18825 out=1733 $0.0017 15.3s
+20261116052100-14-cua-ef16  14_transient_key | cua | claude-haiku-5-5 | seed 201 ... PASS (done; secret matches (keys generated: 1)) calls=9 in=90608 out=1454 $0.0039 27s
+20261116052127-14-stagehand-27ce  14_transient_key | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 2)) calls=18 in=114318 out=7258 $0.0096 93.9s
+20261116052301-15-mcp-b2e5  15_closed_shadow | mcp | claude-haiku-5-5 | seed 201 ... PASS (done; plan confirmed) calls=8 in=87196 out=1347 $0.0033 52.7s
+20261116052354-15-pw-cli-a183  15_closed_shadow | pw-cli | claude-haiku-5-5 | seed 201 ... PASS (done; plan confirmed) calls=15 in=170790 out=3558 $0.0052 81.3s
+20261116052516-15-pw-script-f4d4  15_closed_shadow | pw-script | claude-haiku-5-5 | seed 201 ... PASS (done; plan confirmed) calls=9 in=46082 out=3752 $0.0033 127.3s
+20261116052723-15-cua-9819  15_closed_shadow | cua | claude-haiku-5-5 | seed 201 ... PASS (done; plan confirmed) calls=6 in=52099 out=641 $0.0028 17.3s
+20261116052741-15-stagehand-296f  15_closed_shadow | stagehand | claude-haiku-5-5 | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=8 in=42883 out=2855 $0.0043 40.2s
+20261116052821-01-mcp-70c0  01_login_read | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; answer matches) calls=4 in=35716 out=450 $0.0018 6.7s
+20261116052828-01-pw-cli-7f15  01_login_read | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; answer matches) calls=3 in=23664 out=225 $0.0014 8.7s
+20261116052837-01-pw-script-b1e7  01_login_read | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; answer matches) calls=4 in=9489 out=889 $0.0009 12.9s
+20261116052849-01-cua-8ddb  01_login_read | cua | claude-haiku-5-5 | seed 202 ... PASS (done; answer matches) calls=3 in=19113 out=287 $0.0018 7s
+20261116052857-01-stagehand-f02e  01_login_read | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=8 in=31240 out=2335 $0.0031 34.4s
+20261116052931-02-mcp-8d3e  02_wizard | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; supplier matches) calls=8 in=102001 out=1535 $0.0041 14.6s
+20261116052946-02-pw-cli-6d68  02_wizard | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; supplier matches) calls=13 in=165174 out=1809 $0.0047 34.4s
+20261116053020-02-pw-script-786e  02_wizard | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; supplier matches) calls=6 in=28906 out=2021 $0.0022 49.3s
+20261116053110-02-cua-dba5  02_wizard | cua | claude-haiku-5-5 | seed 202 ... PASS (done; supplier matches) calls=10 in=120727 out=1655 $0.0048 38.8s
+20261116053149-02-stagehand-8c78  02_wizard | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; supplier matches) calls=34 in=378651 out=16224 $0.0243 229s
+20261116053538-03-mcp-042b  03_search_filter | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; right order flagged) calls=8 in=98140 out=1058 $0.0036 13.1s
+20261116053551-03-pw-cli-4bb2  03_search_filter | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; right order flagged) calls=9 in=103069 out=1181 $0.0034 26.3s
+20261116053617-03-pw-script-6f8f  03_search_filter | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; right order flagged) calls=7 in=31171 out=2093 $0.0022 28.2s
+20261116053646-03-cua-6716  03_search_filter | cua | claude-haiku-5-5 | seed 202 ... PASS (done; right order flagged) calls=9 in=100032 out=1256 $0.0042 36.3s
+20261116053722-03-stagehand-db80  03_search_filter | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=19 in=139628 out=10159 $0.0122 106.5s
+20261116053909-04-mcp-f2b4  04_table_edit | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; row updated) calls=13 in=223322 out=2494 $0.0062 25.8s
+20261116053934-04-pw-cli-4ba7  04_table_edit | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; row updated) calls=6 in=80358 out=625 $0.0034 12.2s
+20261116053947-04-pw-script-8c97  04_table_edit | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; row updated) calls=4 in=14495 out=1126 $0.0014 13.8s
+20261116054001-04-cua-aab4  04_table_edit | cua | claude-haiku-5-5 | seed 202 ... PASS (done; row updated) calls=10 in=115186 out=1267 $0.0044 31.2s
+20261116054032-04-stagehand-1646  04_table_edit | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=16 in=201333 out=6277 $0.0178 87.5s
+20261116054159-05-mcp-cab8  05_datepicker_dropdown | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; booking matches) calls=8 in=116365 out=1258 $0.0046 16.3s
+20261116054216-05-pw-cli-6f56  05_datepicker_dropdown | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; booking matches) calls=10 in=120360 out=1454 $0.0038 28s
+20261116054244-05-pw-script-167e  05_datepicker_dropdown | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; booking matches) calls=5 in=20599 out=1533 $0.0018 15s
+20261116054259-05-cua-9f04  05_datepicker_dropdown | cua | claude-haiku-5-5 | seed 202 ... PASS (done; booking matches) calls=8 in=83164 out=1140 $0.0038 32.2s
+20261116054331-05-stagehand-78b8  05_datepicker_dropdown | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; booking matches) calls=13 in=102235 out=5463 $0.0093 73.4s
+20261116054445-06-mcp-2959  06_upload | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; document matches) calls=8 in=105239 out=1565 $0.0042 23s
+20261116054508-06-pw-cli-8053  06_upload | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; document matches) calls=11 in=126379 out=1878 $0.0040 32.6s
+20261116054541-06-pw-script-25ec  06_upload | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; document matches) calls=4 in=13872 out=1215 $0.0014 13s
+20261116054554-06-cua-98d7  06_upload | cua | claude-haiku-5-5 | seed 202 ... PASS (done; document matches) calls=9 in=95949 out=1085 $0.0039 30.7s
+20261116054624-06-stagehand-960f  06_upload | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=9 in=54164 out=2597 $0.0048 41.6s
+20261116054706-07-mcp-a589  07_modal_toast | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; archived, reference reported) calls=8 in=119308 out=1126 $0.0042 13.1s
+20261116054719-07-pw-cli-3c59  07_modal_toast | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; archived, reference reported) calls=10 in=138657 out=1237 $0.0045 20s
+20261116054739-07-pw-script-586e  07_modal_toast | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; archived, reference reported) calls=4 in=15004 out=1047 $0.0014 15.9s
+20261116054755-07-cua-e1a9  07_modal_toast | cua | claude-haiku-5-5 | seed 202 ... PASS (done; archived, reference reported) calls=9 in=98828 out=1306 $0.0041 27.1s
+20261116054822-07-stagehand-e493  07_modal_toast | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=11 in=81460 out=6734 $0.0089 62s
+20261116054924-08-mcp-7f54  08_iframe_shadow | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; settings saved) calls=6 in=62342 out=833 $0.0027 17.9s
+20261116054942-08-pw-cli-b913  08_iframe_shadow | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; settings saved) calls=7 in=68217 out=710 $0.0024 26.5s
+20261116055009-08-pw-script-a860  08_iframe_shadow | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; settings saved) calls=5 in=16110 out=1382 $0.0014 17.4s
+20261116055027-08-cua-62ca  08_iframe_shadow | cua | claude-haiku-5-5 | seed 202 ... PASS (done; settings saved) calls=6 in=52165 out=656 $0.0029 17.8s
+20261116055044-08-stagehand-96fe  08_iframe_shadow | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=8 in=44219 out=2574 $0.0042 37.1s
+20261116055122-09-mcp-4cd8  09_drag_reorder | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; order saved) calls=9 in=110987 out=2214 $0.0042 19.2s
+20261116055141-09-pw-cli-21cd  09_drag_reorder | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; order saved) calls=7 in=72434 out=1103 $0.0029 25.2s
+20261116055206-09-pw-script-78d1  09_drag_reorder | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; order saved) calls=5 in=17624 out=1728 $0.0017 21.2s
+20261116055227-09-cua-bab6  09_drag_reorder | cua | claude-haiku-5-5 | seed 202 ... PASS (done; order saved) calls=7 in=68620 out=1436 $0.0037 23.4s
+20261116055251-09-stagehand-2c21  09_drag_reorder | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; order saved) calls=21 in=199039 out=15187 $0.0170 159.5s
+20261116055530-10-mcp-fe18  10_layout_shift | mcp | claude-haiku-5-5 | seed 202 ... FAIL (done; wrong: Elin Fors=Rejected) calls=9 in=134131 out=1677 $0.0050 17.4s
+20261116055548-10-pw-cli-0a29  10_layout_shift | pw-cli | claude-haiku-5-5 | seed 202 ... FAIL (done; wrong: Elin Fors=Rejected) calls=8 in=92234 out=1994 $0.0038 25.9s
+20261116055614-10-pw-script-a786  10_layout_shift | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; statuses match) calls=4 in=18208 out=1257 $0.0017 13.9s
+20261116055628-10-cua-5d5c  10_layout_shift | cua | claude-haiku-5-5 | seed 202 ... PASS (done; statuses match) calls=6 in=52396 out=786 $0.0029 21.7s
+20261116055650-10-stagehand-7115  10_layout_shift | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; wrong: Per Åberg=Pending, Elin Fors=Pending) calls=27 in=219865 out=14474 $0.0174 136.4s
+20261116055906-11-mcp-8262  11_canvas_map | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; assignment matches) calls=9 in=115107 out=1143 $0.0039 18s
+20261116055924-11-pw-cli-172e  11_canvas_map | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; assignment matches) calls=17 in=220105 out=2619 $0.0056 49.7s
+20261116060014-11-pw-script-0838  11_canvas_map | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; assignment matches) calls=4 in=13588 out=1155 $0.0013 14.8s
+20261116060029-11-cua-cb53  11_canvas_map | cua | claude-haiku-5-5 | seed 202 ... PASS (done; assignment matches) calls=7 in=66304 out=795 $0.0032 23.2s
+20261116060052-11-stagehand-91a3  11_canvas_map | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=9 in=50852 out=4689 $0.0056 55.1s
+20261116060147-12-mcp-7080  12_hover_slider | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; discount matches) calls=12 in=172941 out=2019 $0.0050 22.5s
+20261116060210-12-pw-cli-58c1  12_hover_slider | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; discount matches) calls=14 in=177181 out=2057 $0.0047 35.7s
+20261116060246-12-pw-script-9893  12_hover_slider | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; discount matches) calls=6 in=25941 out=1926 $0.0020 22.6s
+20261116060309-12-cua-2017  12_hover_slider | cua | claude-haiku-5-5 | seed 202 ... PASS (done; discount matches) calls=9 in=97078 out=1323 $0.0041 24.7s
+20261116060333-12-stagehand-3edf  12_hover_slider | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {"P-1048":0}) calls=29 in=278933 out=15953 $0.0217 181.8s
+20261116060635-13-mcp-1797  13_bulk_policy | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; all 24 statuses match) calls=19 in=518179 out=5236 $0.0133 58.5s
+20261116060734-13-pw-cli-0857  13_bulk_policy | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; all 24 statuses match) calls=15 in=248175 out=4419 $0.0073 65.6s
+20261116060840-13-pw-script-f915  13_bulk_policy | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; all 24 statuses match) calls=6 in=41951 out=3551 $0.0038 26s
+20261116060906-13-cua-f19d  13_bulk_policy | cua | claude-haiku-5-5 | seed 202 ... PASS (done; all 24 statuses match) calls=18 in=359326 out=3900 $0.0100 71.6s
+20261116061017-13-stagehand-caba  13_bulk_policy | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; all 24 statuses match) calls=31 in=428810 out=24861 $0.0310 208.7s
+20261116061346-14-mcp-e44e  14_transient_key | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; secret matches (keys generated: 1)) calls=8 in=89719 out=1116 $0.0032 15.1s
+20261116061401-14-pw-cli-bd7d  14_transient_key | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; secret matches (keys generated: 1)) calls=11 in=123493 out=1487 $0.0036 26.2s
+20261116061428-14-pw-script-e7af  14_transient_key | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; secret matches (keys generated: 1)) calls=5 in=17259 out=1406 $0.0015 15.8s
+20261116061444-14-cua-e188  14_transient_key | cua | claude-haiku-5-5 | seed 202 ... PASS (done; secret matches (keys generated: 1)) calls=9 in=92079 out=1258 $0.0038 26.1s
+20261116061510-14-stagehand-6b6e  14_transient_key | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 1)) calls=12 in=70813 out=5753 $0.0073 73.8s
+20261116061624-15-mcp-0c06  15_closed_shadow | mcp | claude-haiku-5-5 | seed 202 ... PASS (done; plan confirmed) calls=11 in=128870 out=1673 $0.0042 57.8s
+20261116061721-15-pw-cli-9a2b  15_closed_shadow | pw-cli | claude-haiku-5-5 | seed 202 ... PASS (done; plan confirmed) calls=17 in=203989 out=3607 $0.0056 176.3s
+20261116062018-15-pw-script-804d  15_closed_shadow | pw-script | claude-haiku-5-5 | seed 202 ... PASS (done; plan confirmed) calls=13 in=83942 out=7604 $0.0061 97.4s
+20261116062155-15-cua-4e83  15_closed_shadow | cua | claude-haiku-5-5 | seed 202 ... PASS (done; plan confirmed) calls=6 in=52204 out=692 $0.0029 16.5s
+20261116062212-15-stagehand-cb29  15_closed_shadow | stagehand | claude-haiku-5-5 | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=8 in=41361 out=3101 $0.0043 39.5s
+20261116062252-01-mcp-7204  01_login_read | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; answer matches) calls=4 in=35638 out=405 $0.0018 8.2s
+20261116062300-01-pw-cli-4921  01_login_read | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; answer matches) calls=5 in=42013 out=503 $0.0018 14.1s
+20261116062314-01-pw-script-857b  01_login_read | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; answer matches) calls=4 in=10119 out=847 $0.0009 10.7s
+20261116062325-01-cua-eec9  01_login_read | cua | claude-haiku-5-5 | seed 203 ... PASS (done; answer matches) calls=3 in=19113 out=287 $0.0018 6.8s
+20261116062332-01-stagehand-8d2e  01_login_read | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=7 in=26361 out=2498 $0.0030 32.6s
+20261116062404-02-mcp-a33a  02_wizard | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; supplier matches) calls=8 in=101248 out=1460 $0.0040 16.6s
+20261116062421-02-pw-cli-1944  02_wizard | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; supplier matches) calls=12 in=149736 out=1725 $0.0045 24.1s
+20261116062445-02-pw-script-94d3  02_wizard | pw-script | claude-haiku-5-5 | seed 203 ... FAIL (done; 2 suppliers created) calls=7 in=28815 out=3469 $0.0029 57.3s
+20261116062543-02-cua-8205  02_wizard | cua | claude-haiku-5-5 | seed 203 ... PASS (done; supplier matches) calls=10 in=121112 out=1761 $0.0049 42s
+20261116062625-02-stagehand-2460  02_wizard | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; supplier matches) calls=39 in=444345 out=20790 $0.0262 246.4s
+20261116063031-03-mcp-d03e  03_search_filter | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; right order flagged) calls=9 in=125341 out=1243 $0.0043 14.9s
+20261116063046-03-pw-cli-ff4c  03_search_filter | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; right order flagged) calls=10 in=108490 out=1246 $0.0034 23.7s
+20261116063110-03-pw-script-e4c2  03_search_filter | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; right order flagged) calls=6 in=32247 out=1880 $0.0022 19.9s
+20261116063130-03-cua-9039  03_search_filter | cua | claude-haiku-5-5 | seed 203 ... PASS (done; right order flagged) calls=8 in=82445 out=1038 $0.0037 23.4s
+20261116063153-03-stagehand-2801  03_search_filter | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=15 in=94275 out=5523 $0.0079 69s
+20261116063302-04-mcp-f8bf  04_table_edit | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; row updated) calls=8 in=160009 out=1012 $0.0055 12.3s
+20261116063315-04-pw-cli-7c7e  04_table_edit | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; row updated) calls=11 in=110150 out=1278 $0.0031 24.8s
+20261116063340-04-pw-script-c304  04_table_edit | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; row updated) calls=5 in=28722 out=1457 $0.0021 16s
+20261116063356-04-cua-f1b2  04_table_edit | cua | claude-haiku-5-5 | seed 203 ... PASS (done; row updated) calls=9 in=96471 out=1098 $0.0039 31.1s
+20261116063427-04-stagehand-68d7  04_table_edit | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=14 in=151635 out=4785 $0.0138 69.8s
+20261116063537-05-mcp-39eb  05_datepicker_dropdown | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; booking matches) calls=11 in=179638 out=1740 $0.0060 24.9s
+20261116063602-05-pw-cli-1808  05_datepicker_dropdown | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; booking matches) calls=10 in=125219 out=1619 $0.0041 24.9s
+20261116063627-05-pw-script-f89d  05_datepicker_dropdown | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; booking matches) calls=5 in=20503 out=1456 $0.0018 14.8s
+20261116063642-05-cua-ffe4  05_datepicker_dropdown | cua | claude-haiku-5-5 | seed 203 ... PASS (done; booking matches) calls=8 in=82963 out=1132 $0.0038 29.6s
+20261116063711-05-stagehand-7fe6  05_datepicker_dropdown | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; booking matches) calls=14 in=124557 out=6307 $0.0108 87.7s
+20261116063839-06-mcp-deec  06_upload | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; document matches) calls=9 in=114149 out=1531 $0.0041 20.3s
+20261116063900-06-pw-cli-6e22  06_upload | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; document matches) calls=9 in=95956 out=1601 $0.0034 26.4s
+20261116063926-06-pw-script-f602  06_upload | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; document matches) calls=4 in=11128 out=997 $0.0011 13.5s
+20261116063940-06-cua-1f84  06_upload | cua | claude-haiku-5-5 | seed 203 ... PASS (done; document matches) calls=10 in=111165 out=1556 $0.0044 30.6s
+20261116064010-06-stagehand-9162  06_upload | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=11 in=71963 out=4360 $0.0065 56.7s
+20261116064107-07-mcp-16b5  07_modal_toast | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; archived, reference reported) calls=10 in=146710 out=1150 $0.0047 15s
+20261116064122-07-pw-cli-7d04  07_modal_toast | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; archived, reference reported) calls=11 in=150937 out=1787 $0.0045 25.6s
+20261116064148-07-pw-script-b186  07_modal_toast | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; archived, reference reported) calls=4 in=13887 out=969 $0.0013 13.3s
+20261116064201-07-cua-e21f  07_modal_toast | cua | claude-haiku-5-5 | seed 203 ... PASS (done; archived, reference reported) calls=9 in=99026 out=1357 $0.0041 27.2s
+20261116064229-07-stagehand-b123  07_modal_toast | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=12 in=92719 out=7640 $0.0100 70.6s
+20261116064339-08-mcp-66f1  08_iframe_shadow | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; settings saved) calls=7 in=73364 out=791 $0.0027 15.9s
+20261116064355-08-pw-cli-9dc7  08_iframe_shadow | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; settings saved) calls=7 in=68231 out=714 $0.0024 25.9s
+20261116064421-08-pw-script-ac0c  08_iframe_shadow | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; settings saved) calls=5 in=17476 out=1767 $0.0017 18.4s
+20261116064440-08-cua-4815  08_iframe_shadow | cua | claude-haiku-5-5 | seed 203 ... PASS (done; settings saved) calls=6 in=52164 out=646 $0.0028 19s
+20261116064459-08-stagehand-2f11  08_iframe_shadow | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=7 in=37036 out=2297 $0.0037 36.3s
+20261116064535-09-mcp-f4a6  09_drag_reorder | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; order saved) calls=7 in=79569 out=1282 $0.0033 14.6s
+20261116064550-09-pw-cli-5cf9  09_drag_reorder | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; order saved) calls=12 in=145019 out=2531 $0.0047 39.4s
+20261116064630-09-pw-script-e8b7  09_drag_reorder | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; order saved) calls=5 in=19771 out=1820 $0.0019 22s
+20261116064652-09-cua-3926  09_drag_reorder | cua | claude-haiku-5-5 | seed 203 ... PASS (done; order saved) calls=7 in=68383 out=1327 $0.0036 22s
+20261116064714-09-stagehand-bd47  09_drag_reorder | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; order saved) calls=22 in=179543 out=17573 $0.0175 165.5s
+20261116064959-10-mcp-bad4  10_layout_shift | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; statuses match) calls=9 in=131907 out=1323 $0.0047 15.8s
+20261116065015-10-pw-cli-40c8  10_layout_shift | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; statuses match) calls=9 in=105015 out=1495 $0.0036 25.2s
+20261116065041-10-pw-script-11c6  10_layout_shift | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; statuses match) calls=4 in=14992 out=1138 $0.0015 14.4s
+20261116065055-10-cua-7081  10_layout_shift | cua | claude-haiku-5-5 | seed 203 ... PASS (done; statuses match) calls=6 in=52264 out=701 $0.0029 19.2s
+20261116065114-10-stagehand-0eec  10_layout_shift | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+FAIL (done; wrong: Tomas Rask=Pending, Lena Strid=Pending) calls=23 in=177426 out=10188 $0.0143 118.3s
+20261116065313-11-mcp-73d4  11_canvas_map | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; assignment matches) calls=11 in=133445 out=1355 $0.0041 18.4s
+20261116065331-11-pw-cli-f905  11_canvas_map | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; assignment matches) calls=11 in=134720 out=1806 $0.0042 31.4s
+20261116065403-11-pw-script-9552  11_canvas_map | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; assignment matches) calls=4 in=14091 out=1166 $0.0014 12.2s
+20261116065415-11-cua-ff71  11_canvas_map | cua | claude-haiku-5-5 | seed 203 ... PASS (done; assignment matches) calls=7 in=66300 out=793 $0.0032 19.3s
+20261116065434-11-stagehand-51b7  11_canvas_map | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=17 in=137709 out=9830 $0.0123 126s
+20261116065641-12-mcp-4706  12_hover_slider | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; discount matches) calls=15 in=253124 out=2959 $0.0067 62s
+20261116065743-12-pw-cli-af37  12_hover_slider | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; discount matches) calls=12 in=146324 out=1626 $0.0041 28.5s
+20261116065812-12-pw-script-4e79  12_hover_slider | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; discount matches) calls=6 in=29000 out=2088 $0.0022 22.7s
+20261116065835-12-cua-bd03  12_hover_slider | cua | claude-haiku-5-5 | seed 203 ... PASS (done; discount matches) calls=10 in=114278 out=1742 $0.0047 31.1s
+20261116065906-12-stagehand-0b02  12_hover_slider | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {}) calls=19 in=146948 out=11179 $0.0137 121.4s
+20261116070107-13-mcp-ee28  13_bulk_policy | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; all 24 statuses match) calls=16 in=398382 out=4769 $0.0115 42.7s
+20261116070150-13-pw-cli-6fe1  13_bulk_policy | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; all 24 statuses match) calls=13 in=207215 out=3955 $0.0067 46.8s
+20261116070237-13-pw-script-d0d1  13_bulk_policy | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; all 24 statuses match) calls=7 in=40776 out=3055 $0.0032 36.2s
+20261116070313-13-cua-3e1e  13_bulk_policy | cua | claude-haiku-5-5 | seed 203 ... PASS (done; all 24 statuses match) calls=13 in=193499 out=3562 $0.0072 51.8s
+20261116070405-13-stagehand-0662  13_bulk_policy | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; all 24 statuses match) calls=29 in=373572 out=24523 $0.0281 199.1s
+20261116070724-14-mcp-3601  14_transient_key | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; secret matches (keys generated: 1)) calls=7 in=74478 out=1135 $0.0030 13.2s
+20261116070737-14-pw-cli-3ac6  14_transient_key | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; secret matches (keys generated: 1)) calls=8 in=82315 out=1016 $0.0028 21.3s
+20261116070759-14-pw-script-d6cb  14_transient_key | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; secret matches (keys generated: 1)) calls=5 in=19964 out=1355 $0.0016 12.5s
+20261116070811-14-cua-d8a2  14_transient_key | cua | claude-haiku-5-5 | seed 203 ... PASS (done; secret matches (keys generated: 1)) calls=10 in=105131 out=1500 $0.0041 30.3s
+20261116070842-14-stagehand-e883  14_transient_key | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 1)) calls=9 in=52379 out=2723 $0.0048 47.5s
+20261116070929-15-mcp-4ca1  15_closed_shadow | mcp | claude-haiku-5-5 | seed 203 ... PASS (done; plan confirmed) calls=13 in=173858 out=2043 $0.0052 63.4s
+20261116071033-15-pw-cli-0762  15_closed_shadow | pw-cli | claude-haiku-5-5 | seed 203 ... PASS (done; plan confirmed) calls=36 in=678251 out=15227 $0.0179 165.7s
+20261116071319-15-pw-script-e4ad  15_closed_shadow | pw-script | claude-haiku-5-5 | seed 203 ... PASS (done; plan confirmed) calls=18 in=128569 out=9239 $0.0074 95.3s
+20261116071454-15-cua-986f  15_closed_shadow | cua | claude-haiku-5-5 | seed 203 ... PASS (done; plan confirmed) calls=6 in=52166 out=676 $0.0029 16.3s
+20261116071510-15-stagehand-1ff8  15_closed_shadow | stagehand | claude-haiku-5-5 | seed 203 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=9 in=50733 out=3003 $0.0048 46.8s
+20261116071557-01-mcp-f877  01_login_read | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; answer matches) calls=4 in=35659 out=426 $0.0018 6.1s
+20261116071604-01-pw-cli-741d  01_login_read | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; answer matches) calls=3 in=23662 out=225 $0.0014 9.4s
+20261116071613-01-pw-script-1fce  01_login_read | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; answer matches) calls=4 in=8810 out=833 $0.0009 11.9s
+20261116071625-01-cua-5428  01_login_read | cua | claude-haiku-5-5 | seed 204 ... PASS (done; answer matches) calls=3 in=19113 out=288 $0.0018 6.4s
+20261116071632-01-stagehand-3c69  01_login_read | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=5 in=19137 out=1538 $0.0021 23.6s
+20261116071655-02-mcp-ade0  02_wizard | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; supplier matches) calls=8 in=91067 out=1609 $0.0038 14.5s
+20261116071710-02-pw-cli-0ddb  02_wizard | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; supplier matches) calls=10 in=117325 out=1647 $0.0040 27.1s
+20261116071737-02-pw-script-f98e  02_wizard | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; supplier matches) calls=6 in=27692 out=1981 $0.0021 47.8s
+20261116071825-02-cua-1a45  02_wizard | cua | claude-haiku-5-5 | seed 204 ... PASS (done; supplier matches) calls=10 in=120772 out=1636 $0.0048 42.8s
+20261116071908-02-stagehand-d778  02_wizard | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; supplier matches) calls=26 in=277938 out=13967 $0.0200 176.7s
+20261116072204-03-mcp-e87e  03_search_filter | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; right order flagged) calls=9 in=121936 out=1393 $0.0043 15.7s
+20261116072220-03-pw-cli-bfb2  03_search_filter | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; right order flagged) calls=10 in=117591 out=1267 $0.0037 27.2s
+20261116072248-03-pw-script-7ae8  03_search_filter | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; right order flagged) calls=6 in=28515 out=1817 $0.0021 22.4s
+20261116072310-03-cua-d22a  03_search_filter | cua | claude-haiku-5-5 | seed 204 ... PASS (done; right order flagged) calls=8 in=82700 out=1317 $0.0039 25.4s
+20261116072335-03-stagehand-0502  03_search_filter | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=14 in=102329 out=6994 $0.0097 84.7s
+20261116072500-04-mcp-d886  04_table_edit | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; row updated) calls=8 in=160080 out=1068 $0.0056 13.9s
+20261116072514-04-pw-cli-0554  04_table_edit | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; row updated) calls=6 in=70776 out=646 $0.0032 15.1s
+20261116072529-04-pw-script-6084  04_table_edit | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; row updated) calls=5 in=26652 out=1379 $0.0019 19.1s
+20261116072549-04-cua-f0cf  04_table_edit | cua | claude-haiku-5-5 | seed 204 ... PASS (done; row updated) calls=9 in=96632 out=1145 $0.0039 25.3s
+20261116072614-04-stagehand-c834  04_table_edit | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=10 in=103635 out=3698 $0.0102 57.3s
+20261116072711-05-mcp-fb3a  05_datepicker_dropdown | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; booking matches) calls=8 in=113995 out=1499 $0.0046 17.3s
+20261116072729-05-pw-cli-4f55  05_datepicker_dropdown | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; booking matches) calls=13 in=167105 out=1867 $0.0047 30.3s
+20261116072759-05-pw-script-0c02  05_datepicker_dropdown | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; booking matches) calls=5 in=20862 out=1572 $0.0019 16.1s
+20261116072815-05-cua-abb3  05_datepicker_dropdown | cua | claude-haiku-5-5 | seed 204 ... PASS (done; booking matches) calls=8 in=81188 out=1129 $0.0037 26.6s
+20261116072842-05-stagehand-a872  05_datepicker_dropdown | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; booking matches) calls=12 in=116152 out=6232 $0.0105 77s
+20261116072959-06-mcp-b728  06_upload | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; document matches) calls=10 in=127218 out=1531 $0.0042 27.1s
+20261116073026-06-pw-cli-9ccc  06_upload | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; document matches) calls=13 in=149599 out=2066 $0.0043 59.4s
+20261116073126-06-pw-script-62bf  06_upload | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; document matches) calls=4 in=11515 out=1413 $0.0013 12.4s
+20261116073138-06-cua-2ebd  06_upload | cua | claude-haiku-5-5 | seed 204 ... PASS (done; document matches) calls=9 in=95960 out=1086 $0.0039 32s
+20261116073210-06-stagehand-3388  06_upload | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=9 in=54298 out=3054 $0.0050 42.6s
+20261116073253-07-mcp-9f22  07_modal_toast | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; archived, reference reported) calls=8 in=121688 out=1307 $0.0045 17.5s
+20261116073311-07-pw-cli-a5f5  07_modal_toast | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; archived, reference reported) calls=9 in=127413 out=1226 $0.0040 21.2s
+20261116073332-07-pw-script-b5b5  07_modal_toast | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; archived, reference reported) calls=4 in=14958 out=973 $0.0013 13s
+20261116073345-07-cua-a834  07_modal_toast | cua | claude-haiku-5-5 | seed 204 ... PASS (done; archived, reference reported) calls=9 in=99145 out=1386 $0.0041 29.1s
+20261116073414-07-stagehand-01bf  07_modal_toast | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=17 in=120199 out=8843 $0.0113 89.2s
+20261116073543-08-mcp-4597  08_iframe_shadow | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; settings saved) calls=8 in=86570 out=1380 $0.0032 20.8s
+20261116073604-08-pw-cli-d5d4  08_iframe_shadow | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; settings saved) calls=6 in=56014 out=559 $0.0021 22.8s
+20261116073627-08-pw-script-65c2  08_iframe_shadow | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; settings saved) calls=5 in=18206 out=1361 $0.0015 14.8s
+20261116073642-08-cua-8fd9  08_iframe_shadow | cua | claude-haiku-5-5 | seed 204 ... PASS (done; settings saved) calls=6 in=52227 out=668 $0.0029 18.4s
+20261116073700-08-stagehand-e512  08_iframe_shadow | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=8 in=43732 out=2274 $0.0041 37.1s
+20261116073738-09-mcp-8a43  09_drag_reorder | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; order saved) calls=13 in=192117 out=2733 $0.0057 28.2s
+20261116073806-09-pw-cli-6b9f  09_drag_reorder | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; order saved) calls=12 in=146662 out=2379 $0.0047 31.4s
+20261116073837-09-pw-script-f66e  09_drag_reorder | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; order saved) calls=7 in=31631 out=2257 $0.0022 116.3s
+20261116074034-09-cua-9977  09_drag_reorder | cua | claude-haiku-5-5 | seed 204 ... PASS (done; order saved) calls=7 in=68610 out=1430 $0.0037 24.7s
+20261116074059-09-stagehand-a6b4  09_drag_reorder | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; order saved) calls=19 in=145620 out=14333 $0.0149 131.8s
+20261116074310-10-mcp-8ec3  10_layout_shift | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; statuses match) calls=7 in=95943 out=1010 $0.0041 13.6s
+20261116074324-10-pw-cli-8df2  10_layout_shift | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; statuses match) calls=9 in=103788 out=1283 $0.0033 20.6s
+20261116074345-10-pw-script-5840  10_layout_shift | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; statuses match) calls=4 in=14928 out=1090 $0.0014 13.7s
+20261116074359-10-cua-60bd  10_layout_shift | cua | claude-haiku-5-5 | seed 204 ... PASS (done; statuses match) calls=6 in=52365 out=766 $0.0029 18.4s
+20261116074417-10-stagehand-2310  10_layout_shift | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+FAIL (done; wrong: Karin Lund=Approved) calls=15 in=97986 out=8745 $0.0101 84s
+20261116074541-11-mcp-23f4  11_canvas_map | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; assignment matches) calls=11 in=149017 out=1618 $0.0045 49.9s
+20261116074631-11-pw-cli-43fd  11_canvas_map | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; assignment matches) calls=13 in=157704 out=2031 $0.0046 33.4s
+20261116074705-11-pw-script-08a7  11_canvas_map | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; assignment matches) calls=4 in=14019 out=1160 $0.0014 11.3s
+20261116074716-11-cua-caed  11_canvas_map | cua | claude-haiku-5-5 | seed 204 ... PASS (done; assignment matches) calls=7 in=66310 out=797 $0.0032 19.5s
+20261116074736-11-stagehand-da59  11_canvas_map | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=14 in=89090 out=6666 $0.0084 87.1s
+20261116074903-12-mcp-65f2  12_hover_slider | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; discount matches) calls=15 in=264945 out=2481 $0.0069 29.5s
+20261116074932-12-pw-cli-23ef  12_hover_slider | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; discount matches) calls=11 in=132767 out=1566 $0.0039 32s
+20261116075005-12-pw-script-4bc0  12_hover_slider | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; discount matches) calls=5 in=19068 out=1695 $0.0018 16.8s
+20261116075021-12-cua-9e99  12_hover_slider | cua | claude-haiku-5-5 | seed 204 ... PASS (done; discount matches) calls=9 in=99451 out=1302 $0.0042 25.3s
+20261116075047-12-stagehand-df93  12_hover_slider | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {}) calls=27 in=212906 out=14080 $0.0173 168s
+20261116075335-13-mcp-c7aa  13_bulk_policy | mcp | claude-haiku-5-5 | seed 204 ... FAIL (done; 1 wrong, e.g. RF-57115=Rejected (want Approved)) calls=19 in=407967 out=6106 $0.0115 58.2s
+20261116075433-13-pw-cli-b17f  13_bulk_policy | pw-cli | claude-haiku-5-5 | seed 204 ... FAIL (done; 2 wrong, e.g. RF-61219=Rejected (want Approved), RF-24521=Rejected (want Approved)) calls=18 in=344125 out=4795 $0.0089 65.1s
+20261116075539-13-pw-script-0336  13_bulk_policy | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; all 24 statuses match) calls=7 in=42132 out=3415 $0.0035 44.3s
+20261116075623-13-cua-4782  13_bulk_policy | cua | claude-haiku-5-5 | seed 204 ... PASS (done; all 24 statuses match) calls=14 in=220362 out=3848 $0.0078 62.5s
+20261116075725-13-stagehand-aa34  13_bulk_policy | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+FAIL (done; 1 wrong, e.g. RF-24521=Rejected (want Approved)) calls=28 in=292958 out=13974 $0.0192 138.4s
+20261116075944-14-mcp-7b9e  14_transient_key | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; secret matches (keys generated: 1)) calls=9 in=100372 out=1373 $0.0034 16.1s
+20261116080000-14-pw-cli-62f6  14_transient_key | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; secret matches (keys generated: 1)) calls=10 in=106555 out=1343 $0.0033 25.7s
+20261116080026-14-pw-script-4d11  14_transient_key | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; secret matches (keys generated: 1)) calls=5 in=14035 out=1485 $0.0014 11.2s
+20261116080037-14-cua-73aa  14_transient_key | cua | claude-haiku-5-5 | seed 204 ... FAIL (done; secret "" != key "H5JG-W5SO-ZZF0-6D5V" (generated 1)) calls=8 in=75847 out=2002 $0.0039 23.3s
+20261116080100-14-stagehand-e53e  14_transient_key | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 1)) calls=12 in=66519 out=3149 $0.0055 57.9s
+20261116080158-15-mcp-427c  15_closed_shadow | mcp | claude-haiku-5-5 | seed 204 ... PASS (done; plan confirmed) calls=9 in=117304 out=2176 $0.0046 64.8s
+20261116080303-15-pw-cli-9e8c  15_closed_shadow | pw-cli | claude-haiku-5-5 | seed 204 ... PASS (done; plan confirmed) calls=19 in=252348 out=6339 $0.0079 215.5s
+20261116080639-15-pw-script-bf98  15_closed_shadow | pw-script | claude-haiku-5-5 | seed 204 ... PASS (done; plan confirmed) calls=9 in=38946 out=4234 $0.0034 65.9s
+20261116080745-15-cua-a912  15_closed_shadow | cua | claude-haiku-5-5 | seed 204 ... PASS (done; plan confirmed) calls=6 in=52184 out=685 $0.0029 18.7s
+20261116080804-15-stagehand-7a79  15_closed_shadow | stagehand | claude-haiku-5-5 | seed 204 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=9 in=46619 out=2684 $0.0043 38.5s
+
+375 runs, $1.9475 spent

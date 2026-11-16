@@ -1,0 +1,36 @@
+{"ms":1812,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4884,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4884,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1837,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3314,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6318,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6318,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3579,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3684,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3938,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4024,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4277,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6278,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6303,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":7682,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6318,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[361,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7938,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9941,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9975,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":11559,"t":"model","stop":"tool_use","text":"I need to find P-1160 in the list, so I'll scroll down.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7951,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":142,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"scroll","input":{"coordinate":[640,500],"scroll_direction":"down","scroll_amount":10}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":11834,"t":"tool","name":"scroll","is_error":false,"result":"OK"}
+{"ms":12838,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12889,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":14487,"t":"model","stop":"tool_use","text":"P-1160 (Micro Spindle 59) is visible. I'll click its Edit button.","usage":{"input_tokens":2,"cache_creation_input_tokens":1540,"cache_read_input_tokens":9447,"cache_creation":{"ephemeral_5m_input_tokens":1540,"ephemeral_1h_input_tokens":0},"output_tokens":129,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[985,221]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":14745,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16748,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16790,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19027,"t":"model","stop":"tool_use","text":"The row is in edit mode. I'll set price to 866 and stock to 146, then check before saving.","usage":{"input_tokens":2,"cache_creation_input_tokens":1527,"cache_read_input_tokens":10987,"cache_creation":{"ephemeral_5m_input_tokens":1527,"ephemeral_1h_input_tokens":0},"output_tokens":240,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"triple_click","input":{"coordinate":[476,221]}},{"name":"key","input":{"text":"ctrl+a"}},{"name":"type","input":{"text":"866"}},{"name":"triple_click","input":{"coordinate":[698,221]}},{"name":"key","input":{"text":"ctrl+a"}},{"name":"type","input":{"text":"146"}},{"name":"wait","input":{"duration":1}},{"name":"zoom","input":{"region":[24,197,1124,245]}}]}
+{"ms":19285,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":19445,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":19469,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":19724,"t":"tool","name":"triple_click","is_error":false,"result":"OK"}
+{"ms":19879,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":19903,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20905,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":20947,"t":"tool","name":"zoom","is_error":false,"result":"[image]"}
+{"ms":22596,"t":"model","stop":"tool_use","text":"Both values are correct. Saving the row now.","usage":{"input_tokens":2,"cache_creation_input_tokens":442,"cache_read_input_tokens":12514,"cache_creation":{"ephemeral_5m_input_tokens":442,"ephemeral_1h_input_tokens":0},"output_tokens":113,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[895,221]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":22851,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24854,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":24887,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":26542,"t":"model","stop":"end_turn","text":"Product P-1160 (Micro Spindle 59) is saved with price 866 and stock 146. No other rows were edited.","usage":{"input_tokens":2,"cache_creation_input_tokens":1511,"cache_read_input_tokens":12956,"cache_creation":{"ephemeral_5m_input_tokens":1511,"ephemeral_1h_input_tokens":0},"output_tokens":42,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

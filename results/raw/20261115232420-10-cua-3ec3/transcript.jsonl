@@ -1,0 +1,23 @@
+{"ms":1937,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4896,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4896,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1981,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3249,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6330,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6330,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3514,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3624,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3878,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3966,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4219,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6220,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6250,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":7575,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6330,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[749,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":7829,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9831,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9871,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":11492,"t":"model","stop":"tool_use","text":"Karin Lund is on the row at y=487 and Erik Holm on y=200. Each has one entry, so I'll approve Karin's row first and check the result before rejecting Erik's.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7963,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":159,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[405,487]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":11747,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13751,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13788,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15377,"t":"model","stop":"tool_use","text":"Karin Lund's report is approved. The table re-sorted, so Erik Holm's row is now at y=200. I'll reject that one.","usage":{"input_tokens":2,"cache_creation_input_tokens":1557,"cache_read_input_tokens":9459,"cache_creation":{"ephemeral_5m_input_tokens":1557,"ephemeral_1h_input_tokens":0},"output_tokens":143,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[455,200]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":15634,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17635,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17669,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19136,"t":"model","stop":"end_turn","text":"Karin Lund's expense report (SEK 3,958) is now Approved, and Erik Holm's report (SEK 1,078) is now Rejected. All other reports are still Pending.","usage":{"input_tokens":2,"cache_creation_input_tokens":1541,"cache_read_input_tokens":11016,"cache_creation":{"ephemeral_5m_input_tokens":1541,"ephemeral_1h_input_tokens":0},"output_tokens":62,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

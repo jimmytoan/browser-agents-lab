@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116041902-11-stagehand-39b5",
+  "ts": "2026-11-16T04:20:25.040Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "assignments {}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 82.1,
+  "model_calls": 13,
+  "tokens": {
+    "input": 38985,
+    "output": 7500,
+    "cache_read": 41727,
+    "cache_write": 5694,
+    "total_in": 86406
+  },
+  "peak_prompt_tokens": 5696,
+  "cost_usd": 0.008778,
+  "tool_calls": 23,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 38957,
+      "output": 5254,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.006523,
+      "raw": {
+        "actPromptTokens": 19254,
+        "actCompletionTokens": 584,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 13809,
+        "extractPromptTokens": 11120,
+        "extractCompletionTokens": 3745,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 30823,
+        "observePromptTokens": 8583,
+        "observeCompletionTokens": 925,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 11222,
+        "totalPromptTokens": 38957,
+        "totalCompletionTokens": 5254,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 55854
+      }
+    },
+    "outer_cost_usd": 0.002255
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-5866 to bay B-02: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

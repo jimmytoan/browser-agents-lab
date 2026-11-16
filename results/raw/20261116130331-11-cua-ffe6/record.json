@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116130331-11-cua-ffe6",
+  "ts": "2026-11-16T13:03:50.466Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 19.4,
+  "model_calls": 7,
+  "tokens": {
+    "input": 16,
+    "output": 720,
+    "cache_read": 46994,
+    "cache_write": 18797,
+    "total_in": 65807
+  },
+  "peak_prompt_tokens": 13899,
+  "cost_usd": 0.058924,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 6
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "PAL-3202 → D-05",
+  "instruction": "On the Warehouse page, assign pallet PAL-3202 to bay D-05: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

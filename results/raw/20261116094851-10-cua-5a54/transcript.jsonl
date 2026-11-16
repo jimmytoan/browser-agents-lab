@@ -1,0 +1,22 @@
+{"ms":1260,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4896,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4896,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1307,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2797,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6330,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6330,"ephemeral_1h_input_tokens":0},"output_tokens":166,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[701,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[701,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3069,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3181,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3435,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3524,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5525,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5554,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6735,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6330,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[749,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":6995,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":8997,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9025,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":10352,"t":"model","stop":"tool_use","text":"Layout might shift after action; do one at a time.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7929,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":122,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[91,252]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":10607,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11609,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":11644,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":12922,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1512,"cache_read_input_tokens":9425,"cache_creation":{"ephemeral_5m_input_tokens":1512,"ephemeral_1h_input_tokens":0},"output_tokens":106,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[297,252]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":13176,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14177,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":14196,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15466,"t":"model","stop":"end_turn","text":"I approved Elin Fors's expense report and rejected Maria Sund's. The other ten reports are still pending, and the Expenses page now shows Elin Fors as Approved and Maria Sund as Rejected.\n\nANSWER: done","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":10937,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":79,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

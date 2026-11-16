@@ -1,0 +1,29 @@
+{"ms":2223,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4919,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4919,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":2254,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3991,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6353,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6353,"ephemeral_1h_input_tokens":0},"output_tokens":166,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":4254,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4342,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4596,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4676,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":6677,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":6702,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":8407,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6353,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[604,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":8660,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10661,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":10678,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":12346,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7952,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":106,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[864,336]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":12601,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13602,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13633,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15467,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":9448,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":150,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[636,435]}},{"name":"type","input":{"text":"Nordlys AB"}},{"name":"left_click","input":{"coordinate":[579,485]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{}}]}
+{"ms":15720,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15788,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":16041,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17042,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17066,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19292,"t":"model","stop":"tool_use","text":"The confirmation may have been a toast or be further down the page. I'll scroll to look for it.","usage":{"input_tokens":2,"cache_creation_input_tokens":1564,"cache_read_input_tokens":10944,"cache_creation":{"ephemeral_5m_input_tokens":1564,"ephemeral_1h_input_tokens":0},"output_tokens":133,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"scroll","input":{"coordinate":[640,500],"scroll_direction":"down","scroll_amount":20}},{"name":"screenshot","input":{}}]}
+{"ms":19546,"t":"tool","name":"scroll","is_error":false,"result":"OK"}
+{"ms":19587,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":21504,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1519,"cache_read_input_tokens":12508,"cache_creation":{"ephemeral_5m_input_tokens":1519,"ephemeral_1h_input_tokens":0},"output_tokens":74,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"zoom","input":{"region":[876,730,1260,775]}}]}
+{"ms":21533,"t":"tool","name":"zoom","is_error":false,"result":"[image]"}
+{"ms":23219,"t":"model","stop":"end_turn","text":"I archived the customer \"Nordlys AB\" (Uppsala) and left \"Nordlys Trading AB\" alone. The app showed the confirmation \"Customer archived. Reference: ARC-07E9DD\".\n\nANSWER: ARC-07E9DD","usage":{"input_tokens":2,"cache_creation_input_tokens":140,"cache_read_input_tokens":14027,"cache_creation":{"ephemeral_5m_input_tokens":140,"ephemeral_1h_input_tokens":0},"output_tokens":87,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

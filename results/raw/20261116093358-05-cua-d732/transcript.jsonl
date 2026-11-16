@@ -1,0 +1,32 @@
+{"ms":1427,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4905,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4905,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1468,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":3038,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6339,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6339,"ephemeral_1h_input_tokens":0},"output_tokens":166,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass\n"}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":3304,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3422,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3676,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3774,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5776,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5803,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":7365,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1599,"cache_read_input_tokens":6339,"cache_creation":{"ephemeral_5m_input_tokens":1599,"ephemeral_1h_input_tokens":0},"output_tokens":103,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[436,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{"}":0}}]}
+{"ms":7624,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9627,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9670,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":11272,"t":"model","stop":"tool_use","text":"Navigate two months ahead.","usage":{"input_tokens":2,"cache_creation_input_tokens":1501,"cache_read_input_tokens":7938,"cache_creation":{"ephemeral_5m_input_tokens":1501,"ephemeral_1h_input_tokens":0},"output_tokens":163,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[265,155]}},{"name":"type","input":{"text":"SO-4743"}},{"name":"left_click","input":{"coordinate":[438,210]}},{"name":"left_click","input":{"coordinate":[438,210]}},{"name":"screenshot","input":{"}":0}}]}
+{"ms":11527,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11572,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":11824,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":12080,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":12113,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":13390,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1586,"cache_read_input_tokens":9439,"cache_creation":{"ephemeral_5m_input_tokens":1586,"ephemeral_1h_input_tokens":0},"output_tokens":110,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[203,309]}},{"name":"left_click","input":{"coordinate":[275,479]}},{"name":"screenshot","input":{"}":0}}]}
+{"ms":13644,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13898,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13936,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":15455,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1509,"cache_read_input_tokens":11025,"cache_creation":{"ephemeral_5m_input_tokens":1509,"ephemeral_1h_input_tokens":0},"output_tokens":119,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[226,579]}},{"name":"left_click","input":{"coordinate":[385,515]}},{"name":"zoom","input":{"region":[0,440,640,600]}}]}
+{"ms":15708,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15963,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16002,"t":"tool","name":"zoom","is_error":false,"result":"[image]"}
+{"ms":17175,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":321,"cache_read_input_tokens":12534,"cache_creation":{"ephemeral_5m_input_tokens":321,"ephemeral_1h_input_tokens":0},"output_tokens":103,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[83,559]}},{"name":"wait","input":{"duration":1}},{"name":"screenshot","input":{"}":0}}]}
+{"ms":17431,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18434,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18472,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":19960,"t":"model","stop":"end_turn","text":"I booked one delivery for order SO-4743 on 4 January 2027 with DHL Freight in the Evening window. The Deliveries page confirmed \"Delivery booked for 2027-01-04\" and lists it under Booked deliveries.\n\nANSWER: Booked","usage":{"input_tokens":2,"cache_creation_input_tokens":1501,"cache_read_input_tokens":12855,"cache_creation":{"ephemeral_5m_input_tokens":1501,"ephemeral_1h_input_tokens":0},"output_tokens":90,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

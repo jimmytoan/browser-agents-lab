@@ -1,0 +1,23 @@
+{"ms":1084,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":4,"cache_creation_input_tokens":4898,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":4898,"ephemeral_1h_input_tokens":0},"output_tokens":59,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"screenshot","input":{}}]}
+{"ms":1110,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":2344,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":6332,"cache_read_input_tokens":0,"cache_creation":{"ephemeral_5m_input_tokens":6332,"ephemeral_1h_input_tokens":0},"output_tokens":187,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[700,141]}},{"name":"type","input":{"text":"ops@lab.test"}},{"name":"left_click","input":{"coordinate":[700,184]}},{"name":"type","input":{"text":"lab-ops-pass"}},{"name":"left_click","input":{"coordinate":[495,233]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":2609,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":2727,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":2981,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":3061,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":3314,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5317,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":5342,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":6510,"t":"model","stop":"tool_use","text":"","usage":{"input_tokens":2,"cache_creation_input_tokens":1633,"cache_read_input_tokens":6332,"cache_creation":{"ephemeral_5m_input_tokens":1633,"ephemeral_1h_input_tokens":0},"output_tokens":98,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[748,20]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":6771,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":8773,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8809,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":10428,"t":"model","stop":"tool_use","text":"Sara Nyberg's row is at y=289 and Nils Varg's at y=429. Each name appears once, so I'll accept Sara's report first and check the result before rejecting Nils's.","usage":{"input_tokens":2,"cache_creation_input_tokens":1496,"cache_read_input_tokens":7965,"cache_creation":{"ephemeral_5m_input_tokens":1496,"ephemeral_1h_input_tokens":0},"output_tokens":161,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[447,289]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":10684,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":12685,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12725,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":14295,"t":"model","stop":"tool_use","text":"Sara Nyberg's report is now Approved. The layout shifted, so Nils Varg's row is now at y=415. I'll deny that one.","usage":{"input_tokens":2,"cache_creation_input_tokens":1559,"cache_read_input_tokens":9461,"cache_creation":{"ephemeral_5m_input_tokens":1559,"ephemeral_1h_input_tokens":0},"output_tokens":146,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[{"name":"left_click","input":{"coordinate":[390,415]}},{"name":"wait","input":{"duration":2}},{"name":"screenshot","input":{}}]}
+{"ms":14548,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16550,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16590,"t":"tool","name":"screenshot","is_error":false,"result":"[image]"}
+{"ms":17823,"t":"model","stop":"end_turn","text":"I approved Sara Nyberg's expense report (SEK 3,101) and rejected Nils Varg's (SEK 4,331). All other reports are still Pending.","usage":{"input_tokens":2,"cache_creation_input_tokens":1544,"cache_read_input_tokens":11020,"cache_creation":{"ephemeral_5m_input_tokens":1544,"ephemeral_1h_input_tokens":0},"output_tokens":56,"output_tokens_details":{"thinking_tokens":0},"service_tier":"standard","inference_geo":"global","speed":"standard"},"calls":[]}

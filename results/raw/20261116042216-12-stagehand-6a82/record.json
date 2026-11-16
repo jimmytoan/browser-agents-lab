@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116042216-12-stagehand-6a82",
+  "ts": "2026-11-16T04:24:38.913Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "discounts {}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 142.8,
+  "model_calls": 26,
+  "tokens": {
+    "input": 86340,
+    "output": 12922,
+    "cache_read": 111869,
+    "cache_write": 8824,
+    "total_in": 207033
+  },
+  "peak_prompt_tokens": 8826,
+  "cost_usd": 0.017317,
+  "tool_calls": 38,
+  "tool_errors": 5,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 86286,
+      "output": 9449,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.013353,
+      "raw": {
+        "actPromptTokens": 38583,
+        "actCompletionTokens": 3191,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 33980,
+        "extractPromptTokens": 27000,
+        "extractCompletionTokens": 4349,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 43267,
+        "observePromptTokens": 20703,
+        "observeCompletionTokens": 1909,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 22045,
+        "totalPromptTokens": 86286,
+        "totalCompletionTokens": 9449,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 99292
+      }
+    },
+    "outer_cost_usd": 0.003964
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Not completed — P-1024 discount remains 0%.",
+  "instruction": "On the Pricing page, set the discount for product P-1024 to exactly 27% and apply it. Do not change any other product's discount."
+}

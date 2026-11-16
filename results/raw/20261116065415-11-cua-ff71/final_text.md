@@ -1,0 +1,1 @@
+Assigned pallet PAL-8541 to bay C-01; the Assignments list now shows "PAL-8541 → C-01" and C-01 is marked occupied.

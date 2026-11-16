@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116074736-11-stagehand-da59",
+  "ts": "2026-11-16T07:49:03.326Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "assignments {}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 87.1,
+  "model_calls": 14,
+  "tokens": {
+    "input": 39536,
+    "output": 6666,
+    "cache_read": 43795,
+    "cache_write": 5759,
+    "total_in": 89090
+  },
+  "peak_prompt_tokens": 5761,
+  "cost_usd": 0.008444,
+  "tool_calls": 23,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 39506,
+      "output": 4412,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.006157,
+      "raw": {
+        "actPromptTokens": 21512,
+        "actCompletionTokens": 660,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 16755,
+        "extractPromptTokens": 12458,
+        "extractCompletionTokens": 3118,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 33702,
+        "observePromptTokens": 5536,
+        "observeCompletionTokens": 634,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 8477,
+        "totalPromptTokens": 39506,
+        "totalCompletionTokens": 4412,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 58934
+      }
+    },
+    "outer_cost_usd": 0.002288
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Not completed. PAL-7723 is selected, but E-03 could not be selected on the canvas and no assignment was made.",
+  "instruction": "On the Warehouse page, assign pallet PAL-7723 to bay E-03: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

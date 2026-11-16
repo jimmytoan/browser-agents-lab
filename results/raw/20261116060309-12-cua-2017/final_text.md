@@ -1,0 +1,1 @@
+The discount for P-1048 (Thermal Filter 45) is now 33% on the Pricing page. The other products are still at 0%.

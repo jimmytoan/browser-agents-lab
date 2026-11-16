@@ -1,0 +1,3 @@
+I couldn't complete the assignment. I signed in and opened the Warehouse page, and PAL-7054 is selected in the "Pallet to place" dropdown. However, the bay map is a canvas with no accessible bay labels, and I couldn't find a way to identify or click bay D-01 on it. My one blind click on the canvas's top-left area didn't select any bay, so I stopped there rather than guess. No assignment was made.
+
+The bay map would need either a bay list or labeled elements, or a way to click by coordinates, before D-01 can be selected and assigned.

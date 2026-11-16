@@ -1,0 +1,42 @@
+{
+  "run_id": "20261115234709-15-mcp-5fb2",
+  "ts": "2026-11-15T23:48:13.231Z",
+  "tag": "pilot",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 63.4,
+  "model_calls": 13,
+  "tokens": {
+    "input": 28,
+    "output": 2291,
+    "cache_read": 178778,
+    "cache_write": 24694,
+    "total_in": 203500
+  },
+  "peak_prompt_tokens": 24696,
+  "cost_usd": 0.006023,
+  "tool_calls": 22,
+  "tool_errors": 3,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Enterprise, 8 seats (confirmed)",
+  "instruction": "On the Billing page, change the subscription to the Enterprise plan with 8 seats and confirm the plan."
+}

@@ -1,0 +1,1 @@
+I updated P-1264 (Brass Coupling 76) to a price of 836 and a stock of 274, and saved the row. The table now shows those values, and I didn't change any other product.

@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116065331-11-pw-cli-f905",
+  "ts": "2026-11-16T06:54:03.381Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 31.4,
+  "model_calls": 11,
+  "tokens": {
+    "input": 24,
+    "output": 1806,
+    "cache_read": 117603,
+    "cache_write": 17093,
+    "total_in": 134720
+  },
+  "peak_prompt_tokens": 17095,
+  "cost_usd": 0.004218,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 10,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-8541 to bay C-01: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

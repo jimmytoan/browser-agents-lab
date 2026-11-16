@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116093723-06-stagehand-a4b9",
+  "ts": "2026-11-16T09:38:08.071Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "0 documents uploaded",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 44.9,
+  "model_calls": 9,
+  "tokens": {
+    "input": 23047,
+    "output": 1902,
+    "cache_read": 17948,
+    "cache_write": 3820,
+    "total_in": 44815
+  },
+  "peak_prompt_tokens": 3822,
+  "cost_usd": 0.076459,
+  "tool_calls": 12,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 23027,
+      "output": 994,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.055994,
+      "raw": {
+        "actPromptTokens": 18218,
+        "actCompletionTokens": 584,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 17629,
+        "extractPromptTokens": 1838,
+        "extractCompletionTokens": 97,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 4699,
+        "observePromptTokens": 2971,
+        "observeCompletionTokens": 313,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 5473,
+        "totalPromptTokens": 23027,
+        "totalCompletionTokens": 994,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 27801
+      }
+    },
+    "outer_cost_usd": 0.020465
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "not completed",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116093723-06-stagehand-a4b9/invoice-4023.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

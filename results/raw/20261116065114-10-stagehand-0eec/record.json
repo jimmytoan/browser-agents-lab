@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116065114-10-stagehand-0eec",
+  "ts": "2026-11-16T06:53:13.244Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 203,
+  "variant": 5,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "wrong: Tomas Rask=Pending, Lena Strid=Pending",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 118.3,
+  "model_calls": 23,
+  "tokens": {
+    "input": 72829,
+    "output": 10188,
+    "cache_read": 97022,
+    "cache_write": 7575,
+    "total_in": 177426
+  },
+  "peak_prompt_tokens": 7577,
+  "cost_usd": 0.014294,
+  "tool_calls": 28,
+  "tool_errors": 8,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 72781,
+      "output": 7470,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.011013,
+      "raw": {
+        "actPromptTokens": 40231,
+        "actCompletionTokens": 2546,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 32477,
+        "extractPromptTokens": 16221,
+        "extractCompletionTokens": 3558,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 29980,
+        "observePromptTokens": 16329,
+        "observeCompletionTokens": 1366,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 16554,
+        "totalPromptTokens": 72781,
+        "totalCompletionTokens": 7470,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 79011
+      }
+    },
+    "outer_cost_usd": 0.003281
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Not completed — Lena Strid's report is still Pending and Tomas Rask's report is still Pending.",
+  "instruction": "On the Expenses page, approve the expense report submitted by Lena Strid and reject the expense report submitted by Tomas Rask. Leave every other expense report pending."
+}

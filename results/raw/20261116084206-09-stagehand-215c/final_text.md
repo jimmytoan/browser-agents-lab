@@ -1,0 +1,1 @@
+I reordered the Pipeline stages by dragging and clicked Save order. The order is now Intake, Picking, Invoicing, Packing, Shipping, Quality check, Credit check. I confirmed that order on the page before saving. I didn't look for a confirmation message after the save, so I haven't checked that it went through.

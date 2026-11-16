@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116125812-10-cua-6214",
+  "ts": "2026-11-16T12:58:33.080Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 20.9,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 646,
+    "cache_read": 34621,
+    "cache_write": 17329,
+    "total_in": 51964
+  },
+  "peak_prompt_tokens": 12435,
+  "cost_usd": 0.053273,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 5
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "done",
+  "instruction": "On the Expenses page, approve the expense report submitted by Elin Fors and reject the expense report submitted by Per Åberg. Leave every other expense report pending."
+}

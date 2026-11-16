@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116040551-06-cua-0ddb",
+  "ts": "2026-11-16T04:06:21.136Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "cua",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 29.7,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1189,
+    "cache_read": 75354,
+    "cache_write": 21085,
+    "total_in": 96459
+  },
+  "peak_prompt_tokens": 16107,
+  "cost_usd": 0.003986,
+  "tool_calls": 31,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 7
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116040551-06-cua-0ddb/invoice-4231.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

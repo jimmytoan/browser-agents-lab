@@ -1,0 +1,1 @@
+The notification settings are saved: the alert threshold is 325 and the weekly digest is on. I reloaded the Settings page and both values persisted.

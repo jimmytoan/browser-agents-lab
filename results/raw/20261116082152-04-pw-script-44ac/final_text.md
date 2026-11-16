@@ -1,0 +1,1 @@
+I set P-1215 (Compact Filter 30) to price 626 and stock 409 and saved the row. After saving, the row showed 626 and 409 with a "Saved" message. I didn't touch any other product.

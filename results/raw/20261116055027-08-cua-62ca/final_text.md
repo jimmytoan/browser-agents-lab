@@ -1,0 +1,1 @@
+The notification settings are saved: the alert threshold is 745 (SEK thousand) and the weekly digest is On. The page confirmed with "Saved ✓".

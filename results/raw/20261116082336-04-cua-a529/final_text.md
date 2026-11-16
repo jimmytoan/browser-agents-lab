@@ -1,0 +1,1 @@
+I updated product P-1215 (Compact Filter 30) to a price of 626 and a stock of 409. After I saved the row, the page showed "Saved" next to it. I didn't change any other product.

@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116085356-12-stagehand-c388",
+  "ts": "2026-11-16T08:57:44.412Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "discounts {}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 227.5,
+  "model_calls": 34,
+  "tokens": {
+    "input": 70,
+    "output": 3077,
+    "cache_read": 159122,
+    "cache_write": 9198,
+    "total_in": 168390
+  },
+  "peak_prompt_tokens": 9200,
+  "cost_usd": 0.069817,
+  "tool_calls": 44,
+  "tool_errors": 8,
+  "truncations": 0,
+  "extra": {
+    "inner_error": "RPC client is closed"
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "not completed",
+  "instruction": "On the Pricing page, set the discount for product P-1024 to exactly 27% and apply it. Do not change any other product's discount."
+}

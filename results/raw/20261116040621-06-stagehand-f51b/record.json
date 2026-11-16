@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116040621-06-stagehand-f51b",
+  "ts": "2026-11-16T04:07:29.705Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "claude-haiku-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": false,
+  "why": "0 documents uploaded",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 68.5,
+  "model_calls": 16,
+  "tokens": {
+    "input": 35898,
+    "output": 5066,
+    "cache_read": 48917,
+    "cache_write": 5834,
+    "total_in": 90649
+  },
+  "peak_prompt_tokens": 5836,
+  "cost_usd": 0.007341,
+  "tool_calls": 21,
+  "tool_errors": 3,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 35864,
+      "output": 3045,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.005109,
+      "raw": {
+        "actPromptTokens": 19797,
+        "actCompletionTokens": 1051,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 13598,
+        "extractPromptTokens": 5142,
+        "extractCompletionTokens": 751,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 8837,
+        "observePromptTokens": 10925,
+        "observeCompletionTokens": 1243,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 14012,
+        "totalPromptTokens": 35864,
+        "totalCompletionTokens": 3045,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 36447
+      }
+    },
+    "outer_cost_usd": 0.002232
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Not completed. The file input could not be set to invoice-4231.pdf, so nothing was uploaded.",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116040621-06-stagehand-f51b/invoice-4231.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

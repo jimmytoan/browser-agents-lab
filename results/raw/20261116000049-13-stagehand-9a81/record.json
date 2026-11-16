@@ -1,0 +1,70 @@
+{
+  "run_id": "20261116000049-13-stagehand-9a81",
+  "ts": "2026-11-16T00:03:19.386Z",
+  "tag": "pilot",
+  "task": "13_bulk_policy",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "claude-sonnet-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "all 24 statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 149.6,
+  "model_calls": 16,
+  "tokens": {
+    "input": 54019,
+    "output": 5303,
+    "cache_read": 51164,
+    "cache_write": 6853,
+    "total_in": 112036
+  },
+  "peak_prompt_tokens": 6855,
+  "cost_usd": 0.183317,
+  "tool_calls": 21,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "inner": {
+      "input": 53985,
+      "output": 3670,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.14467,
+      "raw": {
+        "actPromptTokens": 36482,
+        "actCompletionTokens": 780,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 39433,
+        "extractPromptTokens": 16336,
+        "extractCompletionTokens": 2804,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 52532,
+        "observePromptTokens": 1167,
+        "observeCompletionTokens": 86,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 8466,
+        "totalPromptTokens": 53985,
+        "totalCompletionTokens": 3670,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 100431
+      }
+    },
+    "outer_cost_usd": 0.038647
+  },
+  "app": {
+    "requests": 20,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Rejected 5, approved 2",
+  "instruction": "On the Refunds page (it has several pages), process the pending refund requests by this policy: reject every request from a customer marked \"Blocked\"; of the remaining requests, approve those whose reason is \"Damaged item\" and whose amount is at most SEK 500; leave all other requests pending. Go through every page."
+}

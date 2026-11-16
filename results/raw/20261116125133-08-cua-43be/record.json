@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116125133-08-cua-43be",
+  "ts": "2026-11-16T12:51:50.157Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 17.1,
+  "model_calls": 6,
+  "tokens": {
+    "input": 14,
+    "output": 611,
+    "cache_read": 33422,
+    "cache_write": 16148,
+    "total_in": 49584
+  },
+  "peak_prompt_tokens": 11263,
+  "cost_usd": 0.04985,
+  "tool_calls": 17,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 5
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "done",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 745, turn the weekly digest on, and save the notification settings."
+}

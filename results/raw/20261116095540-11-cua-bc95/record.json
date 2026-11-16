@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116095540-11-cua-bc95",
+  "ts": "2026-11-16T09:56:00.379Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 19.6,
+  "model_calls": 7,
+  "tokens": {
+    "input": 16,
+    "output": 717,
+    "cache_read": 46253,
+    "cache_write": 18056,
+    "total_in": 64325
+  },
+  "peak_prompt_tokens": 13158,
+  "cost_usd": 0.056967,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 6
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "PAL-6076 → A-03",
+  "instruction": "On the Warehouse page, assign pallet PAL-6076 to bay A-03: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

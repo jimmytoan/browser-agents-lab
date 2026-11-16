@@ -1,0 +1,41 @@
+{
+  "run_id": "20261115233254-11-cua-9fb9",
+  "ts": "2026-11-15T23:33:23.128Z",
+  "tag": "pilot",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "cua",
+  "model": "claude-haiku-5-5",
+  "seed": 100,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": false,
+  "why": "assignments {}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 28.4,
+  "model_calls": 9,
+  "tokens": {
+    "input": 20,
+    "output": 1670,
+    "cache_read": 75777,
+    "cache_write": 20968,
+    "total_in": 96765
+  },
+  "peak_prompt_tokens": 16070,
+  "cost_usd": 0.004216,
+  "tool_calls": 27,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 8
+  },
+  "app": {
+    "requests": 6,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Not completed. PAL-7054 is not listed in the Warehouse \"Pallet to place\" dropdown, which only offers PAL-8091, so no assignment was made.",
+  "instruction": "On the Warehouse page, assign pallet PAL-7054 to bay D-01: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

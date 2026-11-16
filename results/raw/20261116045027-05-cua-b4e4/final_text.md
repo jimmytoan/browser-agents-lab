@@ -1,0 +1,1 @@
+Booked one delivery for order SO-4743 on 2027-01-04 with DHL Freight in the Evening window; the page confirmed it and it now appears under Booked deliveries.

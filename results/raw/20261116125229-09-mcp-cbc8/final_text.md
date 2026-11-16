@@ -1,0 +1,1 @@
+I reordered the Pipeline stages by dragging and saved them. The page showed "Order saved". The order from top to bottom is now Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing.

@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116083810-08-pw-script-c79f",
+  "ts": "2026-11-16T08:40:03.467Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 113.4,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 1878,
+    "cache_read": 24461,
+    "cache_write": 5289,
+    "total_in": 29772
+  },
+  "peak_prompt_tokens": 5291,
+  "cost_usd": 0.034493,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 10,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 41,
+    "directApi": 0,
+    "logins": 6
+  },
+  "answer": "done",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 325, turn the weekly digest on, and save the notification settings."
+}

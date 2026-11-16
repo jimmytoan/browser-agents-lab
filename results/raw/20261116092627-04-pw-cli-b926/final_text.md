@@ -1,0 +1,1 @@
+I updated product P-1160 (Micro Spindle 59) to a price of 866 and a stock of 146, and saved the row. The Products table now shows 866 and 146 for it, up from 855 and 131. I didn't touch any other product.

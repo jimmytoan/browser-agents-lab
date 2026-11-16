@@ -1,0 +1,1 @@
+Product P-1347 (Nylon Spindle 70) now shows price 502 and stock 287, and its row is back in saved view with a "Saved" status. The first Save click did not take effect, so I clicked Save again. P-1353 still shows 656 and 177, and I did not touch any other product.

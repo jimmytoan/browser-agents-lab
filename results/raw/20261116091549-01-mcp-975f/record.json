@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116091549-01-mcp-975f",
+  "ts": "2026-11-16T09:15:56.755Z",
+  "tag": "full",
+  "task": "01_login_read",
+  "level": 1,
+  "contestant": "mcp",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "answer matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 7,
+  "model_calls": 5,
+  "tokens": {
+    "input": 12,
+    "output": 377,
+    "cache_read": 31687,
+    "cache_write": 9660,
+    "total_in": 41359
+  },
+  "peak_prompt_tokens": 9662,
+  "cost_usd": 0.031113,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SEK 67,617",
+  "instruction": "Report the amount shown for \"Open invoices total\" on the Dashboard page."
+}

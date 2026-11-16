@@ -1,0 +1,1 @@
+Elin Fors's expense report is now Approved, and Maria Sund's is now Rejected. All other expense reports still show Pending.

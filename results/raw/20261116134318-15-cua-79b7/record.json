@@ -1,0 +1,41 @@
+{
+  "run_id": "20261116134318-15-cua-79b7",
+  "ts": "2026-11-16T13:43:37.367Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "cua",
+  "model": "claude-sonnet-5-5",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 18.7,
+  "model_calls": 5,
+  "tokens": {
+    "input": 12,
+    "output": 572,
+    "cache_read": 23624,
+    "cache_write": 15877,
+    "total_in": 39513
+  },
+  "peak_prompt_tokens": 11003,
+  "cost_usd": 0.047799,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 4
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "Annual plan, 10 seats, confirmed",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 10 seats and confirm the plan."
+}

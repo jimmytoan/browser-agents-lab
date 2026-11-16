@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116082119-04-mcp-521e",
+  "ts": "2026-11-16T08:21:38.095Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "claude-sonnet-5-5",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "row updated",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 18.7,
+  "model_calls": 10,
+  "tokens": {
+    "input": 22,
+    "output": 904,
+    "cache_read": 80344,
+    "cache_write": 10701,
+    "total_in": 91067
+  },
+  "peak_prompt_tokens": 10703,
+  "cost_usd": 0.043871,
+  "tool_calls": 12,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "done",
+  "instruction": "On the Products page, change product P-1215: set its price to 626 and its stock to 409, then save the row. Do not change any other product."
+}

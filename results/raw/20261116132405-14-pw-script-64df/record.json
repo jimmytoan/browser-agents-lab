@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116132405-14-pw-script-64df",
+  "ts": "2026-11-16T13:27:07.557Z",
+  "tag": "full",
+  "task": "14_transient_key",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "secret matches (keys generated: 2)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 182,
+  "model_calls": 7,
+  "tokens": {
+    "input": 16,
+    "output": 1924,
+    "cache_read": 20827,
+    "cache_write": 6578,
+    "total_in": 27421
+  },
+  "peak_prompt_tokens": 6580,
+  "cost_usd": 0.0378,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 8,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 38,
+    "directApi": 0,
+    "logins": 6
+  },
+  "answer": "QN1V-H5N7-OXR2-HFCT",
+  "instruction": "On the Integrations page, generate a new signing key. The key is shown only briefly. Then enter that exact key as the signing secret on the Webhooks page and save. Generate a key only once if you can; the saved secret must equal the most recently generated key."
+}

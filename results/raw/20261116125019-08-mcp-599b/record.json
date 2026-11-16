@@ -1,0 +1,42 @@
+{
+  "run_id": "20261116125019-08-mcp-599b",
+  "ts": "2026-11-16T12:50:35.188Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 15.1,
+  "model_calls": 5,
+  "tokens": {
+    "input": 12,
+    "output": 634,
+    "cache_read": 33958,
+    "cache_write": 11041,
+    "total_in": 45011
+  },
+  "peak_prompt_tokens": 11043,
+  "cost_usd": 0.037362,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "done",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 745, turn the weekly digest on, and save the notification settings."
+}

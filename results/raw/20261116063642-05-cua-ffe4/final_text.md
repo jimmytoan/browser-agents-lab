@@ -1,0 +1,1 @@
+I booked one delivery for SO-3453 on 2027-02-04 with Best Transport in the Afternoon window. The page confirmed it with "Delivery booked for 2027-02-04" and it appears under Booked deliveries.

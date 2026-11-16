@@ -1,0 +1,1 @@
+Flagged SO-9609 for review. It was the highest-value On hold order for Nordlys AB (SEK 29,284). The other two On hold Nordlys AB orders, SO-8832 (SEK 27,593) and SO-9907 (SEK 25,873), were not flagged, and I left the "Nordlys Trading AB" orders alone.

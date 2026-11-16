@@ -1,0 +1,1 @@
+I updated product P-1347 (Nylon Spindle 70) on the Products page to price 502 and stock 287, and saved the row. The page showed "Saved" next to it. I didn't touch any other product.

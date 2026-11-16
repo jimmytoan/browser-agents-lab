@@ -1,0 +1,44 @@
+{
+  "run_id": "20261116135208-03-pw-cli-ae81",
+  "ts": "2026-11-16T13:52:29.284Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "pw-cli",
+  "model": "claude-sonnet-5-5",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 20.2,
+  "model_calls": 8,
+  "tokens": {
+    "input": 18,
+    "output": 850,
+    "cache_read": 60174,
+    "cache_write": 10294,
+    "total_in": 70486
+  },
+  "peak_prompt_tokens": 10296,
+  "cost_usd": 0.040288,
+  "tool_calls": 7,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "commands": 7,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SO-7560",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

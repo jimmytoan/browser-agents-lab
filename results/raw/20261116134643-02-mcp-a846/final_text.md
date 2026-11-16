@@ -1,0 +1,3 @@
+I created the supplier Kebne Components AB through the three-step form. After I clicked "Create supplier" the app redirected to the Suppliers list. I didn't open the list to check the new entry.
+
+The form wanted two formats, which I followed. The organisation number went in as 558226-4561 and the postal code as 918 98. The rest was entered as given: inkop@kebne.test, Hamngatan 53, Jönköping, Germany, 15 days.
