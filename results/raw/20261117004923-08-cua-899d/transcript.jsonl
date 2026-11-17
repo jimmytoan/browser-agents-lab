@@ -1,0 +1,16 @@
+{"ms":56412,"t":"model","stop":"incomplete","text":"","usage":{"input_tokens":1082,"input_tokens_details":{"cache_write_tokens":1079,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1079},"cached_tokens":0},"output_tokens":8000,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":9082},"calls":[]}
+{"ms":59800,"t":"model","stop":"completed","text":"","usage":{"input_tokens":10293,"input_tokens_details":{"cache_write_tokens":9211,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":9211},"cached_tokens":1079},"output_tokens":78,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":10371},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":692,"y":144}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"keypress","input":{"type":"keypress","keys":["TAB"]}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":497,"y":236}}]}
+{"ms":60065,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":60175,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":60331,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":60412,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":60666,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":63408,"t":"model","stop":"completed","text":"","usage":{"input_tokens":11581,"input_tokens_details":{"cache_write_tokens":1288,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1288},"cached_tokens":10290},"output_tokens":31,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":11612},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":819,"y":21}}]}
+{"ms":63665,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":66627,"t":"model","stop":"completed","text":"","usage":{"input_tokens":12822,"input_tokens_details":{"cache_write_tokens":1241,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1241},"cached_tokens":11578},"output_tokens":82,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":12904},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":306,"y":253}},{"name":"keypress","input":{"type":"keypress","keys":["CTRL","a"]}},{"name":"type","input":{"type":"type","text":"745"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":165,"y":293}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":131,"y":335}}]}
+{"ms":66882,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":67043,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":67066,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":67320,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":67576,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":70225,"t":"model","stop":"completed","text":"Saved notification settings with the alert threshold set to 745 and weekly digest turned on.","usage":{"input_tokens":14114,"input_tokens_details":{"cache_write_tokens":1292,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1292},"cached_tokens":12819},"output_tokens":21,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":14135},"calls":[]}

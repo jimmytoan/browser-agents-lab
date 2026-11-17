@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116170447-15-mcp-97cb",
+  "ts": "2026-11-16T17:06:00.607Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 73.3,
+  "model_calls": 21,
+  "tokens": {
+    "input": 9364,
+    "output": 1182,
+    "cache_read": 119952,
+    "cache_write": 0,
+    "total_in": 129316
+  },
+  "peak_prompt_tokens": 12144,
+  "cost_usd": 0.002727,
+  "tool_calls": 20,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 435
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 10 seats and confirm the plan."
+}

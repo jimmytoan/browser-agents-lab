@@ -1,0 +1,1 @@
+Created supplier Dalälv Components AB with organisation number 559767-5415, Norway address details, and 15-day payment terms.

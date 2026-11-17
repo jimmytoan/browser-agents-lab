@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116233657-15-stagehand-25b1",
+  "ts": "2026-11-16T23:38:15.194Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "stagehand",
+  "model": "gpt-6.1-sol",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 77.2,
+  "model_calls": 14,
+  "tokens": {
+    "input": 18364,
+    "output": 937,
+    "cache_read": 10505,
+    "cache_write": 0,
+    "total_in": 28869
+  },
+  "peak_prompt_tokens": 2036,
+  "cost_usd": 0.047149,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 0,
+    "inner": {
+      "input": 12144,
+      "output": 617,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.030458,
+      "raw": {
+        "actPromptTokens": 8268,
+        "actCompletionTokens": 259,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 16998,
+        "extractPromptTokens": 1689,
+        "extractCompletionTokens": 183,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 12379,
+        "observePromptTokens": 2187,
+        "observeCompletionTokens": 175,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 8163,
+        "totalPromptTokens": 12144,
+        "totalCompletionTokens": 617,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 37540
+      }
+    },
+    "outer_cost_usd": 0.016691
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 10 seats and confirm the plan."
+}

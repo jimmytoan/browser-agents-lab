@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116154231-02-pw-script-e2f4",
+  "ts": "2026-11-16T15:45:17.805Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 166.3,
+  "model_calls": 13,
+  "tokens": {
+    "input": 9488,
+    "output": 3577,
+    "cache_read": 33759,
+    "cache_write": 0,
+    "total_in": 43247
+  },
+  "peak_prompt_tokens": 7380,
+  "cost_usd": 0.003075,
+  "tool_calls": 12,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 331,
+    "commands": 12,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 54,
+    "directApi": 0,
+    "logins": 11
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Vättern Components AB\", organisation number 5573046397, contact email inkop@vattern.test, street address \"Hamngatan 62\", postal code 79188, city Sundsvall, country Norway, payment terms 60 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

@@ -1,0 +1,1 @@
+Nordlys AB was archived, but I can’t recover the confirmation reference code, so I can’t report it reliably.

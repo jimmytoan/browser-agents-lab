@@ -1,0 +1,1 @@
+Confirmed the Enterprise subscription with 12 seats.

@@ -1,0 +1,1 @@
+Set and applied an 11% discount to product P-1034; no other product discounts were changed.

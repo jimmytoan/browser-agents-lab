@@ -1,0 +1,1 @@
+Applied exactly 27% discount to P-1024; all other products’ discounts remain unchanged.

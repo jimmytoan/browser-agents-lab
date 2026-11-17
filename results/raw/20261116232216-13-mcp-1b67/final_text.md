@@ -1,0 +1,1 @@
+Processed all 3 pages: approved 4 refunds, rejected 4 from blocked customers, and left the other 16 pending.

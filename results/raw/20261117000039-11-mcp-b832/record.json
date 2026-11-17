@@ -1,0 +1,43 @@
+{
+  "run_id": "20261117000039-11-mcp-b832",
+  "ts": "2026-11-17T00:01:21.460Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "gpt-6.1-sol",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 41.6,
+  "model_calls": 14,
+  "tokens": {
+    "input": 5717,
+    "output": 328,
+    "cache_read": 68310,
+    "cache_write": 0,
+    "total_in": 74027
+  },
+  "peak_prompt_tokens": 8518,
+  "cost_usd": 0.021545,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 0
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-3202 to bay D-05: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

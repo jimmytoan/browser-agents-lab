@@ -1,0 +1,1 @@
+Processed the pending refund requests on all three pages according to policy; all other requests remain pending.

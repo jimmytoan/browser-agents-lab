@@ -1,0 +1,1 @@
+Confirmed the Annual plan with 10 seats.

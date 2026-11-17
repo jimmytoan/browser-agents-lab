@@ -1,0 +1,19 @@
+{"ms":2267,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1082,"input_tokens_details":{"cache_write_tokens":1079,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1079},"cached_tokens":0},"output_tokens":30,"output_tokens_details":{"reasoning_tokens":9},"total_tokens":1112},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4857,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2322,"input_tokens_details":{"cache_write_tokens":1240,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1240},"cached_tokens":1079},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2411},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":694,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":698,"y":183}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":496,"y":235}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":5122,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5218,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5472,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5553,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5807,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6808,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9209,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3621,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2319},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":7},"total_tokens":3665},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":821,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9464,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10467,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13064,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4875,"input_tokens_details":{"cache_write_tokens":1254,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1254},"cached_tokens":3618},"output_tokens":100,"output_tokens_details":{"reasoning_tokens":12},"total_tokens":4975},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":305,"y":250}},{"name":"keypress","input":{"type":"keypress","keys":["CTRL","A"]}},{"name":"type","input":{"type":"type","text":"745"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":164,"y":291}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":136,"y":334}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":13318,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13479,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":13500,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":13756,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14011,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15012,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17842,"t":"model","stop":"completed","text":"Set the alert threshold to 745, turned on the weekly digest, and saved the notification settings.","usage":{"input_tokens":6185,"input_tokens_details":{"cache_write_tokens":1310,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1310},"cached_tokens":4872},"output_tokens":24,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":6209},"calls":[]}

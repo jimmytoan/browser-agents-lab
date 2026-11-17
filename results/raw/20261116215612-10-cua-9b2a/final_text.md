@@ -1,0 +1,1 @@
+Approved Sara Nyberg’s expense report and rejected Nils Varg’s; all other expense reports remain pending.

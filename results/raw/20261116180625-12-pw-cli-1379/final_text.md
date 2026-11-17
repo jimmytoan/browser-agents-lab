@@ -1,0 +1,1 @@
+Applied a 33% discount to P-1048. No other product discounts were changed.

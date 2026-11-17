@@ -1,0 +1,1 @@
+Created supplier Siljan Industri AB with the requested details.

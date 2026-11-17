@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116173125-05-cua-7bbf",
+  "ts": "2026-11-16T17:32:05.324Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 39.6,
+  "model_calls": 8,
+  "tokens": {
+    "input": 10083,
+    "output": 525,
+    "cache_read": 34403,
+    "cache_write": 0,
+    "total_in": 44486
+  },
+  "peak_prompt_tokens": 10062,
+  "cost_usd": 0.001615,
+  "tool_calls": 23,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 7,
+    "reasoning_tokens": 106,
+    "screenshots_sent": 7
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-7218: delivery date 16 March 2027, carrier \"DHL Express\", time window Morning. Make exactly one booking."
+}

@@ -1,0 +1,1 @@
+Changed the subscription to the Annual plan with 21 seats and confirmed it.

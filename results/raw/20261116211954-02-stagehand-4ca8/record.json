@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116211954-02-stagehand-4ca8",
+  "ts": "2026-11-16T21:23:30.086Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 215.4,
+  "model_calls": 31,
+  "tokens": {
+    "input": 45872,
+    "output": 3209,
+    "cache_read": 65084,
+    "cache_write": 0,
+    "total_in": 110956
+  },
+  "peak_prompt_tokens": 4299,
+  "cost_usd": 0.130342,
+  "tool_calls": 30,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 0,
+    "inner": {
+      "input": 37985,
+      "output": 2491,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.10088,
+      "raw": {
+        "actPromptTokens": 29639,
+        "actCompletionTokens": 816,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 57788,
+        "extractPromptTokens": 7782,
+        "extractCompletionTokens": 1601,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 59869,
+        "observePromptTokens": 564,
+        "observeCompletionTokens": 74,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 2422,
+        "totalPromptTokens": 37985,
+        "totalCompletionTokens": 2491,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 120079
+      }
+    },
+    "outer_cost_usd": 0.029462
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Siljan Industri AB\", organisation number 5596487578, contact email inkop@siljan.test, street address \"Verkstadsgatan 19\", postal code 71450, city Karlstad, country Finland, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

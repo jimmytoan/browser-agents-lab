@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116172508-04-pw-script-f147",
+  "ts": "2026-11-16T17:25:38.079Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "row updated",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 29.3,
+  "model_calls": 7,
+  "tokens": {
+    "input": 5602,
+    "output": 1161,
+    "cache_read": 4968,
+    "cache_write": 0,
+    "total_in": 10570
+  },
+  "peak_prompt_tokens": 2974,
+  "cost_usd": 0.00119,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 88,
+    "commands": 6,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 19,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "",
+  "instruction": "On the Products page, change product P-1347: set its price to 502 and its stock to 287, then save the row. Do not change any other product."
+}

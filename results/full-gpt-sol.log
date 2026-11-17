@@ -1,0 +1,273 @@
+app http://127.0.0.1:65211 | tag full | 15 tasks x 5 contestants x 3 trials on gpt-6.1-sol | batch budget $25
+20261116211509-01-mcp-f68f  01_login_read | mcp | gpt-6.1-sol | seed 200 ... PASS (done; answer matches) calls=6 in=20873 out=147 $0.0119 18s
+20261116211527-01-pw-cli-2d99  01_login_read | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; answer matches) calls=5 in=23208 out=133 $0.0141 17.9s
+20261116211545-01-pw-script-b6db  01_login_read | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; answer matches) calls=6 in=5314 out=537 $0.0138 25s
+20261116211610-01-cua-199c  01_login_read | cua | gpt-6.1-sol | seed 200 ... PASS (done; answer matches) calls=4 in=11760 out=127 $0.0116 12.1s
+20261116211622-01-stagehand-0b03  01_login_read | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=7 in=9753 out=409 $0.0216 37.2s
+20261116211700-02-mcp-78ff  02_wizard | mcp | gpt-6.1-sol | seed 200 ... PASS (done; supplier matches) calls=19 in=109482 out=585 $0.0286 63.3s
+20261116211803-02-pw-cli-d91a  02_wizard | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; supplier matches) calls=14 in=100797 out=580 $0.0286 44.1s
+20261116211847-02-pw-script-1a2e  02_wizard | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; supplier matches) calls=6 in=9307 out=978 $0.0178 32.8s
+20261116211920-02-cua-53d9  02_wizard | cua | gpt-6.1-sol | seed 200 ... PASS (done; supplier matches) calls=9 in=55759 out=481 $0.0319 33.9s
+20261116211954-02-stagehand-4ca8  02_wizard | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; supplier matches) calls=31 in=110956 out=3209 $0.1303 215.4s
+20261116212330-03-mcp-a43f  03_search_filter | mcp | gpt-6.1-sol | seed 200 ... PASS (done; right order flagged) calls=15 in=91596 out=351 $0.0267 55.1s
+20261116212425-03-pw-cli-bb97  03_search_filter | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; right order flagged) calls=10 in=73125 out=311 $0.0255 32.8s
+20261116212458-03-pw-script-2b46  03_search_filter | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; right order flagged) calls=6 in=10848 out=735 $0.0174 36.2s
+20261116212534-03-cua-47ba  03_search_filter | cua | gpt-6.1-sol | seed 200 ... PASS (done; right order flagged) calls=8 in=43960 out=328 $0.0265 28.9s
+20261116212603-03-stagehand-8228  03_search_filter | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=18 in=51779 out=2056 $0.0787 115.7s
+20261116212759-04-mcp-7f38  04_table_edit | mcp | gpt-6.1-sol | seed 200 ... PASS (done; row updated) calls=17 in=79556 out=402 $0.0182 54.1s
+20261116212853-04-pw-cli-980c  04_table_edit | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; row updated) calls=10 in=85841 out=310 $0.0288 31s
+20261116212924-04-pw-script-f854  04_table_edit | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; row updated) calls=5 in=7825 out=769 $0.0153 20.9s
+20261116212945-04-cua-562f  04_table_edit | cua | gpt-6.1-sol | seed 200 ... PASS (done; row updated) calls=8 in=43861 out=381 $0.0271 30.6s
+20261116213016-04-stagehand-2cb1  04_table_edit | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=15 in=65395 out=1112 $0.1143 89.5s
+20261116213145-05-mcp-aa23  05_datepicker_dropdown | mcp | gpt-6.1-sol | seed 200 ... PASS (done; booking matches) calls=19 in=127342 out=421 $0.0321 62.2s
+20261116213247-05-pw-cli-4dd7  05_datepicker_dropdown | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; booking matches) calls=9 in=63022 out=306 $0.0259 33.6s
+20261116213321-05-pw-script-25d8  05_datepicker_dropdown | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; booking matches) calls=8 in=23570 out=1128 $0.0258 101.6s
+20261116213503-05-cua-8fe5  05_datepicker_dropdown | cua | gpt-6.1-sol | seed 200 ... PASS (done; booking matches) calls=8 in=43975 out=364 $0.0269 31.7s
+20261116213535-05-stagehand-8edc  05_datepicker_dropdown | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; booking matches) calls=18 in=72720 out=2168 $0.0911 113.8s
+20261116213728-06-mcp-29c9  06_upload | mcp | gpt-6.1-sol | seed 200 ... PASS (done; document matches) calls=16 in=86025 out=421 $0.0240 54.4s
+20261116213823-06-pw-cli-3b90  06_upload | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; document matches) calls=11 in=68442 out=430 $0.0215 40.1s
+20261116213903-06-pw-script-6014  06_upload | pw-script | gpt-6.1-sol | seed 200 ... FAIL (done; 0 documents uploaded) calls=6 in=8192 out=925 $0.0166 33.5s
+20261116213937-06-cua-a23e  06_upload | cua | gpt-6.1-sol | seed 200 ... PASS (done; document matches) calls=9 in=55678 out=390 $0.0309 31.6s
+20261116214008-06-stagehand-82ac  06_upload | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=15 in=35924 out=1312 $0.0573 89.4s
+20261116214138-07-mcp-6bc5  07_modal_toast | mcp | gpt-6.1-sol | seed 200 ... PASS (done; archived, reference reported) calls=13 in=79007 out=298 $0.0247 40.3s
+20261116214218-07-pw-cli-11ba  07_modal_toast | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; archived, reference reported) calls=11 in=75003 out=369 $0.0247 33.5s
+20261116214252-07-pw-script-8889  07_modal_toast | pw-script | gpt-6.1-sol | seed 200 ... FAIL (done; archived but answer "" lacks ARC-7CEFEA) calls=8 in=15815 out=1039 $0.0241 43.2s
+20261116214335-07-cua-723e  07_modal_toast | cua | gpt-6.1-sol | seed 200 ... PASS (done; archived, reference reported) calls=7 in=34008 out=262 $0.0224 25.1s
+20261116214400-07-stagehand-8d88  07_modal_toast | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=16 in=44668 out=1310 $0.0731 96.3s
+20261116214537-08-mcp-6c0a  08_iframe_shadow | mcp | gpt-6.1-sol | seed 200 ... PASS (done; settings saved) calls=12 in=53267 out=280 $0.0140 42.3s
+20261116214619-08-pw-cli-098a  08_iframe_shadow | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; settings saved) calls=9 in=49276 out=249 $0.0138 33.7s
+20261116214653-08-pw-script-b615  08_iframe_shadow | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; settings saved) calls=10 in=14794 out=1094 $0.0216 40s
+20261116214733-08-cua-55df  08_iframe_shadow | cua | gpt-6.1-sol | seed 200 ... PASS (done; settings saved) calls=5 in=17969 out=234 $0.0158 19.9s
+20261116214753-08-stagehand-86d4  08_iframe_shadow | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=13 in=25899 out=856 $0.0423 77.4s
+20261116214910-09-mcp-a8c5  09_drag_reorder | mcp | gpt-6.1-sol | seed 200 ... PASS (done; order saved) calls=15 in=81326 out=344 $0.0219 47.3s
+20261116214958-09-pw-cli-7a4e  09_drag_reorder | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; order saved) calls=11 in=68824 out=416 $0.0209 36.2s
+20261116215034-09-pw-script-3690  09_drag_reorder | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; order saved) calls=6 in=8354 out=866 $0.0162 30.2s
+20261116215104-09-cua-33c9  09_drag_reorder | cua | gpt-6.1-sol | seed 200 ... PASS (done; order saved) calls=7 in=33982 out=270 $0.0225 26.1s
+20261116215131-09-stagehand-5bf7  09_drag_reorder | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; order saved) calls=27 in=86864 out=2829 $0.1042 186.9s
+20261116215438-10-mcp-800d  10_layout_shift | mcp | gpt-6.1-sol | seed 200 ... PASS (done; statuses match) calls=12 in=61848 out=281 $0.0202 37.2s
+20261116215515-10-pw-cli-46a2  10_layout_shift | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; statuses match) calls=10 in=66450 out=269 $0.0245 30.9s
+20261116215546-10-pw-script-143a  10_layout_shift | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; statuses match) calls=5 in=6174 out=702 $0.0142 25.9s
+20261116215612-10-cua-9b2a  10_layout_shift | cua | gpt-6.1-sol | seed 200 ... PASS (done; statuses match) calls=6 in=25281 out=223 $0.0187 23.5s
+20261116215635-10-stagehand-e9e7  10_layout_shift | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; statuses match) calls=13 in=31182 out=1434 $0.0567 79.9s
+20261116215755-11-mcp-3a2f  11_canvas_map | mcp | gpt-6.1-sol | seed 200 ... PASS (done; assignment matches) calls=14 in=74236 out=329 $0.0216 45.7s
+20261116215841-11-pw-cli-9ccd  11_canvas_map | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; assignment matches) calls=11 in=68825 out=460 $0.0218 37.4s
+20261116215919-11-pw-script-9f6a  11_canvas_map | pw-script | gpt-6.1-sol | seed 200 ... FAIL (wall_clock; assignments {}) calls=4 in=3407 out=557 $0.0104 309.1s
+20261116220428-11-cua-7839  11_canvas_map | cua | gpt-6.1-sol | seed 200 ... PASS (done; assignment matches) calls=7 in=33892 out=260 $0.0223 25.9s
+20261116220454-11-stagehand-95d7  11_canvas_map | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=14 in=27634 out=1242 $0.0469 87.7s
+20261116220622-12-mcp-3678  12_hover_slider | mcp | gpt-6.1-sol | seed 200 ... PASS (done; discount matches) calls=17 in=115455 out=407 $0.0315 59.9s
+20261116220721-12-pw-cli-4ab1  12_hover_slider | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; discount matches) calls=13 in=104150 out=401 $0.0339 41.8s
+20261116220803-12-pw-script-7c84  12_hover_slider | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; discount matches) calls=7 in=15123 out=908 $0.0221 34.3s
+20261116220838-12-cua-d711  12_hover_slider | cua | gpt-6.1-sol | seed 200 ... PASS (done; discount matches) calls=8 in=43753 out=341 $0.0266 30.1s
+20261116220908-12-stagehand-6016  12_hover_slider | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {}) calls=29 in=101653 out=3591 $0.1356 213.1s
+20261116221241-13-mcp-64a5  13_bulk_policy | mcp | gpt-6.1-sol | seed 200 ... PASS (done; all 24 statuses match) calls=23 in=184810 out=502 $0.0443 79.5s
+20261116221401-13-pw-cli-3cdb  13_bulk_policy | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; all 24 statuses match) calls=10 in=80463 out=387 $0.0342 41.8s
+20261116221443-13-pw-script-018a  13_bulk_policy | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; all 24 statuses match) calls=6 in=11181 out=1131 $0.0239 37.3s
+20261116221520-13-cua-2ea8  13_bulk_policy | cua | gpt-6.1-sol | seed 200 ... PASS (done; all 24 statuses match) calls=13 in=111727 out=440 $0.0461 41.2s
+20261116221601-13-stagehand-47bb  13_bulk_policy | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; all 24 statuses match) calls=24 in=86405 out=2992 $0.1211 165s
+20261116221846-14-mcp-4b58  14_transient_key | mcp | gpt-6.1-sol | seed 200 ... PASS (done; secret matches (keys generated: 1)) calls=15 in=78044 out=334 $0.0209 44.4s
+20261116221931-14-pw-cli-d6a2  14_transient_key | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; secret matches (keys generated: 1)) calls=9 in=53567 out=279 $0.0172 31.1s
+20261116222002-14-pw-script-56f1  14_transient_key | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; secret matches (keys generated: 2)) calls=7 in=15156 out=1653 $0.0281 66.6s
+20261116222109-14-cua-52c0  14_transient_key | cua | gpt-6.1-sol | seed 200 ... FAIL (done; secret "5UI4-X0N0-9C7V-XNKE" != key "5UI4-X0NO-9C7V-XNKE" (generated 1)) calls=7 in=34066 out=311 $0.0230 24.4s
+20261116222133-14-stagehand-370c  14_transient_key | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 1)) calls=16 in=34910 out=1157 $0.0519 94.9s
+20261116222308-15-mcp-d861  15_closed_shadow | mcp | gpt-6.1-sol | seed 200 ... PASS (done; plan confirmed) calls=17 in=99125 out=503 $0.0301 62.8s
+20261116222411-15-pw-cli-5776  15_closed_shadow | pw-cli | gpt-6.1-sol | seed 200 ... PASS (done; plan confirmed) calls=20 in=178939 out=1308 $0.0576 81.8s
+20261116222533-15-pw-script-9cfe  15_closed_shadow | pw-script | gpt-6.1-sol | seed 200 ... PASS (done; plan confirmed) calls=7 in=11674 out=1209 $0.0239 44.2s
+20261116222617-15-cua-1577  15_closed_shadow | cua | gpt-6.1-sol | seed 200 ... PASS (done; plan confirmed) calls=6 in=25371 out=269 $0.0193 20.4s
+20261116222637-15-stagehand-efca  15_closed_shadow | stagehand | gpt-6.1-sol | seed 200 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=13 in=26062 out=894 $0.0428 71.2s
+20261116222749-01-mcp-6682  01_login_read | mcp | gpt-6.1-sol | seed 201 ... PASS (done; answer matches) calls=6 in=20873 out=147 $0.0065 16.6s
+20261116222805-01-pw-cli-94a1  01_login_read | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; answer matches) calls=5 in=23208 out=133 $0.0063 15.3s
+20261116222821-01-pw-script-6a88  01_login_read | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; answer matches) calls=6 in=5406 out=650 $0.0151 25.3s
+20261116222846-01-cua-d5da  01_login_read | cua | gpt-6.1-sol | seed 201 ... PASS (done; answer matches) calls=4 in=43685 out=16089 $0.2047 115.3s
+20261116223042-01-stagehand-9c08  01_login_read | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=7 in=9711 out=401 $0.0234 36.9s
+20261116223119-02-mcp-d2dc  02_wizard | mcp | gpt-6.1-sol | seed 201 ... PASS (done; supplier matches) calls=19 in=121277 out=583 $0.0316 55.2s
+20261116223214-02-pw-cli-c46a  02_wizard | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; supplier matches) calls=11 in=74716 out=421 $0.0262 36.2s
+20261116223250-02-pw-script-188e  02_wizard | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; supplier matches) calls=7 in=11458 out=980 $0.0184 29.2s
+20261116223320-02-cua-81ae  02_wizard | cua | gpt-6.1-sol | seed 201 ... PASS (done; supplier matches) calls=9 in=119664 out=8476 $0.1334 99.9s
+20261116223500-02-stagehand-972a  02_wizard | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; supplier matches) calls=31 in=110184 out=2873 $0.1268 193.4s
+20261116223813-03-mcp-6ce9  03_search_filter | mcp | gpt-6.1-sol | seed 201 ... PASS (done; right order flagged) calls=15 in=91664 out=346 $0.0267 43.5s
+20261116223857-03-pw-cli-6695  03_search_filter | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; right order flagged) calls=12 in=84963 out=347 $0.0255 35.8s
+20261116223933-03-pw-script-6d2c  03_search_filter | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; right order flagged) calls=8 in=17395 out=928 $0.0201 39.7s
+20261116224012-03-cua-023c  03_search_filter | cua | gpt-6.1-sol | seed 201 ... PASS (done; right order flagged) calls=8 in=44072 out=343 $0.0267 29.6s
+20261116224042-03-stagehand-59ba  03_search_filter | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=17 in=46787 out=1792 $0.0731 103s
+20261116224225-04-mcp-9eca  04_table_edit | mcp | gpt-6.1-sol | seed 201 ... PASS (done; row updated) calls=17 in=79521 out=402 $0.0182 49.7s
+20261116224315-04-pw-cli-1df3  04_table_edit | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; row updated) calls=10 in=84584 out=347 $0.0287 32.4s
+20261116224347-04-pw-script-95b5  04_table_edit | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; row updated) calls=6 in=12941 out=799 $0.0181 24.5s
+20261116224412-04-cua-a817  04_table_edit | cua | gpt-6.1-sol | seed 201 ... PASS (done; row updated) calls=9 in=54978 out=394 $0.0306 31.8s
+20261116224444-04-stagehand-61c0  04_table_edit | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=15 in=66037 out=1164 $0.1149 88.7s
+20261116224612-05-mcp-8555  05_datepicker_dropdown | mcp | gpt-6.1-sol | seed 201 ... PASS (done; booking matches) calls=19 in=127909 out=442 $0.0332 58.4s
+20261116224711-05-pw-cli-9c86  05_datepicker_dropdown | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; booking matches) calls=12 in=82787 out=458 $0.0247 39.8s
+20261116224751-05-pw-script-0055  05_datepicker_dropdown | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; booking matches) calls=6 in=16814 out=894 $0.0238 32.4s
+20261116224823-05-cua-4a96  05_datepicker_dropdown | cua | gpt-6.1-sol | seed 201 ... PASS (done; booking matches) calls=8 in=43976 out=362 $0.0269 27.5s
+20261116224851-05-stagehand-b0bb  05_datepicker_dropdown | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; booking matches) calls=20 in=59974 out=1622 $0.0859 124.9s
+20261116225056-06-mcp-d1a9  06_upload | mcp | gpt-6.1-sol | seed 201 ... PASS (done; document matches) calls=16 in=86025 out=420 $0.0240 53.8s
+20261116225150-06-pw-cli-3d0a  06_upload | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; document matches) calls=12 in=75227 out=544 $0.0229 42.8s
+20261116225233-06-pw-script-3c4e  06_upload | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; document matches) calls=3 in=2893 out=603 $0.0118 15.9s
+20261116225249-06-cua-b664  06_upload | cua | gpt-6.1-sol | seed 201 ... PASS (done; document matches) calls=9 in=55667 out=388 $0.0309 30.3s
+20261116225319-06-stagehand-a599  06_upload | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=14 in=33348 out=1176 $0.0541 74.5s
+20261116225434-07-mcp-c808  07_modal_toast | mcp | gpt-6.1-sol | seed 201 ... PASS (done; archived, reference reported) calls=13 in=78842 out=285 $0.0245 37.7s
+20261116225511-07-pw-cli-08cd  07_modal_toast | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; archived, reference reported) calls=10 in=77168 out=329 $0.0297 35.4s
+20261116225547-07-pw-script-d7fb  07_modal_toast | pw-script | gpt-6.1-sol | seed 201 ... FAIL (done; archived but answer "" lacks ARC-39353C) calls=8 in=25503 out=1091 $0.0308 105.1s
+20261116225732-07-cua-37d4  07_modal_toast | cua | gpt-6.1-sol | seed 201 ... PASS (done; archived, reference reported) calls=7 in=34154 out=295 $0.0228 23.9s
+20261116225756-07-stagehand-813e  07_modal_toast | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=16 in=44560 out=1409 $0.0741 100.6s
+20261116225937-08-mcp-4641  08_iframe_shadow | mcp | gpt-6.1-sol | seed 201 ... PASS (done; settings saved) calls=12 in=53702 out=273 $0.0150 40.1s
+20261116230017-08-pw-cli-686f  08_iframe_shadow | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; settings saved) calls=9 in=48201 out=330 $0.0140 36.6s
+20261116230054-08-pw-script-0186  08_iframe_shadow | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; settings saved) calls=8 in=12214 out=1188 $0.0225 43s
+20261116230137-08-cua-4cba  08_iframe_shadow | cua | gpt-6.1-sol | seed 201 ... PASS (done; settings saved) calls=5 in=17985 out=238 $0.0159 17.3s
+20261116230154-08-stagehand-28de  08_iframe_shadow | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=14 in=31219 out=1069 $0.0484 76.3s
+20261116230310-09-mcp-60d7  09_drag_reorder | mcp | gpt-6.1-sol | seed 201 ... PASS (done; order saved) calls=15 in=79943 out=367 $0.0211 46.2s
+20261116230357-09-pw-cli-7d48  09_drag_reorder | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; order saved) calls=10 in=60503 out=352 $0.0201 34s
+20261116230431-09-pw-script-444d  09_drag_reorder | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; order saved) calls=5 in=6035 out=848 $0.0154 33s
+20261116230504-09-cua-6eb0  09_drag_reorder | cua | gpt-6.1-sol | seed 201 ... PASS (done; order saved) calls=7 in=34023 out=283 $0.0226 28.4s
+20261116230532-09-stagehand-d320  09_drag_reorder | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; order saved) calls=21 in=55944 out=1911 $0.0766 138.9s
+20261116230751-10-mcp-a06d  10_layout_shift | mcp | gpt-6.1-sol | seed 201 ... PASS (done; statuses match) calls=13 in=77705 out=309 $0.0248 39s
+20261116230830-10-pw-cli-6b5f  10_layout_shift | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; statuses match) calls=10 in=65117 out=277 $0.0233 31.9s
+20261116230902-10-pw-script-6a94  10_layout_shift | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; statuses match) calls=6 in=13381 out=822 $0.0212 29.9s
+20261116230932-10-cua-5a58  10_layout_shift | cua | gpt-6.1-sol | seed 201 ... PASS (done; statuses match) calls=6 in=25326 out=231 $0.0188 20.4s
+20261116230953-10-stagehand-4959  10_layout_shift | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; wrong: Elin Fors=Pending, Maria Sund=Pending) calls=21 in=67504 out=2332 $0.1001 138.8s
+20261116231212-11-mcp-e6eb  11_canvas_map | mcp | gpt-6.1-sol | seed 201 ... PASS (done; assignment matches) calls=14 in=74102 out=329 $0.0216 42.3s
+20261116231254-11-pw-cli-d15b  11_canvas_map | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; assignment matches) calls=12 in=74815 out=529 $0.0232 43s
+20261116231337-11-pw-script-3c6e  11_canvas_map | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; assignment matches) calls=7 in=13063 out=1053 $0.0215 38.1s
+20261116231415-11-cua-9294  11_canvas_map | cua | gpt-6.1-sol | seed 201 ... PASS (done; assignment matches) calls=7 in=33933 out=264 $0.0224 22s
+20261116231437-11-stagehand-95fd  11_canvas_map | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=14 in=28880 out=1497 $0.0500 91.3s
+20261116231609-12-mcp-a6e1  12_hover_slider | mcp | gpt-6.1-sol | seed 201 ... PASS (done; discount matches) calls=17 in=115310 out=379 $0.0312 51.3s
+20261116231700-12-pw-cli-8b56  12_hover_slider | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; discount matches) calls=12 in=91640 out=401 $0.0285 38.9s
+20261116231739-12-pw-script-f9a2  12_hover_slider | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; discount matches) calls=9 in=18374 out=1157 $0.0238 41.9s
+20261116231821-12-cua-6a67  12_hover_slider | cua | gpt-6.1-sol | seed 201 ... PASS (done; discount matches) calls=10 in=68024 out=589 $0.0366 34.8s
+20261116231856-12-stagehand-160c  12_hover_slider | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {}) calls=28 in=96143 out=3509 $0.1294 199.9s
+20261116232216-13-mcp-1b67  13_bulk_policy | mcp | gpt-6.1-sol | seed 201 ... PASS (done; all 24 statuses match) calls=23 in=191253 out=493 $0.0463 71.7s
+20261116232328-13-pw-cli-79e2  13_bulk_policy | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; all 24 statuses match) calls=12 in=112441 out=451 $0.0390 45.6s
+20261116232413-13-pw-script-d64b  13_bulk_policy | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; all 24 statuses match) calls=4 in=6894 out=903 $0.0189 20.5s
+20261116232434-13-cua-9748  13_bulk_policy | cua | gpt-6.1-sol | seed 201 ... PASS (done; all 24 statuses match) calls=14 in=129067 out=476 $0.0506 43.4s
+20261116232517-13-stagehand-22c3  13_bulk_policy | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; all 24 statuses match) calls=25 in=94304 out=3210 $0.1286 171.2s
+20261116232809-14-mcp-4f5d  14_transient_key | mcp | gpt-6.1-sol | seed 201 ... PASS (done; secret matches (keys generated: 1)) calls=15 in=78152 out=337 $0.0210 42.9s
+20261116232852-14-pw-cli-9fef  14_transient_key | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; secret matches (keys generated: 1)) calls=9 in=53548 out=276 $0.0171 28.4s
+20261116232920-14-pw-script-fb43  14_transient_key | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; secret matches (keys generated: 2)) calls=7 in=11927 out=1518 $0.0244 33.1s
+20261116232953-14-cua-2725  14_transient_key | cua | gpt-6.1-sol | seed 201 ... PASS (done; secret matches (keys generated: 1)) calls=7 in=34131 out=329 $0.0232 24s
+20261116233017-14-stagehand-279d  14_transient_key | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 1)) calls=17 in=38366 out=1176 $0.0551 92s
+20261116233149-15-mcp-8a08  15_closed_shadow | mcp | gpt-6.1-sol | seed 201 ... PASS (done; plan confirmed) calls=17 in=97574 out=541 $0.0296 55.9s
+20261116233245-15-pw-cli-1530  15_closed_shadow | pw-cli | gpt-6.1-sol | seed 201 ... PASS (done; plan confirmed) calls=21 in=150272 out=1328 $0.0405 76.6s
+20261116233402-15-pw-script-cb31  15_closed_shadow | pw-script | gpt-6.1-sol | seed 201 ... PASS (done; plan confirmed) calls=9 in=15384 out=1334 $0.0253 60.9s
+20261116233503-15-cua-1f35  15_closed_shadow | cua | gpt-6.1-sol | seed 201 ... PASS (done; plan confirmed) calls=6 in=65156 out=8226 $0.1179 114.5s
+20261116233657-15-stagehand-25b1  15_closed_shadow | stagehand | gpt-6.1-sol | seed 201 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=14 in=28869 out=937 $0.0471 77.2s
+20261116233815-01-mcp-3e6e  01_login_read | mcp | gpt-6.1-sol | seed 202 ... PASS (done; answer matches) calls=6 in=20897 out=147 $0.0065 15.9s
+20261116233831-01-pw-cli-3bf3  01_login_read | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; answer matches) calls=6 in=28978 out=188 $0.0085 16s
+20261116233847-01-pw-script-ea75  01_login_read | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; answer matches) calls=6 in=5337 out=561 $0.0141 23.8s
+20261116233911-01-cua-dbbf  01_login_read | cua | gpt-6.1-sol | seed 202 ... PASS (done; answer matches) calls=4 in=11756 out=125 $0.0116 11.8s
+20261116233923-01-stagehand-000b  01_login_read | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; answer matches) calls=7 in=9816 out=437 $0.0220 35.3s
+20261116233958-02-mcp-6fcc  02_wizard | mcp | gpt-6.1-sol | seed 202 ... PASS (done; supplier matches) calls=19 in=121349 out=583 $0.0316 56.6s
+20261116234055-02-pw-cli-a53b  02_wizard | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; supplier matches) calls=10 in=68848 out=396 $0.0253 33.1s
+20261116234128-02-pw-script-e3fa  02_wizard | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; supplier matches) calls=6 in=10353 out=998 $0.0190 24.8s
+20261116234153-02-cua-53cf  02_wizard | cua | gpt-6.1-sol | seed 202 ... PASS (done; supplier matches) calls=10 in=68426 out=558 $0.0364 36.9s
+20261116234230-02-stagehand-a641  02_wizard | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; supplier matches) calls=30 in=105261 out=2697 $0.1223 186s
+20261116234536-03-mcp-247c  03_search_filter | mcp | gpt-6.1-sol | seed 202 ... PASS (done; right order flagged) calls=15 in=91588 out=347 $0.0267 41.4s
+20261116234617-03-pw-cli-ff8d  03_search_filter | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; right order flagged) calls=10 in=73129 out=309 $0.0254 34.5s
+20261116234652-03-pw-script-c481  03_search_filter | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; right order flagged) calls=6 in=9586 out=770 $0.0161 30.1s
+20261116234722-03-cua-9290  03_search_filter | cua | gpt-6.1-sol | seed 202 ... FAIL (error; flagged [], wanted SO-7560) calls=4 in=11929 out=184 $0.0123 85.2s ERR APIConnectionError: Connection error.
+20261116234847-03-stagehand-df8e  03_search_filter | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (error; flagged [], wanted SO-7560) calls=0 in=0 out=0 $0.0000 2s ERR APIConnectionError: Connection error.
+20261116234849-04-mcp-ae8f  04_table_edit | mcp | gpt-6.1-sol | seed 202 ... FAIL (error; changed rows: none) calls=0 in=0 out=0 $0.0000 1.5s ERR APIConnectionError: Connection error.
+20261116234851-04-pw-cli-d0f8  04_table_edit | pw-cli | gpt-6.1-sol | seed 202 ... FAIL (error; changed rows: none) calls=0 in=0 out=0 $0.0000 1.3s ERR APIConnectionError: Connection error.
+20261116234852-04-pw-script-2d73  04_table_edit | pw-script | gpt-6.1-sol | seed 202 ... FAIL (error; changed rows: none) calls=0 in=0 out=0 $0.0000 1.3s ERR APIConnectionError: Connection error.
+20261116234854-04-cua-2c27  04_table_edit | cua | gpt-6.1-sol | seed 202 ... FAIL (error; changed rows: none) calls=0 in=0 out=0 $0.0000 1.5s ERR APIConnectionError: Connection error.
+20261116234855-04-stagehand-b499  04_table_edit | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (error; changed rows: none) calls=0 in=0 out=0 $0.0000 1.8s ERR APIConnectionError: Connection error.
+20261116234857-05-mcp-f624  05_datepicker_dropdown | mcp | gpt-6.1-sol | seed 202 ... FAIL (error; 0 bookings) calls=0 in=0 out=0 $0.0000 1.6s ERR APIConnectionError: Connection error.
+20261116234859-05-pw-cli-e823  05_datepicker_dropdown | pw-cli | gpt-6.1-sol | seed 202 ... FAIL (error; 0 bookings) calls=0 in=0 out=0 $0.0000 1.3s ERR APIConnectionError: Connection error.
+20261116234900-05-pw-script-9c50  05_datepicker_dropdown | pw-script | gpt-6.1-sol | seed 202 ... FAIL (error; 0 bookings) calls=0 in=0 out=0 $0.0000 1.4s ERR APIConnectionError: Connection error.
+20261116234902-05-cua-ce2b  05_datepicker_dropdown | cua | gpt-6.1-sol | seed 202 ... FAIL (error; 0 bookings) calls=0 in=0 out=0 $0.0000 1.5s ERR APIConnectionError: Connection error.
+20261116234903-05-stagehand-b15a  05_datepicker_dropdown | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (error; 0 bookings) calls=0 in=0 out=0 $0.0000 1.8s ERR APIConnectionError: Connection error.
+20261116234905-06-mcp-fb5a  06_upload | mcp | gpt-6.1-sol | seed 202 ... FAIL (error; 0 documents uploaded) calls=0 in=0 out=0 $0.0000 1.5s ERR APIConnectionError: Connection error.
+20261116234906-06-pw-cli-8cb6  06_upload | pw-cli | gpt-6.1-sol | seed 202 ... FAIL (error; 0 documents uploaded) calls=0 in=0 out=0 $0.0000 1.4s ERR APIConnectionError: Connection error.
+20261116234908-06-pw-script-783a  06_upload | pw-script | gpt-6.1-sol | seed 202 ... FAIL (error; 0 documents uploaded) calls=0 in=0 out=0 $0.0000 1.4s ERR APIConnectionError: Connection error.
+20261116234909-06-cua-4f50  06_upload | cua | gpt-6.1-sol | seed 202 ... FAIL (error; 0 documents uploaded) calls=0 in=0 out=0 $0.0000 1.6s ERR APIConnectionError: Connection error.
+20261116234911-06-stagehand-97bb  06_upload | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (error; 0 documents uploaded) calls=0 in=0 out=0 $0.0000 1.8s ERR APIConnectionError: Connection error.
+20261116234913-07-mcp-8cb7  07_modal_toast | mcp | gpt-6.1-sol | seed 202 ... FAIL (error; archived []) calls=0 in=0 out=0 $0.0000 1.4s ERR APIConnectionError: Connection error.
+20261116234914-07-pw-cli-d059  07_modal_toast | pw-cli | gpt-6.1-sol | seed 202 ... FAIL (error; archived []) calls=0 in=0 out=0 $0.0000 1.2s ERR APIConnectionError: Connection error.
+20261116234916-07-pw-script-bdfc  07_modal_toast | pw-script | gpt-6.1-sol | seed 202 ... FAIL (error; archived []) calls=0 in=0 out=0 $0.0000 1.2s ERR APIConnectionError: Connection error.
+20261116234917-07-cua-3c3c  07_modal_toast | cua | gpt-6.1-sol | seed 202 ... FAIL (error; archived []) calls=0 in=0 out=0 $0.0000 1.5s ERR APIConnectionError: Connection error.
+20261116234918-07-stagehand-b6ab  07_modal_toast | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (error; archived []) calls=0 in=0 out=0 $0.0000 1.8s ERR APIConnectionError: Connection error.
+20261116234920-08-mcp-4ad5  08_iframe_shadow | mcp | gpt-6.1-sol | seed 202 ... FAIL (error; settings {"threshold":100,"digest":false}) calls=0 in=0 out=0 $0.0000 1.6s ERR APIConnectionError: Connection error.
+20261116234922-08-pw-cli-c954  08_iframe_shadow | pw-cli | gpt-6.1-sol | seed 202 ... FAIL (error; settings {"threshold":100,"digest":false}) calls=0 in=0 out=0 $0.0000 1.3s ERR APIConnectionError: Connection error.
+20261116234923-08-pw-script-95cd  08_iframe_shadow | pw-script | gpt-6.1-sol | seed 202 ... FAIL (error; settings {"threshold":100,"digest":false}) calls=0 in=0 out=0 $0.0000 1.4s ERR APIConnectionError: Connection error.
+20261116234925-08-cua-da21  08_iframe_shadow | cua | gpt-6.1-sol | seed 202 ... FAIL (error; settings {"threshold":100,"digest":false}) calls=0 in=0 out=0 $0.0000 1.5s ERR APIConnectionError: Connection error.
+20261116234926-08-stagehand-f092  08_iframe_shadow | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; settings saved) calls=14 in=30141 out=963 $0.0465 72.4s
+20261116235039-09-mcp-d525  09_drag_reorder | mcp | gpt-6.1-sol | seed 202 ... PASS (done; order saved) calls=14 in=73653 out=329 $0.0205 37.9s
+20261116235117-09-pw-cli-fcc7  09_drag_reorder | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; order saved) calls=13 in=80915 out=462 $0.0209 37.1s
+20261116235154-09-pw-script-6ec0  09_drag_reorder | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; order saved) calls=5 in=5725 out=789 $0.0163 23.4s
+20261116235217-09-cua-db0c  09_drag_reorder | cua | gpt-6.1-sol | seed 202 ... PASS (done; order saved) calls=7 in=34025 out=301 $0.0228 22s
+20261116235239-09-stagehand-a4c7  09_drag_reorder | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; order saved) calls=31 in=114754 out=3300 $0.1222 218.4s
+20261116235618-10-mcp-e65e  10_layout_shift | mcp | gpt-6.1-sol | seed 202 ... PASS (done; statuses match) calls=13 in=69806 out=346 $0.0229 37.7s
+20261116235656-10-pw-cli-a436  10_layout_shift | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; statuses match) calls=10 in=64780 out=300 $0.0216 31.4s
+20261116235727-10-pw-script-2e97  10_layout_shift | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; statuses match) calls=6 in=9832 out=914 $0.0186 27.2s
+20261116235755-10-cua-db12  10_layout_shift | cua | gpt-6.1-sol | seed 202 ... PASS (done; statuses match) calls=6 in=25270 out=220 $0.0187 18.9s
+20261116235814-10-stagehand-eefb  10_layout_shift | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; wrong: Per Åberg=Pending, Elin Fors=Pending) calls=21 in=69222 out=2693 $0.1064 145.7s
+20261117000039-11-mcp-b832  11_canvas_map | mcp | gpt-6.1-sol | seed 202 ... PASS (done; assignment matches) calls=14 in=74027 out=328 $0.0215 41.6s
+20261117000121-11-pw-cli-8637  11_canvas_map | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; assignment matches) calls=12 in=80950 out=635 $0.0280 43.2s
+20261117000204-11-pw-script-4a8f  11_canvas_map | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; assignment matches) calls=6 in=9114 out=738 $0.0159 26.5s
+20261117000231-11-cua-d3a7  11_canvas_map | cua | gpt-6.1-sol | seed 202 ... PASS (done; assignment matches) calls=7 in=33886 out=259 $0.0223 20.9s
+20261117000252-11-stagehand-d077  11_canvas_map | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; assignments {}) calls=16 in=34451 out=1726 $0.0572 103.9s
+20261117000436-12-mcp-deb3  12_hover_slider | mcp | gpt-6.1-sol | seed 202 ... PASS (done; discount matches) calls=17 in=112400 out=398 $0.0300 52.4s
+20261117000528-12-pw-cli-4699  12_hover_slider | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; discount matches) calls=12 in=94337 out=384 $0.0309 38.8s
+20261117000607-12-pw-script-60a6  12_hover_slider | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; discount matches) calls=8 in=14105 out=904 $0.0217 31.1s
+20261117000638-12-cua-30af  12_hover_slider | cua | gpt-6.1-sol | seed 202 ... PASS (done; discount matches) calls=8 in=43732 out=323 $0.0264 28.4s
+20261117000707-12-stagehand-7386  12_hover_slider | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; discounts {}) calls=26 in=88715 out=3367 $0.1238 183.4s
+20261117001010-13-mcp-a153  13_bulk_policy | mcp | gpt-6.1-sol | seed 202 ... PASS (done; all 24 statuses match) calls=21 in=189480 out=830 $0.0520 65.9s
+20261117001116-13-pw-cli-7a57  13_bulk_policy | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; all 24 statuses match) calls=13 in=142787 out=562 $0.0522 56.5s
+20261117001213-13-pw-script-823d  13_bulk_policy | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; all 24 statuses match) calls=11 in=63028 out=1532 $0.0446 50.4s
+20261117001303-13-cua-f8de  13_bulk_policy | cua | gpt-6.1-sol | seed 202 ... PASS (done; all 24 statuses match) calls=21 in=286226 out=799 $0.0863 73.7s
+20261117001417-13-stagehand-503a  13_bulk_policy | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; all 24 statuses match) calls=34 in=182540 out=5058 $0.1974 247.4s
+20261117001825-14-mcp-a672  14_transient_key | mcp | gpt-6.1-sol | seed 202 ... PASS (done; secret matches (keys generated: 1)) calls=15 in=77935 out=370 $0.0212 40.8s
+20261117001905-14-pw-cli-6ea0  14_transient_key | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; secret matches (keys generated: 1)) calls=9 in=53549 out=276 $0.0171 28.3s
+20261117001934-14-pw-script-c1b0  14_transient_key | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; secret matches (keys generated: 2)) calls=6 in=8255 out=1303 $0.0206 26s
+20261117002000-14-cua-18a7  14_transient_key | cua | gpt-6.1-sol | seed 202 ... PASS (done; secret matches (keys generated: 1)) calls=7 in=34078 out=308 $0.0230 22.8s
+20261117002023-14-stagehand-8dc9  14_transient_key | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; secret matches (keys generated: 1)) calls=16 in=34656 out=1143 $0.0517 93.4s
+20261117002156-15-mcp-9735  15_closed_shadow | mcp | gpt-6.1-sol | seed 202 ... PASS (done; plan confirmed) calls=17 in=100385 out=514 $0.0306 63.3s
+20261117002300-15-pw-cli-0e5d  15_closed_shadow | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; plan confirmed) calls=14 in=95757 out=1010 $0.0348 62.3s
+20261117002402-15-pw-script-3a65  15_closed_shadow | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; plan confirmed) calls=8 in=13775 out=1361 $0.0240 49.2s
+20261117002452-15-cua-3ebd  15_closed_shadow | cua | gpt-6.1-sol | seed 202 ... PASS (done; plan confirmed) calls=6 in=25236 out=242 $0.0189 18.5s
+20261117002510-15-stagehand-a7dd  15_closed_shadow | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; plan confirmed) calls=13 in=27230 out=933 $0.0455 72.4s
+
+225 runs, $7.5353 spent

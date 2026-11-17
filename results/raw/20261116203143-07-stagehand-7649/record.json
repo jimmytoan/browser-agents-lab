@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116203143-07-stagehand-7649",
+  "ts": "2026-11-16T20:33:21.405Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "gpt-6-luna",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 97.7,
+  "model_calls": 18,
+  "tokens": {
+    "input": 33551,
+    "output": 2935,
+    "cache_read": 21233,
+    "cache_write": 0,
+    "total_in": 54784
+  },
+  "peak_prompt_tokens": 2853,
+  "cost_usd": 0.005035,
+  "tool_calls": 17,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 23,
+    "inner": {
+      "input": 27339,
+      "output": 2454,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.003961,
+      "raw": {
+        "actPromptTokens": 12150,
+        "actCompletionTokens": 343,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 14252,
+        "extractPromptTokens": 9637,
+        "extractCompletionTokens": 1883,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 33979,
+        "observePromptTokens": 5552,
+        "observeCompletionTokens": 228,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 8857,
+        "totalPromptTokens": 27339,
+        "totalCompletionTokens": 2454,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 57088
+      }
+    },
+    "outer_cost_usd": 0.001074
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-BC8094",
+  "instruction": "On the Customers page, archive the customer \"Nordlys AB\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

@@ -1,0 +1,1 @@
+Confirmed the Enterprise plan with 14 seats.

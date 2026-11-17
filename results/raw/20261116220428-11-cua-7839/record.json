@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116220428-11-cua-7839",
+  "ts": "2026-11-16T22:04:54.294Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "cua",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 25.9,
+  "model_calls": 7,
+  "tokens": {
+    "input": 8606,
+    "output": 260,
+    "cache_read": 25286,
+    "cache_write": 0,
+    "total_in": 33892
+  },
+  "peak_prompt_tokens": 8588,
+  "cost_usd": 0.022341,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 6,
+    "reasoning_tokens": 0,
+    "screenshots_sent": 6
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-5866 to bay B-02: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

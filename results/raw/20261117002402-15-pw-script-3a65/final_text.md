@@ -1,0 +1,1 @@
+Changed the subscription to Enterprise with 12 seats and confirmed the plan.

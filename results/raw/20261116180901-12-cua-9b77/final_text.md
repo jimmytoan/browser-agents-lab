@@ -1,0 +1,1 @@
+Set product P-1048’s discount to 33% and applied it.

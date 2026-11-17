@@ -1,0 +1,1 @@
+Uploaded invoice-4231.pdf exactly once for Hansa Tooling GmbH with document type Invoice; the draft was not uploaded.

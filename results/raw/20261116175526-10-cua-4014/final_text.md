@@ -1,0 +1,1 @@
+Approved Elin Fors’s expense report and rejected Per Åberg’s; all other reports remain pending.

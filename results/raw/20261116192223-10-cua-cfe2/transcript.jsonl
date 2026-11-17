@@ -1,0 +1,18 @@
+{"ms":2304,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1084,"input_tokens_details":{"cache_write_tokens":1081,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1081},"cached_tokens":0},"output_tokens":25,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":1109},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4511,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2319,"input_tokens_details":{"cache_write_tokens":1235,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1235},"cached_tokens":1081},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2408},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":696,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":698,"y":184}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":497,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4778,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4891,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5147,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5228,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5480,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6482,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8594,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3618,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2316},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":7},"total_tokens":3662},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":750,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":8847,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9849,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12630,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4872,"input_tokens_details":{"cache_write_tokens":1254,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1254},"cached_tokens":3615},"output_tokens":87,"output_tokens_details":{"reasoning_tokens":50},"total_tokens":4959},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":334,"y":252}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":12885,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13885,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16524,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6169,"input_tokens_details":{"cache_write_tokens":1297,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1297},"cached_tokens":4869},"output_tokens":45,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":6214},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":296,"y":405}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":16778,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17780,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":19926,"t":"model","stop":"completed","text":"Approved Lena Strid’s expense report, rejected Tomas Rask’s, and left all other reports pending.","usage":{"input_tokens":7424,"input_tokens_details":{"cache_write_tokens":1255,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1255},"cached_tokens":6166},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":17},"total_tokens":7468},"calls":[]}

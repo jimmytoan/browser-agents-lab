@@ -1,0 +1,1 @@
+I couldn’t set the slider to exactly 27%, so I canceled without applying changes; no product discounts were changed.

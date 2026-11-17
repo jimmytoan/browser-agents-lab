@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116211545-01-pw-script-b6db",
+  "ts": "2026-11-16T21:16:10.825Z",
+  "tag": "full",
+  "task": "01_login_read",
+  "level": 1,
+  "contestant": "pw-script",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "answer matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 25,
+  "model_calls": 6,
+  "tokens": {
+    "input": 4163,
+    "output": 537,
+    "cache_read": 1151,
+    "cache_write": 0,
+    "total_in": 5314
+  },
+  "peak_prompt_tokens": 1315,
+  "cost_usd": 0.013811,
+  "tool_calls": 5,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 0,
+    "commands": 5,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 19,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "SEK 40,612",
+  "instruction": "Report the amount shown for \"Open invoices total\" on the Dashboard page."
+}

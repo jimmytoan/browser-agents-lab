@@ -1,0 +1,1 @@
+Reviewed all 3 pages: rejected 5 blocked-customer requests, approved 2 qualifying damaged-item refunds, and left 17 requests pending.

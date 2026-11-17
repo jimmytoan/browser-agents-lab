@@ -1,0 +1,1 @@
+Sara Nyberg’s report is approved and Nils Varg’s is rejected, but I also accidentally approved Anna Lindqvist’s report; the page provides no way to return it to Pending.

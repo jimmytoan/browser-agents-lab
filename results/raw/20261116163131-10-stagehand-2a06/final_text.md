@@ -1,0 +1,1 @@
+I couldn’t complete the approvals: the page exposed icon controls for Elin and Maria, but the browser couldn’t activate them, so both reports remain pending.

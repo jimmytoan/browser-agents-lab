@@ -1,0 +1,41 @@
+{"ms":4837,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1144,"input_tokens_details":{"cache_write_tokens":1141,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1141},"cached_tokens":0},"output_tokens":29,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":1173},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":7556,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2383,"input_tokens_details":{"cache_write_tokens":1239,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1239},"cached_tokens":1141},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2472},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":696,"y":142}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":689,"y":183}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":498,"y":235}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":7823,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7935,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":8191,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":8273,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":8527,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9529,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12854,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3682,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2380},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":7},"total_tokens":3726},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":231,"y":19}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":13108,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14110,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17043,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4936,"input_tokens_details":{"cache_write_tokens":1254,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1254},"cached_tokens":3679},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":4971},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":83,"y":150}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":17300,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18303,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":21615,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6181,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":4933},"output_tokens":156,"output_tokens_details":{"reasoning_tokens":34},"total_tokens":6337},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":265,"y":193}},{"name":"type","input":{"type":"type","text":"Vättern Components AB"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":269,"y":235}},{"name":"type","input":{"type":"type","text":"557304-6397"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":267,"y":277}},{"name":"type","input":{"type":"type","text":"inkop@vattern.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":52,"y":328}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":21866,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22005,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22258,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22336,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22590,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22712,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22967,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23969,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":28403,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7547,"input_tokens_details":{"cache_write_tokens":1366,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1366},"cached_tokens":6178},"output_tokens":225,"output_tokens_details":{"reasoning_tokens":57},"total_tokens":7772},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":265,"y":191}},{"name":"type","input":{"type":"type","text":"Hamngatan 62"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":264,"y":236}},{"name":"type","input":{"type":"type","text":"791 88"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":259,"y":278}},{"name":"type","input":{"type":"type","text":"Sundsvall"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":231,"y":321}},{"name":"keypress","input":{"type":"keypress","keys":["N"]}},{"name":"keypress","input":{"type":"keypress","keys":["ENTER"]}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":365,"y":357}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":116,"y":400}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":28657,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":28740,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":28993,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29035,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":29288,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29349,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":29609,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29767,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":29922,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":30179,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":30436,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":31438,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":34768,"t":"model","stop":"completed","text":"","usage":{"input_tokens":8982,"input_tokens_details":{"cache_write_tokens":1435,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1435},"cached_tokens":7544},"output_tokens":80,"output_tokens_details":{"reasoning_tokens":27},"total_tokens":9062},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":34,"y":458}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":152,"y":501}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":35022,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":35277,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":36278,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":38905,"t":"model","stop":"completed","text":"Created supplier Vättern Components AB with the requested details.","usage":{"input_tokens":10272,"input_tokens_details":{"cache_write_tokens":1290,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1290},"cached_tokens":8979},"output_tokens":16,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":10288},"calls":[]}

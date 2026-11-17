@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116163827-11-cua-a1f8",
+  "ts": "2026-11-16T16:38:49.848Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 22.7,
+  "model_calls": 7,
+  "tokens": {
+    "input": 8681,
+    "output": 329,
+    "cache_read": 25438,
+    "cache_write": 0,
+    "total_in": 34119
+  },
+  "peak_prompt_tokens": 8663,
+  "cost_usd": 0.001287,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 6,
+    "reasoning_tokens": 58,
+    "screenshots_sent": 6
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-6076 to bay A-03: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

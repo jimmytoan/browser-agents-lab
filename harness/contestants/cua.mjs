@@ -43,6 +43,8 @@ export async function run(ctx) {
 
   const actions = {
     screenshot: () => (chooser ? [{ type: 'text', text: 'A file selection dialog is open and covers the page: type the absolute path of the file and press Return, or press Escape to cancel.' }] : shot()),
+    // Used by the OpenAI loop, whose computer tool expects an image after every call: the page image, plus the dialog note if one is open.
+    _shot: async () => [...(await shot()), ...(chooser ? [{ type: 'text', text: 'A file selection dialog is open and covers the page: type the absolute path of the file and press Return, or press Escape to cancel.' }] : [])],
     zoom: (i) => { const [x0, y0, x1, y1] = i.region; return shot({ x: x0, y: y0, width: Math.max(1, x1 - x0), height: Math.max(1, y1 - y0) }); },
     left_click: async (i) => (await click(i, 'left', 1)) + dialogNote(),
     right_click: (i) => click(i, 'right', 1),

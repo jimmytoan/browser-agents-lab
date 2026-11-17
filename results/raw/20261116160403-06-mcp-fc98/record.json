@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116160403-06-mcp-fc98",
+  "ts": "2026-11-16T16:05:26.070Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 82.7,
+  "model_calls": 19,
+  "tokens": {
+    "input": 6733,
+    "output": 883,
+    "cache_read": 103252,
+    "cache_write": 0,
+    "total_in": 109985
+  },
+  "peak_prompt_tokens": 9519,
+  "cost_usd": 0.002147,
+  "tool_calls": 18,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 286
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116160403-06-mcp-fc98/invoice-4023.pdf for supplier \"Hansa Tooling GmbH\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

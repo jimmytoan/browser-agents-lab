@@ -1,0 +1,1 @@
+I couldn’t complete the changes because the browser tool could not activate the approve/reject controls; all expense reports remain pending.

@@ -1,0 +1,1 @@
+Set and applied a 17% discount to P-1043. No other product discounts were changed.

@@ -1,0 +1,1 @@
+Created supplier Siljan Industri AB with the requested details. The organisation number and postal code were entered in the formats required by the form.

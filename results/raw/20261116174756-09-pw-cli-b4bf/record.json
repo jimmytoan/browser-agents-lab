@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116174756-09-pw-cli-b4bf",
+  "ts": "2026-11-16T17:48:48.708Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 51.9,
+  "model_calls": 14,
+  "tokens": {
+    "input": 7591,
+    "output": 1030,
+    "cache_read": 89981,
+    "cache_write": 0,
+    "total_in": 97572
+  },
+  "peak_prompt_tokens": 11624,
+  "cost_usd": 0.002174,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 477,
+    "commands": 13,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing. Then save the order."
+}

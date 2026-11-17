@@ -1,0 +1,1 @@
+I signed in and selected PAL-3202, but couldn’t select bay D-05 on the map, so I did not make an assignment.

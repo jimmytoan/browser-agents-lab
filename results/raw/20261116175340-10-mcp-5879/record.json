@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116175340-10-mcp-5879",
+  "ts": "2026-11-16T17:54:15.624Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 34.9,
+  "model_calls": 12,
+  "tokens": {
+    "input": 6742,
+    "output": 455,
+    "cache_read": 57015,
+    "cache_write": 0,
+    "total_in": 63757
+  },
+  "peak_prompt_tokens": 9549,
+  "cost_usd": 0.001472,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 113
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Elin Fors and reject the expense report submitted by Per Åberg. Leave every other expense report pending."
+}

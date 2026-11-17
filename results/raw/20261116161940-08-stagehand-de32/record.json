@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116161940-08-stagehand-de32",
+  "ts": "2026-11-16T16:20:48.905Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "stagehand",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 68.1,
+  "model_calls": 13,
+  "tokens": {
+    "input": 16664,
+    "output": 1284,
+    "cache_read": 10283,
+    "cache_write": 0,
+    "total_in": 26947
+  },
+  "peak_prompt_tokens": 2136,
+  "cost_usd": 0.002411,
+  "tool_calls": 12,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 12,
+    "inner": {
+      "input": 11283,
+      "output": 941,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.001599,
+      "raw": {
+        "actPromptTokens": 8265,
+        "actCompletionTokens": 347,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 18716,
+        "extractPromptTokens": 0,
+        "extractCompletionTokens": 0,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 0,
+        "observePromptTokens": 3018,
+        "observeCompletionTokens": 594,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 14665,
+        "totalPromptTokens": 11283,
+        "totalCompletionTokens": 941,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 33381
+      }
+    },
+    "outer_cost_usd": 0.000812
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 165, turn the weekly digest on, and save the notification settings."
+}

@@ -1,0 +1,1 @@
+Generated signing key `GJ49-7H87-9229-MTRC`, saved it as the Webhooks signing secret, and confirmed “Webhook saved.”

@@ -1,0 +1,24 @@
+{"ms":2341,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1084,"input_tokens_details":{"cache_write_tokens":1081,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1081},"cached_tokens":0},"output_tokens":30,"output_tokens_details":{"reasoning_tokens":10},"total_tokens":1114},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":5166,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2324,"input_tokens_details":{"cache_write_tokens":1240,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1240},"cached_tokens":1081},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2413},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":699,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":696,"y":184}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":497,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":5422,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5519,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5772,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5849,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":6101,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7102,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9430,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3623,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2321},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":7},"total_tokens":3667},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":969,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9686,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10687,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12999,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4877,"input_tokens_details":{"cache_write_tokens":1254,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1254},"cached_tokens":3620},"output_tokens":53,"output_tokens_details":{"reasoning_tokens":20},"total_tokens":4930},"calls":[{"name":"move","input":{"type":"move","keys":null,"x":350,"y":291}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":13055,"t":"tool","name":"mouse_move","is_error":false,"result":"OK"}
+{"ms":14057,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16599,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6140,"input_tokens_details":{"cache_write_tokens":1263,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1263},"cached_tokens":4874},"output_tokens":45,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":6185},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":948,"y":291}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":16854,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17856,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":22070,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7395,"input_tokens_details":{"cache_write_tokens":1255,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1255},"cached_tokens":6137},"output_tokens":212,"output_tokens_details":{"reasoning_tokens":175},"total_tokens":7607},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":127,"y":544}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":22325,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23326,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":28365,"t":"model","stop":"completed","text":"","usage":{"input_tokens":8817,"input_tokens_details":{"cache_write_tokens":1422,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1422},"cached_tokens":7392},"output_tokens":48,"output_tokens_details":{"reasoning_tokens":11},"total_tokens":8865},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":102,"y":616}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":28621,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29622,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":31930,"t":"model","stop":"completed","text":"Set and applied an 11% discount for product P-1017; all other product discounts remain unchanged.","usage":{"input_tokens":10075,"input_tokens_details":{"cache_write_tokens":1258,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1258},"cached_tokens":8814},"output_tokens":26,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":10101},"calls":[]}

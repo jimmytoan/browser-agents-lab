@@ -1,0 +1,22 @@
+{"ms":1899,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1104,"input_tokens_details":{"cache_write_tokens":1101,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1101},"cached_tokens":0},"output_tokens":23,"output_tokens_details":{"reasoning_tokens":9},"total_tokens":1127},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4215,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2337,"input_tokens_details":{"cache_write_tokens":1233,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1233},"cached_tokens":1101},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2426},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":696,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":691,"y":185}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":496,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4484,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4597,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4852,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4936,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5193,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6195,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8383,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3636,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2334},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":7},"total_tokens":3680},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":603,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":8638,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9639,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12190,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4890,"input_tokens_details":{"cache_write_tokens":1254,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1254},"cached_tokens":3633},"output_tokens":64,"output_tokens_details":{"reasoning_tokens":27},"total_tokens":4954},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":864,"y":428}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":12447,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13450,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":15945,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6164,"input_tokens_details":{"cache_write_tokens":1274,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1274},"cached_tokens":4887},"output_tokens":79,"output_tokens_details":{"reasoning_tokens":15},"total_tokens":6243},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":637,"y":435}},{"name":"type","input":{"type":"type","text":"Lind Bygg"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":580,"y":484}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":16197,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16255,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":16509,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17510,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":19790,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7453,"input_tokens_details":{"cache_write_tokens":1289,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1289},"cached_tokens":6161},"output_tokens":45,"output_tokens_details":{"reasoning_tokens":24},"total_tokens":7498},"calls":[{"name":"wait","input":{"type":"wait"}}]}
+{"ms":20792,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":25185,"t":"model","stop":"completed","text":"Lind Bygg was archived.  \nANSWER: ARC-DE10B7","usage":{"input_tokens":8708,"input_tokens_details":{"cache_write_tokens":1255,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1255},"cached_tokens":7450},"output_tokens":100,"output_tokens_details":{"reasoning_tokens":79},"total_tokens":8808},"calls":[]}

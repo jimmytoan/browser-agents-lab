@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116190230-06-pw-script-de85",
+  "ts": "2026-11-16T19:02:50.779Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 20,
+  "model_calls": 5,
+  "tokens": {
+    "input": 4211,
+    "output": 1028,
+    "cache_read": 1342,
+    "cache_write": 0,
+    "total_in": 5553
+  },
+  "peak_prompt_tokens": 2083,
+  "cost_usd": 0.000949,
+  "tool_calls": 4,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 96,
+    "commands": 4,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 3
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116190230-06-pw-script-de85/invoice-4445.pdf for supplier \"Baltic Polymers\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

@@ -1,0 +1,1 @@
+I selected PAL-8541, but couldn’t identify or select bay C-01 on the map, so I did not make an assignment.

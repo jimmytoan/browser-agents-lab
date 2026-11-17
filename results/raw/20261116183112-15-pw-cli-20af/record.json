@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116183112-15-pw-cli-20af",
+  "ts": "2026-11-16T18:33:07.895Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 115.7,
+  "model_calls": 24,
+  "tokens": {
+    "input": 8172,
+    "output": 3807,
+    "cache_read": 192311,
+    "cache_write": 0,
+    "total_in": 200483
+  },
+  "peak_prompt_tokens": 12175,
+  "cost_usd": 0.004644,
+  "tool_calls": 23,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 2698,
+    "commands": 23,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Billing page, change the subscription to the Enterprise plan with 12 seats and confirm the plan."
+}

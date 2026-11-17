@@ -1,0 +1,1 @@
+Applied exactly 27% discount to product P-1024. No other product discounts were changed.

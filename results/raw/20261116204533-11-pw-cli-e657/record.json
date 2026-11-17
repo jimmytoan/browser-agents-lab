@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116204533-11-pw-cli-e657",
+  "ts": "2026-11-16T20:46:54.751Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 80.6,
+  "model_calls": 22,
+  "tokens": {
+    "input": 9505,
+    "output": 2723,
+    "cache_read": 174058,
+    "cache_write": 0,
+    "total_in": 183563
+  },
+  "peak_prompt_tokens": 13514,
+  "cost_usd": 0.004053,
+  "tool_calls": 21,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 1825,
+    "commands": 21,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-7723 to bay E-03: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116180126-11-pw-script-5ee5",
+  "ts": "2026-11-16T18:02:05.970Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 39,
+  "model_calls": 8,
+  "tokens": {
+    "input": 6178,
+    "output": 1507,
+    "cache_read": 5635,
+    "cache_write": 0,
+    "total_in": 11813
+  },
+  "peak_prompt_tokens": 3439,
+  "cost_usd": 0.001428,
+  "tool_calls": 7,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 221,
+    "commands": 7,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 19,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-3202 to bay D-05: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

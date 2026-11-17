@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116150257-10-stagehand-303b",
+  "ts": "2026-11-16T15:04:24.213Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "gpt-6-luna",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 86.7,
+  "model_calls": 14,
+  "tokens": {
+    "input": 23202,
+    "output": 1687,
+    "cache_read": 12543,
+    "cache_write": 0,
+    "total_in": 35745
+  },
+  "peak_prompt_tokens": 2238,
+  "cost_usd": 0.003289,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 55,
+    "inner": {
+      "input": 17637,
+      "output": 1234,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.002381,
+      "raw": {
+        "actPromptTokens": 8908,
+        "actCompletionTokens": 331,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 19453,
+        "extractPromptTokens": 3775,
+        "extractCompletionTokens": 638,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 14468,
+        "observePromptTokens": 4954,
+        "observeCompletionTokens": 265,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 13621,
+        "totalPromptTokens": 17637,
+        "totalCompletionTokens": 1234,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 47542
+      }
+    },
+    "outer_cost_usd": 0.000908
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Sara Nyberg and reject the expense report submitted by Nils Varg. Leave every other expense report pending."
+}

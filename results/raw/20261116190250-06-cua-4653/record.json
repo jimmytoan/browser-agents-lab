@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116190250-06-cua-4653",
+  "ts": "2026-11-16T19:03:24.108Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 33.3,
+  "model_calls": 10,
+  "tokens": {
+    "input": 12750,
+    "output": 626,
+    "cache_read": 56372,
+    "cache_write": 0,
+    "total_in": 69122
+  },
+  "peak_prompt_tokens": 12723,
+  "cost_usd": 0.002152,
+  "tool_calls": 23,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 9,
+    "reasoning_tokens": 128,
+    "screenshots_sent": 9
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116190250-06-cua-4653/invoice-4445.pdf for supplier \"Baltic Polymers\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

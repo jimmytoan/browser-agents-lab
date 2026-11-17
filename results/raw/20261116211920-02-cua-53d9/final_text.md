@@ -1,0 +1,1 @@
+Created supplier Siljan Industri AB with all requested details and 15-day payment terms.

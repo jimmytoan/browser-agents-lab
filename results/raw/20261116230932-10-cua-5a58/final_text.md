@@ -1,0 +1,1 @@
+Approved Elin Fors’s expense report and rejected Maria Sund’s; every other expense report remains pending.

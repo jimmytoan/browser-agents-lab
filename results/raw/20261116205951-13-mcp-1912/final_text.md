@@ -1,0 +1,1 @@
+Processed all three pages: rejected every request from a Blocked customer and approved only non-Blocked “Damaged item” requests of SEK 500 or less. All other requests remain pending.

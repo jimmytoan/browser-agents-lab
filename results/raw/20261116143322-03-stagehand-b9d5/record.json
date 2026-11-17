@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116143322-03-stagehand-b9d5",
+  "ts": "2026-11-16T14:34:59.067Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "gpt-6-luna",
+  "seed": 200,
+  "variant": 2,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 96,
+  "model_calls": 17,
+  "tokens": {
+    "input": 26923,
+    "output": 2062,
+    "cache_read": 20887,
+    "cache_write": 0,
+    "total_in": 47810
+  },
+  "peak_prompt_tokens": 2735,
+  "cost_usd": 0.003932,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 44,
+    "inner": {
+      "input": 20787,
+      "output": 1544,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.002851,
+      "raw": {
+        "actPromptTokens": 11891,
+        "actCompletionTokens": 400,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 19624,
+        "extractPromptTokens": 3520,
+        "extractCompletionTokens": 649,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 12457,
+        "observePromptTokens": 5376,
+        "observeCompletionTokens": 495,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 18466,
+        "totalPromptTokens": 20787,
+        "totalCompletionTokens": 1544,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 50547
+      }
+    },
+    "outer_cost_usd": 0.001081
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

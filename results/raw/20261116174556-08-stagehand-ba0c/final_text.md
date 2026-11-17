@@ -1,0 +1,1 @@
+Updated and saved the notification settings: alert threshold 745 and weekly digest on.

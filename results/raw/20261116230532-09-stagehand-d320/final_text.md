@@ -1,0 +1,1 @@
+Reordered and saved the stages: Invoicing, Picking, Quality check, Credit check, Intake, Packing, Shipping.

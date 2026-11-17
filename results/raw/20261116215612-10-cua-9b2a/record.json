@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116215612-10-cua-9b2a",
+  "ts": "2026-11-16T21:56:35.901Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "cua",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 23.5,
+  "model_calls": 6,
+  "tokens": {
+    "input": 7347,
+    "output": 223,
+    "cache_read": 17934,
+    "cache_write": 0,
+    "total_in": 25281
+  },
+  "peak_prompt_tokens": 7332,
+  "cost_usd": 0.018717,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 5,
+    "reasoning_tokens": 0,
+    "screenshots_sent": 5
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Sara Nyberg and reject the expense report submitted by Nils Varg. Leave every other expense report pending."
+}

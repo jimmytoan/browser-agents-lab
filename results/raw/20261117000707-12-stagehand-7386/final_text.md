@@ -1,0 +1,1 @@
+I couldn’t set the discount control to exactly 33%, so I canceled without applying any changes.

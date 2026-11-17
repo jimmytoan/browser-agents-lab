@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116151259-12-pw-script-fe27",
+  "ts": "2026-11-16T15:13:51.349Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 51.5,
+  "model_calls": 10,
+  "tokens": {
+    "input": 6513,
+    "output": 2320,
+    "cache_read": 16685,
+    "cache_write": 0,
+    "total_in": 23198
+  },
+  "peak_prompt_tokens": 5219,
+  "cost_usd": 0.001978,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 208,
+    "commands": 9,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 30,
+    "directApi": 0,
+    "logins": 7
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1024 to exactly 27% and apply it. Do not change any other product's discount."
+}

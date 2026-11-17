@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116141041-03-mcp-c127",
+  "ts": "2026-11-16T14:11:25.736Z",
+  "tag": "gpt-pilot",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 100,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 44,
+  "model_calls": 14,
+  "tokens": {
+    "input": 10168,
+    "output": 401,
+    "cache_read": 74236,
+    "cache_write": 0,
+    "total_in": 84404
+  },
+  "peak_prompt_tokens": 10129,
+  "cost_usd": 0.00196,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 52
+  },
+  "app": {
+    "requests": 15,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

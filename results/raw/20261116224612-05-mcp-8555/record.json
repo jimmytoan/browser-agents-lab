@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116224612-05-mcp-8555",
+  "ts": "2026-11-16T22:47:11.448Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "mcp",
+  "model": "gpt-6.1-sol",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 58.4,
+  "model_calls": 19,
+  "tokens": {
+    "input": 8436,
+    "output": 442,
+    "cache_read": 119473,
+    "cache_write": 0,
+    "total_in": 127909
+  },
+  "peak_prompt_tokens": 11222,
+  "cost_usd": 0.033239,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-4743: delivery date 4 January 2027, carrier \"DHL Freight\", time window Evening. Make exactly one booking."
+}

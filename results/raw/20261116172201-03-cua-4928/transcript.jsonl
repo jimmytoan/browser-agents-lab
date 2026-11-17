@@ -1,0 +1,25 @@
+{"ms":2039,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1107,"input_tokens_details":{"cache_write_tokens":1104,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1104},"cached_tokens":0},"output_tokens":15,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":1122},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4375,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2332,"input_tokens_details":{"cache_write_tokens":1225,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1225},"cached_tokens":1104},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2421},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":700,"y":140}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":694,"y":184}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":496,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4643,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4757,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5013,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5096,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5349,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6351,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8696,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3631,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2329},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":3666},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":297,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":8949,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9951,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12962,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4876,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":3628},"output_tokens":100,"output_tokens_details":{"reasoning_tokens":19},"total_tokens":4976},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":179,"y":156}},{"name":"type","input":{"type":"type","text":"Nordlys AB"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":383,"y":157}},{"name":"keypress","input":{"type":"keypress","keys":["O"]}},{"name":"keypress","input":{"type":"keypress","keys":["ENTER"]}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":13216,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13286,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":13542,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13703,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":13854,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":14856,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18445,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6186,"input_tokens_details":{"cache_write_tokens":1310,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1310},"cached_tokens":4873},"output_tokens":101,"output_tokens_details":{"reasoning_tokens":64},"total_tokens":6287},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":64,"y":302}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":18703,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19705,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":22644,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7497,"input_tokens_details":{"cache_write_tokens":1311,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1311},"cached_tokens":6183},"output_tokens":49,"output_tokens_details":{"reasoning_tokens":12},"total_tokens":7546},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":85,"y":303}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":22901,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23902,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":27293,"t":"model","stop":"completed","text":"Flagged order SO-7560 (Nordlys AB, SEK 36,546) for review.","usage":{"input_tokens":8756,"input_tokens_details":{"cache_write_tokens":1259,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1259},"cached_tokens":7494},"output_tokens":25,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":8781},"calls":[]}

@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116144956-07-pw-script-ef51",
+  "ts": "2026-11-16T14:51:14.227Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": false,
+  "why": "archived but answer \"unavailable\" lacks ARC-7CEFEA",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 78.1,
+  "model_calls": 11,
+  "tokens": {
+    "input": 10604,
+    "output": 4242,
+    "cache_read": 24399,
+    "cache_write": 0,
+    "total_in": 35003
+  },
+  "peak_prompt_tokens": 8601,
+  "cost_usd": 0.003425,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 2055,
+    "commands": 10,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 42,
+    "directApi": 0,
+    "logins": 9
+  },
+  "answer": "unavailable",
+  "instruction": "On the Customers page, archive the customer \"Berg & Co\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

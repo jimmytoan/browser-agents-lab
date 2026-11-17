@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116180901-12-cua-9b77",
+  "ts": "2026-11-16T18:09:26.140Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 24.2,
+  "model_calls": 8,
+  "tokens": {
+    "input": 9993,
+    "output": 438,
+    "cache_read": 34078,
+    "cache_write": 0,
+    "total_in": 44071
+  },
+  "peak_prompt_tokens": 9972,
+  "cost_usd": 0.001559,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 7,
+    "reasoning_tokens": 155,
+    "screenshots_sent": 7
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1048 to exactly 33% and apply it. Do not change any other product's discount."
+}
