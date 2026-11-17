@@ -1,0 +1,1 @@
+Processed the pending refunds across all three pages: rejected all requests from Blocked customers and approved eligible “Damaged item” requests of SEK 500 or less; left all others pending.

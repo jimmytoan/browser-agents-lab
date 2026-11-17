@@ -1,0 +1,1 @@
+Archived the exact customer “Nordlys AB,” but I couldn’t retrieve the confirmation reference code.

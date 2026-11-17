@@ -1,0 +1,1 @@
+I couldn’t select bay B-02 on the map, so no assignment was made.

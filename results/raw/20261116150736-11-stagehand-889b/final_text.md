@@ -1,0 +1,1 @@
+I signed in and selected PAL-5866, but I couldn’t select bay B-02 on the warehouse map. I did not make an assignment.

@@ -1,0 +1,1 @@
+Changed and confirmed the subscription to the Annual plan with 9 seats.

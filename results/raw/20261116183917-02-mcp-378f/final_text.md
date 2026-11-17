@@ -1,0 +1,1 @@
+Created supplier Dalälv Components AB with the provided details.

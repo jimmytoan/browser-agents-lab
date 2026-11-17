@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116190755-07-cua-dd59",
+  "ts": "2026-11-16T19:08:20.769Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 25.2,
+  "model_calls": 7,
+  "tokens": {
+    "input": 8726,
+    "output": 444,
+    "cache_read": 25566,
+    "cache_write": 0,
+    "total_in": 34292
+  },
+  "peak_prompt_tokens": 8708,
+  "cost_usd": 0.00135,
+  "tool_calls": 15,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 6,
+    "reasoning_tokens": 161,
+    "screenshots_sent": 6
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-DE10B7",
+  "instruction": "On the Customers page, archive the customer \"Lind Bygg\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

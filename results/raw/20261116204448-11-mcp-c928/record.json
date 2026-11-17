@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116204448-11-mcp-c928",
+  "ts": "2026-11-16T20:45:33.918Z",
+  "tag": "full",
+  "task": "11_canvas_map",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "assignment matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 45.1,
+  "model_calls": 17,
+  "tokens": {
+    "input": 6135,
+    "output": 837,
+    "cache_read": 93044,
+    "cache_write": 0,
+    "total_in": 99179
+  },
+  "peak_prompt_tokens": 8927,
+  "cost_usd": 0.001962,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 262
+  },
+  "app": {
+    "requests": 12,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Warehouse page, assign pallet PAL-7723 to bay E-03: choose that pallet, select the bay on the map, and assign it. Make only this one assignment."
+}

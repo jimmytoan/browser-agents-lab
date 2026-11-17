@@ -1,0 +1,9 @@
+{"ms":4013,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1067,"input_tokens_details":{"cache_write_tokens":1064,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1064},"cached_tokens":0},"output_tokens":30,"output_tokens_details":{"reasoning_tokens":9},"total_tokens":1097},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":7211,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2307,"input_tokens_details":{"cache_write_tokens":1240,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1240},"cached_tokens":1064},"output_tokens":99,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":2406},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":696,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":689,"y":184}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":493,"y":234}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":7477,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7578,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":7831,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7911,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":8164,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9166,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12226,"t":"model","stop":"completed","text":"Open invoices total: SEK 77,448. ANSWER: SEK 77,448","usage":{"input_tokens":3616,"input_tokens_details":{"cache_write_tokens":1309,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1309},"cached_tokens":2304},"output_tokens":114,"output_tokens_details":{"reasoning_tokens":90},"total_tokens":3730},"calls":[]}

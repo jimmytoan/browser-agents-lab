@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116213321-05-pw-script-25d8",
+  "ts": "2026-11-16T21:35:03.276Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "pw-script",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 101.6,
+  "model_calls": 8,
+  "tokens": {
+    "input": 6407,
+    "output": 1128,
+    "cache_read": 17163,
+    "cache_write": 0,
+    "total_in": 23570
+  },
+  "peak_prompt_tokens": 5326,
+  "cost_usd": 0.02581,
+  "tool_calls": 7,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 37,
+    "commands": 7,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 33,
+    "directApi": 0,
+    "logins": 6
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-1438: delivery date 13 January 2027, carrier \"Best Transport\", time window Evening. Make exactly one booking."
+}

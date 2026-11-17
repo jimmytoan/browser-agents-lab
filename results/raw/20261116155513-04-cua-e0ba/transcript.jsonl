@@ -1,0 +1,24 @@
+{"ms":2350,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1089,"input_tokens_details":{"cache_write_tokens":1086,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1086},"cached_tokens":0},"output_tokens":27,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":1116},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":5012,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2326,"input_tokens_details":{"cache_write_tokens":1237,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1237},"cached_tokens":1086},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2415},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":699,"y":142}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":695,"y":184}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":496,"y":234}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":5279,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5388,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5642,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5727,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5979,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6980,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8983,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3625,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2323},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":3660},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":365,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9241,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10242,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12730,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4870,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":3622},"output_tokens":61,"output_tokens_details":{"reasoning_tokens":21},"total_tokens":4931},"calls":[{"name":"scroll","input":{"type":"scroll","keys":null,"scroll_x":0,"scroll_y":537,"x":1095,"y":725}}]}
+{"ms":13000,"t":"tool","name":"scroll","is_error":false,"result":"OK"}
+{"ms":15369,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6141,"input_tokens_details":{"cache_write_tokens":1271,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1271},"cached_tokens":4867},"output_tokens":56,"output_tokens_details":{"reasoning_tokens":23},"total_tokens":6197},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":984,"y":683}}]}
+{"ms":15629,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19353,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7407,"input_tokens_details":{"cache_write_tokens":1266,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1266},"cached_tokens":6138},"output_tokens":126,"output_tokens_details":{"reasoning_tokens":23},"total_tokens":7533},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":474,"y":684}},{"name":"keypress","input":{"type":"keypress","keys":["CTRL","A"]}},{"name":"type","input":{"type":"type","text":"866"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":697,"y":684}},{"name":"keypress","input":{"type":"keypress","keys":["CTRL","A"]}},{"name":"type","input":{"type":"type","text":"146"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":896,"y":684}}]}
+{"ms":19609,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19770,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":19792,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20046,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20203,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":20226,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20481,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22728,"t":"model","stop":"completed","text":"Updated product P-1160 to price 866 and stock 146, and saved the row.","usage":{"input_tokens":8743,"input_tokens_details":{"cache_write_tokens":1336,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1336},"cached_tokens":7404},"output_tokens":24,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":8767},"calls":[]}

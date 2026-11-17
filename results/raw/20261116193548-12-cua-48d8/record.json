@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116193548-12-cua-48d8",
+  "ts": "2026-11-16T19:36:25.305Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 37.1,
+  "model_calls": 10,
+  "tokens": {
+    "input": 12809,
+    "output": 780,
+    "cache_read": 55931,
+    "cache_write": 0,
+    "total_in": 68740
+  },
+  "peak_prompt_tokens": 12782,
+  "cost_usd": 0.00223,
+  "tool_calls": 30,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 9,
+    "reasoning_tokens": 182,
+    "screenshots_sent": 9
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1034 to exactly 11% and apply it. Do not change any other product's discount."
+}

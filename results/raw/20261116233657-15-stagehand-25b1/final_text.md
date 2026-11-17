@@ -1,0 +1,1 @@
+Confirmed the Annual subscription plan with 10 seats.

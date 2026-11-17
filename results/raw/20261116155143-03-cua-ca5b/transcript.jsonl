@@ -1,0 +1,25 @@
+{"ms":2194,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1107,"input_tokens_details":{"cache_write_tokens":1104,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1104},"cached_tokens":0},"output_tokens":26,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":1133},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4522,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2343,"input_tokens_details":{"cache_write_tokens":1236,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1236},"cached_tokens":1104},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2432},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":697,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":701,"y":184}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":496,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4783,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4896,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5149,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5230,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5484,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6486,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9176,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3642,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2340},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":7},"total_tokens":3686},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":297,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9432,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10434,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13555,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4896,"input_tokens_details":{"cache_write_tokens":1254,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1254},"cached_tokens":3639},"output_tokens":98,"output_tokens_details":{"reasoning_tokens":17},"total_tokens":4994},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":181,"y":156}},{"name":"type","input":{"type":"type","text":"Nordlys AB"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":380,"y":157}},{"name":"keypress","input":{"type":"keypress","keys":["o"]}},{"name":"keypress","input":{"type":"keypress","keys":["ENTER"]}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":13810,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13875,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":14129,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14289,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":14442,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":15443,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18251,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6204,"input_tokens_details":{"cache_write_tokens":1308,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1308},"cached_tokens":4893},"output_tokens":71,"output_tokens_details":{"reasoning_tokens":34},"total_tokens":6275},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":57,"y":237}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":18510,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19512,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":22816,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7485,"input_tokens_details":{"cache_write_tokens":1281,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1281},"cached_tokens":6201},"output_tokens":46,"output_tokens_details":{"reasoning_tokens":9},"total_tokens":7531},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":87,"y":303}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":23070,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24072,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":26461,"t":"model","stop":"completed","text":"Flagged order SO-7271 for review; it was the highest-amount On hold order for Nordlys AB.","usage":{"input_tokens":8741,"input_tokens_details":{"cache_write_tokens":1256,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1256},"cached_tokens":7482},"output_tokens":28,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":8769},"calls":[]}

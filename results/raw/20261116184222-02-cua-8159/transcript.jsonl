@@ -1,0 +1,42 @@
+{"ms":2533,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1146,"input_tokens_details":{"cache_write_tokens":1143,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1143},"cached_tokens":0},"output_tokens":29,"output_tokens_details":{"reasoning_tokens":9},"total_tokens":1175},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4952,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2385,"input_tokens_details":{"cache_write_tokens":1239,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1239},"cached_tokens":1143},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2474},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":697,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":697,"y":185}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":497,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":5220,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5316,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5571,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5649,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5903,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6905,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9065,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3684,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2382},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":3719},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":230,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9322,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10324,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12310,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4929,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":3681},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":4964},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":77,"y":149}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":12569,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13571,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16202,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6174,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":4926},"output_tokens":156,"output_tokens_details":{"reasoning_tokens":33},"total_tokens":6330},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":267,"y":192}},{"name":"type","input":{"type":"type","text":"Dalälv Components AB"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":265,"y":235}},{"name":"type","input":{"type":"type","text":"559767-5415"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":269,"y":278}},{"name":"type","input":{"type":"type","text":"inkop@dalalv.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":53,"y":326}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":16457,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16595,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":16849,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16928,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":17181,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17294,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":17550,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18553,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":21581,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7540,"input_tokens_details":{"cache_write_tokens":1366,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1366},"cached_tokens":6171},"output_tokens":155,"output_tokens_details":{"reasoning_tokens":37},"total_tokens":7695},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":266,"y":192}},{"name":"type","input":{"type":"type","text":"Industrivägen 5"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":263,"y":235}},{"name":"type","input":{"type":"type","text":"487 54"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":266,"y":278}},{"name":"type","input":{"type":"type","text":"Jönköping"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":231,"y":320}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":21836,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":21937,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22191,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22236,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22490,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22552,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22812,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23814,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":26700,"t":"model","stop":"completed","text":"","usage":{"input_tokens":8905,"input_tokens_details":{"cache_write_tokens":1365,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1365},"cached_tokens":7537},"output_tokens":91,"output_tokens_details":{"reasoning_tokens":22},"total_tokens":8996},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":211,"y":405}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":185,"y":356}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":116,"y":401}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":26958,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":27212,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":27469,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":28471,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":31372,"t":"model","stop":"completed","text":"","usage":{"input_tokens":10206,"input_tokens_details":{"cache_write_tokens":1301,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1301},"cached_tokens":8902},"output_tokens":67,"output_tokens_details":{"reasoning_tokens":14},"total_tokens":10273},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":34,"y":457}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":153,"y":501}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":31627,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":31883,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":32884,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":34879,"t":"model","stop":"completed","text":"Created supplier Dalälv Components AB with organisation number 559767-5415, Norway address details, and 15-day payment terms.","usage":{"input_tokens":11483,"input_tokens_details":{"cache_write_tokens":1277,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1277},"cached_tokens":10203},"output_tokens":32,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":11515},"calls":[]}

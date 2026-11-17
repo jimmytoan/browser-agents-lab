@@ -1,0 +1,1 @@
+Reordered the Pipeline stages to Intake, Picking, Invoicing, Packing, Shipping, Quality check, Credit check and saved the order.

@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116143907-05-mcp-e64f",
+  "ts": "2026-11-16T14:40:06.926Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 59,
+  "model_calls": 21,
+  "tokens": {
+    "input": 12626,
+    "output": 535,
+    "cache_read": 156501,
+    "cache_write": 0,
+    "total_in": 169127
+  },
+  "peak_prompt_tokens": 15406,
+  "cost_usd": 0.003095,
+  "tool_calls": 20,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 68
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-1438: delivery date 13 January 2027, carrier \"Best Transport\", time window Evening. Make exactly one booking."
+}

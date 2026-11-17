@@ -1,0 +1,9 @@
+{"ms":4133,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1067,"input_tokens_details":{"cache_write_tokens":0,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":0},"cached_tokens":1064},"output_tokens":32,"output_tokens_details":{"reasoning_tokens":11},"total_tokens":1099},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":6441,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2309,"input_tokens_details":{"cache_write_tokens":1242,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1242},"cached_tokens":1064},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2398},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":692,"y":140}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":688,"y":185}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":493,"y":234}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":6704,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6818,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":7073,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7156,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":7411,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":8411,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":11624,"t":"model","stop":"completed","text":"The “Open invoices total” is SEK 14,989.\n\nANSWER: SEK 14,989","usage":{"input_tokens":3608,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2306},"output_tokens":42,"output_tokens_details":{"reasoning_tokens":16},"total_tokens":3650},"calls":[]}

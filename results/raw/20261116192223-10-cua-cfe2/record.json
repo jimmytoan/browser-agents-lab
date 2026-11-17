@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116192223-10-cua-cfe2",
+  "ts": "2026-11-16T19:22:43.216Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 19.9,
+  "model_calls": 6,
+  "tokens": {
+    "input": 7439,
+    "output": 334,
+    "cache_read": 18047,
+    "cache_write": 0,
+    "total_in": 25486
+  },
+  "peak_prompt_tokens": 7424,
+  "cost_usd": 0.001091,
+  "tool_calls": 12,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 5,
+    "reasoning_tokens": 90,
+    "screenshots_sent": 5
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Lena Strid and reject the expense report submitted by Tomas Rask. Leave every other expense report pending."
+}

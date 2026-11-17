@@ -1,0 +1,1 @@
+I signed in and selected Hansa Tooling GmbH and Invoice, but couldn’t upload the PDF because the browser file input rejected file selection.

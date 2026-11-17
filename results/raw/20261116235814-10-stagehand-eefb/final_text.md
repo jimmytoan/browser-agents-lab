@@ -1,0 +1,1 @@
+I couldn’t complete the changes because the expense action controls could not be clicked. All reports remain pending.

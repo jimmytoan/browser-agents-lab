@@ -1,0 +1,18 @@
+{"ms":2147,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1085,"input_tokens_details":{"cache_write_tokens":1082,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1082},"cached_tokens":0},"output_tokens":31,"output_tokens_details":{"reasoning_tokens":11},"total_tokens":1116},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4512,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2326,"input_tokens_details":{"cache_write_tokens":1241,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1241},"cached_tokens":1082},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2415},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":691,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":696,"y":184}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":496,"y":234}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4774,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4881,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5134,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5212,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5464,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6465,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8899,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3625,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2323},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":3660},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":747,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9152,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10154,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13142,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4870,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":3622},"output_tokens":78,"output_tokens_details":{"reasoning_tokens":41},"total_tokens":4948},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":447,"y":289}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":13395,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14396,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":17014,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6158,"input_tokens_details":{"cache_write_tokens":1288,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1288},"cached_tokens":4867},"output_tokens":51,"output_tokens_details":{"reasoning_tokens":14},"total_tokens":6209},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":391,"y":415}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":17268,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18269,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":20898,"t":"model","stop":"completed","text":"Approved Sara Nyberg’s expense report and rejected Nils Varg’s; all other reports remain pending.","usage":{"input_tokens":7419,"input_tokens_details":{"cache_write_tokens":1261,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1261},"cached_tokens":6155},"output_tokens":25,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":7444},"calls":[]}

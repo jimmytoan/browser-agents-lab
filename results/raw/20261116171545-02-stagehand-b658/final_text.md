@@ -1,0 +1,1 @@
+Created supplier Kebne Components AB with the requested details. The postal code was entered in the required format as 918 98.

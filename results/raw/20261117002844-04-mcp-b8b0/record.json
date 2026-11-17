@@ -1,0 +1,43 @@
+{
+  "run_id": "20261117002844-04-mcp-b8b0",
+  "ts": "2026-11-17T00:29:40.923Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "gpt-6.1-sol",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "row updated",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 56.1,
+  "model_calls": 17,
+  "tokens": {
+    "input": 5199,
+    "output": 399,
+    "cache_read": 93739,
+    "cache_write": 0,
+    "total_in": 98938
+  },
+  "peak_prompt_tokens": 7991,
+  "cost_usd": 0.023762,
+  "tool_calls": 16,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Products page, change product P-1347: set its price to 502 and its stock to 287, then save the row. Do not change any other product."
+}

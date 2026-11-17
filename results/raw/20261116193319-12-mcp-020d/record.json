@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116193319-12-mcp-020d",
+  "ts": "2026-11-16T19:34:11.118Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 51.2,
+  "model_calls": 18,
+  "tokens": {
+    "input": 9905,
+    "output": 850,
+    "cache_read": 116792,
+    "cache_write": 0,
+    "total_in": 126697
+  },
+  "peak_prompt_tokens": 12694,
+  "cost_usd": 0.002583,
+  "tool_calls": 17,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 274
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1034 to exactly 11% and apply it. Do not change any other product's discount."
+}

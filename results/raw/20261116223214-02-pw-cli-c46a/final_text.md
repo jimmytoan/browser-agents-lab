@@ -1,0 +1,1 @@
+Created supplier “Vättern Components AB” with all requested details and 60-day payment terms.

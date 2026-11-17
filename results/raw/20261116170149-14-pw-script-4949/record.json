@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116170149-14-pw-script-4949",
+  "ts": "2026-11-16T17:02:27.253Z",
+  "tag": "full",
+  "task": "14_transient_key",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "secret matches (keys generated: 1)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 37.5,
+  "model_calls": 8,
+  "tokens": {
+    "input": 5126,
+    "output": 1516,
+    "cache_read": 7313,
+    "cache_write": 0,
+    "total_in": 12439
+  },
+  "peak_prompt_tokens": 2805,
+  "cost_usd": 0.001344,
+  "tool_calls": 7,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 93,
+    "commands": 7,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 23,
+    "directApi": 0,
+    "logins": 5
+  },
+  "answer": "",
+  "instruction": "On the Integrations page, generate a new signing key. The key is shown only briefly. Then enter that exact key as the signing secret on the Webhooks page and save. Generate a key only once if you can; the saved secret must equal the most recently generated key."
+}

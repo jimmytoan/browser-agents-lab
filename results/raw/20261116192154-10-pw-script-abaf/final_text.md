@@ -1,0 +1,1 @@
+Approved Lena Strid’s expense report and rejected Tomas Rask’s; all other reports remain pending.

@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116222617-15-cua-1577",
+  "ts": "2026-11-16T22:26:37.967Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "cua",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "plan confirmed",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 20.4,
+  "model_calls": 6,
+  "tokens": {
+    "input": 7387,
+    "output": 269,
+    "cache_read": 17984,
+    "cache_write": 0,
+    "total_in": 25371
+  },
+  "peak_prompt_tokens": 7372,
+  "cost_usd": 0.019262,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 5,
+    "reasoning_tokens": 0,
+    "screenshots_sent": 5
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 21 seats and confirm the plan."
+}

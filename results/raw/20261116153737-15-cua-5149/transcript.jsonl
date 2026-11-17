@@ -1,0 +1,19 @@
+{"ms":3041,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1073,"input_tokens_details":{"cache_write_tokens":1070,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1070},"cached_tokens":0},"output_tokens":32,"output_tokens_details":{"reasoning_tokens":11},"total_tokens":1105},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":5571,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2315,"input_tokens_details":{"cache_write_tokens":1242,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1242},"cached_tokens":1070},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2404},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":697,"y":140}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":692,"y":183}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":493,"y":234}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":5838,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5943,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":6196,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6273,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":6527,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":7529,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":10410,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3614,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2312},"output_tokens":49,"output_tokens_details":{"reasoning_tokens":12},"total_tokens":3663},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":35,"y":54}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":10665,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11666,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":14198,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4873,"input_tokens_details":{"cache_write_tokens":1259,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1259},"cached_tokens":3611},"output_tokens":107,"output_tokens_details":{"reasoning_tokens":19},"total_tokens":4980},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":48,"y":226}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":119,"y":262}},{"name":"keypress","input":{"type":"keypress","keys":["CTRL","A"]}},{"name":"type","input":{"type":"type","text":"21"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":97,"y":305}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":14452,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14705,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":14859,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":14873,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":15127,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":16128,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18469,"t":"model","stop":"completed","text":"Changed the subscription to the Annual plan with 21 seats and confirmed it.","usage":{"input_tokens":6190,"input_tokens_details":{"cache_write_tokens":1317,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1317},"cached_tokens":4870},"output_tokens":19,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":6209},"calls":[]}

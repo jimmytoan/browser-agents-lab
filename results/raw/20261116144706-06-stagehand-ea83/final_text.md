@@ -1,0 +1,1 @@
+I couldn’t upload the invoice: the browser tool rejected setting the file input, and no file was selected. I did not submit the form.

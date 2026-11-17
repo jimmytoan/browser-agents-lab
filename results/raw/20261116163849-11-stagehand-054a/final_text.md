@@ -1,0 +1,1 @@
+I selected pallet PAL-6076, but the map clicks did not select bay A-03, so I couldn’t complete the assignment.

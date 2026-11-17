@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116201032-03-cua-c5e2",
+  "ts": "2026-11-16T20:10:58.095Z",
+  "tag": "full",
+  "task": "03_search_filter",
+  "level": 3,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 204,
+  "variant": 0,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "right order flagged",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 25.7,
+  "model_calls": 8,
+  "tokens": {
+    "input": 9994,
+    "output": 423,
+    "cache_read": 34307,
+    "cache_write": 0,
+    "total_in": 44301
+  },
+  "peak_prompt_tokens": 9973,
+  "cost_usd": 0.001554,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 7,
+    "reasoning_tokens": 87,
+    "screenshots_sent": 7
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Orders page, look at the orders of the customer \"Nordlys AB\" (exactly that customer, not similarly named ones) that have status \"On hold\". Open the one with the highest amount and flag it for review. Do not flag any other order."
+}

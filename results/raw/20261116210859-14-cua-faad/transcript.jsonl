@@ -1,0 +1,23 @@
+{"ms":2042,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1108,"input_tokens_details":{"cache_write_tokens":1105,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1105},"cached_tokens":0},"output_tokens":15,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":1123},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4257,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2333,"input_tokens_details":{"cache_write_tokens":1225,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1225},"cached_tokens":1105},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2422},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":690,"y":142}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":690,"y":185}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":497,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4523,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4635,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":4889,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4972,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5225,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6227,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8269,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3632,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2330},"output_tokens":36,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":3668},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":1112,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":8527,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":9529,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":11552,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4878,"input_tokens_details":{"cache_write_tokens":1246,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1246},"cached_tokens":3629},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":4913},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":127,"y":193}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":11808,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":12809,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":15741,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6123,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":4875},"output_tokens":107,"output_tokens_details":{"reasoning_tokens":69},"total_tokens":6230},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":1198,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":15997,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17000,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":19634,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7440,"input_tokens_details":{"cache_write_tokens":1317,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1317},"cached_tokens":6120},"output_tokens":105,"output_tokens_details":{"reasoning_tokens":32},"total_tokens":7545},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":337,"y":198}},{"name":"type","input":{"type":"type","text":"RI8D-TUE3-HQSC-BAW8"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":87,"y":247}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":19889,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20020,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":20275,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":21277,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":23232,"t":"model","stop":"completed","text":"Generated one signing key and saved it as the webhook signing secret.","usage":{"input_tokens":8755,"input_tokens_details":{"cache_write_tokens":1315,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1315},"cached_tokens":7437},"output_tokens":17,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":8772},"calls":[]}

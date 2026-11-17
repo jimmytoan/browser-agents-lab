@@ -1,0 +1,1 @@
+Set and applied a 27% discount for P-1024. No other product’s discount was changed.

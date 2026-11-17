@@ -1,0 +1,1 @@
+Generated one signing key and saved it as the webhook signing secret. The page confirmed “Webhook saved.”

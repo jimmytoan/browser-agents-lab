@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116194410-13-pw-script-6c93",
+  "ts": "2026-11-16T19:45:39.116Z",
+  "tag": "full",
+  "task": "13_bulk_policy",
+  "level": 5,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "all 24 statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 88.8,
+  "model_calls": 12,
+  "tokens": {
+    "input": 10167,
+    "output": 2924,
+    "cache_read": 28101,
+    "cache_write": 0,
+    "total_in": 38268
+  },
+  "peak_prompt_tokens": 7387,
+  "cost_usd": 0.00276,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 516,
+    "commands": 11,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 49,
+    "directApi": 0,
+    "logins": 9
+  },
+  "answer": "",
+  "instruction": "On the Refunds page (it has several pages), process the pending refund requests by this policy: reject every request from a customer marked \"Blocked\"; of the remaining requests, approve those whose reason is \"Damaged item\" and whose amount is at most SEK 500; leave all other requests pending. Go through every page."
+}

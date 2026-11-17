@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116153306-15-pw-cli-bb8d",
+  "ts": "2026-11-16T15:34:54.822Z",
+  "tag": "full",
+  "task": "15_closed_shadow",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": false,
+  "why": "billing {\"plan\":\"Annual\",\"seats\":215,\"confirmed\":true}",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 108.2,
+  "model_calls": 17,
+  "tokens": {
+    "input": 6408,
+    "output": 2662,
+    "cache_read": 110047,
+    "cache_write": 0,
+    "total_in": 116455
+  },
+  "peak_prompt_tokens": 10432,
+  "cost_usd": 0.003072,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 1981,
+    "commands": 16,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Billing page, change the subscription to the Annual plan with 21 seats and confirm the plan."
+}

@@ -1,0 +1,44 @@
+{"ms":1896,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1144,"input_tokens_details":{"cache_write_tokens":1141,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1141},"cached_tokens":0},"output_tokens":28,"output_tokens_details":{"reasoning_tokens":11},"total_tokens":1172},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4420,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2382,"input_tokens_details":{"cache_write_tokens":1238,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1238},"cached_tokens":1141},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2471},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":700,"y":141}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":698,"y":183}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":493,"y":232}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4699,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4834,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5092,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5171,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5424,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6426,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8920,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3681,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2379},"output_tokens":44,"output_tokens_details":{"reasoning_tokens":7},"total_tokens":3725},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":230,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9174,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10177,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12428,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4935,"input_tokens_details":{"cache_write_tokens":1254,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1254},"cached_tokens":3678},"output_tokens":43,"output_tokens_details":{"reasoning_tokens":6},"total_tokens":4978},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":83,"y":150}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":12685,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13687,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":16968,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6188,"input_tokens_details":{"cache_write_tokens":1253,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1253},"cached_tokens":4932},"output_tokens":161,"output_tokens_details":{"reasoning_tokens":40},"total_tokens":6349},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":267,"y":192}},{"name":"type","input":{"type":"type","text":"Siljan Industri AB"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":265,"y":236}},{"name":"type","input":{"type":"type","text":"559648-7578"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":267,"y":279}},{"name":"type","input":{"type":"type","text":"inkop@siljan.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":53,"y":328}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":17221,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17345,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":17597,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":17674,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":17926,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18035,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":18292,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19293,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":22377,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7559,"input_tokens_details":{"cache_write_tokens":1371,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1371},"cached_tokens":6185},"output_tokens":175,"output_tokens_details":{"reasoning_tokens":57},"total_tokens":7734},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":265,"y":192}},{"name":"type","input":{"type":"type","text":"Verkstadsgatan 19"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":268,"y":235}},{"name":"type","input":{"type":"type","text":"714 50"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":267,"y":278}},{"name":"type","input":{"type":"type","text":"Karlstad"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":231,"y":321}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":22631,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":22741,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":22994,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23034,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":23287,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23338,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":23593,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24594,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":27115,"t":"model","stop":"completed","text":"","usage":{"input_tokens":8944,"input_tokens_details":{"cache_write_tokens":1385,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1385},"cached_tokens":7556},"output_tokens":71,"output_tokens_details":{"reasoning_tokens":18},"total_tokens":9015},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":208,"y":459}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":185,"y":357}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":27371,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":27624,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":28627,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":30956,"t":"model","stop":"completed","text":"","usage":{"input_tokens":10225,"input_tokens_details":{"cache_write_tokens":1281,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1281},"cached_tokens":8941},"output_tokens":45,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":10270},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":116,"y":400}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":31211,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":32212,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":34609,"t":"model","stop":"completed","text":"","usage":{"input_tokens":11480,"input_tokens_details":{"cache_write_tokens":1255,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1255},"cached_tokens":10222},"output_tokens":66,"output_tokens_details":{"reasoning_tokens":13},"total_tokens":11546},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":34,"y":458}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":153,"y":501}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":34863,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":35123,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":36125,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":39796,"t":"model","stop":"completed","text":"Created supplier Siljan Industri AB with the requested details.","usage":{"input_tokens":12756,"input_tokens_details":{"cache_write_tokens":1276,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1276},"cached_tokens":11477},"output_tokens":15,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":12771},"calls":[]}

@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116183917-02-mcp-378f",
+  "ts": "2026-11-16T18:40:10.360Z",
+  "tag": "full",
+  "task": "02_wizard",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "supplier matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 52.7,
+  "model_calls": 20,
+  "tokens": {
+    "input": 7362,
+    "output": 685,
+    "cache_read": 122898,
+    "cache_write": 0,
+    "total_in": 130260
+  },
+  "peak_prompt_tokens": 10145,
+  "cost_usd": 0.002308,
+  "tool_calls": 19,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 113
+  },
+  "app": {
+    "requests": 14,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Register a new supplier (Suppliers → New supplier) with these details: company name \"Dalälv Components AB\", organisation number 5597675415, contact email inkop@dalalv.test, street address \"Industrivägen 5\", postal code 48754, city Jönköping, country Norway, payment terms 15 days. The form may require specific formats; follow what it asks for. Complete all steps so the supplier is created."
+}

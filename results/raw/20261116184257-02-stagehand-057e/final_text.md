@@ -1,0 +1,1 @@
+Created supplier Dalälv Components AB with the requested details. Organization number and postal code were entered in the formats required by the form.

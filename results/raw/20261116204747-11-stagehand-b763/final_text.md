@@ -1,0 +1,1 @@
+I selected PAL-7723, but the map click selected C-04 instead of E-03. I couldn’t select the correct bay, so I did not assign the pallet.

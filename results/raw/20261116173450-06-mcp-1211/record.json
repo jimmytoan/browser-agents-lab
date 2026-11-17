@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116173450-06-mcp-1211",
+  "ts": "2026-11-16T17:35:43.091Z",
+  "tag": "full",
+  "task": "06_upload",
+  "level": 2,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "document matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 52.5,
+  "model_calls": 15,
+  "tokens": {
+    "input": 5991,
+    "output": 704,
+    "cache_read": 74897,
+    "cache_write": 0,
+    "total_in": 80888
+  },
+  "peak_prompt_tokens": 8789,
+  "cost_usd": 0.0017,
+  "tool_calls": 15,
+  "tool_errors": 2,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 176
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Documents page, upload the file /var/folders/pw/gpnb6k0569j7qknzts33___w0000gn/T/browser-agents-lab/20261116173450-06-mcp-1211/invoice-4789.pdf for supplier \"Baltic Polymers\" with document type \"Invoice\". Upload it exactly once. (There is also a draft file in that folder; do not upload the draft.)"
+}

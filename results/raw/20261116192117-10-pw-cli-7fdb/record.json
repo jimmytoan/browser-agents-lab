@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116192117-10-pw-cli-7fdb",
+  "ts": "2026-11-16T19:21:53.998Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 36.1,
+  "model_calls": 12,
+  "tokens": {
+    "input": 6119,
+    "output": 439,
+    "cache_read": 75969,
+    "cache_write": 0,
+    "total_in": 82088
+  },
+  "peak_prompt_tokens": 10158,
+  "cost_usd": 0.001591,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 106,
+    "commands": 11,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Lena Strid and reject the expense report submitted by Tomas Rask. Leave every other expense report pending."
+}

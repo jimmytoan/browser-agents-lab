@@ -1,0 +1,36 @@
+{"ms":70684,"t":"model","stop":"incomplete","text":"","usage":{"input_tokens":1144,"input_tokens_details":{"cache_write_tokens":1141,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1141},"cached_tokens":0},"output_tokens":8000,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":9144},"calls":[]}
+{"ms":74569,"t":"model","stop":"completed","text":"","usage":{"input_tokens":10355,"input_tokens_details":{"cache_write_tokens":9211,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":9211},"cached_tokens":1141},"output_tokens":78,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":10433},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":683,"y":142}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"keypress","input":{"type":"keypress","keys":["TAB"]}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":496,"y":232}}]}
+{"ms":74834,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":74944,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":75099,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":75183,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":75440,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":77934,"t":"model","stop":"completed","text":"","usage":{"input_tokens":11643,"input_tokens_details":{"cache_write_tokens":1288,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1288},"cached_tokens":10352},"output_tokens":31,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":11674},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":230,"y":20}}]}
+{"ms":78189,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":80924,"t":"model","stop":"completed","text":"","usage":{"input_tokens":12884,"input_tokens_details":{"cache_write_tokens":1241,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1241},"cached_tokens":11640},"output_tokens":31,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":12915},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":82,"y":148}}]}
+{"ms":81180,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":84202,"t":"model","stop":"completed","text":"","usage":{"input_tokens":14125,"input_tokens_details":{"cache_write_tokens":1241,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1241},"cached_tokens":12881},"output_tokens":102,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":14227},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":253,"y":190}},{"name":"type","input":{"type":"type","text":"Vättern Components AB"}},{"name":"keypress","input":{"type":"keypress","keys":["TAB"]}},{"name":"type","input":{"type":"type","text":"557304-6397"}},{"name":"keypress","input":{"type":"keypress","keys":["TAB"]}},{"name":"type","input":{"type":"type","text":"inkop@vattern.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":53,"y":326}}]}
+{"ms":84456,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":84597,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":84754,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":84826,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":84980,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":85097,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":85352,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":88605,"t":"model","stop":"completed","text":"","usage":{"input_tokens":15437,"input_tokens_details":{"cache_write_tokens":1312,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1312},"cached_tokens":14122},"output_tokens":132,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":15569},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":256,"y":191}},{"name":"type","input":{"type":"type","text":"Hamngatan 62"}},{"name":"keypress","input":{"type":"keypress","keys":["TAB"]}},{"name":"type","input":{"type":"type","text":"791 88"}},{"name":"keypress","input":{"type":"keypress","keys":["TAB"]}},{"name":"type","input":{"type":"type","text":"Sundsvall"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":240,"y":321}},{"name":"keypress","input":{"type":"keypress","keys":["N"]}},{"name":"keypress","input":{"type":"keypress","keys":["ENTER"]}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":365,"y":358}}]}
+{"ms":88858,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":88941,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":89093,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":89135,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":89288,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":89346,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":89606,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":89768,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":89922,"t":"tool","name":"key","is_error":false,"result":"OK"}
+{"ms":90179,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":92830,"t":"model","stop":"completed","text":"","usage":{"input_tokens":16779,"input_tokens_details":{"cache_write_tokens":1342,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1342},"cached_tokens":15434},"output_tokens":31,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":16810},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":117,"y":401}}]}
+{"ms":93086,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":95948,"t":"model","stop":"completed","text":"","usage":{"input_tokens":18020,"input_tokens_details":{"cache_write_tokens":1241,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1241},"cached_tokens":16776},"output_tokens":47,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":18067},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":34,"y":458}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":147,"y":502}}]}
+{"ms":96203,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":96457,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":99880,"t":"model","stop":"completed","text":"Created supplier “Vättern Components AB” with all requested details and 60-day payment terms.","usage":{"input_tokens":19277,"input_tokens_details":{"cache_write_tokens":1257,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1257},"cached_tokens":18017},"output_tokens":24,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":19301},"calls":[]}

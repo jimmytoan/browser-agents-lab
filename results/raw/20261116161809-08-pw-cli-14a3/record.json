@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116161809-08-pw-cli-14a3",
+  "ts": "2026-11-16T16:18:42.473Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 32.4,
+  "model_calls": 9,
+  "tokens": {
+    "input": 3367,
+    "output": 271,
+    "cache_read": 45971,
+    "cache_write": 0,
+    "total_in": 49338
+  },
+  "peak_prompt_tokens": 7415,
+  "cost_usd": 0.000932,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 12,
+    "commands": 8,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 11,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 165, turn the weekly digest on, and save the notification settings."
+}

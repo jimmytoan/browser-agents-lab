@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116185818-05-stagehand-a128",
+  "ts": "2026-11-16T19:00:53.858Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "stagehand",
+  "model": "gpt-6-luna",
+  "seed": 203,
+  "variant": 5,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 155.3,
+  "model_calls": 27,
+  "tokens": {
+    "input": 45344,
+    "output": 4292,
+    "cache_read": 81625,
+    "cache_write": 0,
+    "total_in": 126969
+  },
+  "peak_prompt_tokens": 5575,
+  "cost_usd": 0.007497,
+  "tool_calls": 26,
+  "tool_errors": 1,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 210,
+    "inner": {
+      "input": 36413,
+      "output": 3337,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.00531,
+      "raw": {
+        "actPromptTokens": 21704,
+        "actCompletionTokens": 783,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 36495,
+        "extractPromptTokens": 7467,
+        "extractCompletionTokens": 1174,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 27389,
+        "observePromptTokens": 7242,
+        "observeCompletionTokens": 1380,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 21176,
+        "totalPromptTokens": 36413,
+        "totalCompletionTokens": 3337,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 85060
+      }
+    },
+    "outer_cost_usd": 0.002187
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-3453: delivery date 4 February 2027, carrier \"Best Transport\", time window Afternoon. Make exactly one booking."
+}

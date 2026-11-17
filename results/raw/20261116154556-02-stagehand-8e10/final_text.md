@@ -1,0 +1,1 @@
+Created supplier Vättern Components AB with the requested details.

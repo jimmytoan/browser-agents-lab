@@ -1,0 +1,1 @@
+Created supplier Kebne Components AB with the requested details and 15-day payment terms.

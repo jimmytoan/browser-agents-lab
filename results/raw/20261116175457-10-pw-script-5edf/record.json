@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116175457-10-pw-script-5edf",
+  "ts": "2026-11-16T17:55:26.647Z",
+  "tag": "full",
+  "task": "10_layout_shift",
+  "level": 4,
+  "contestant": "pw-script",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "statuses match",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 29.6,
+  "model_calls": 7,
+  "tokens": {
+    "input": 7536,
+    "output": 1213,
+    "cache_read": 7762,
+    "cache_write": 0,
+    "total_in": 15298
+  },
+  "peak_prompt_tokens": 5258,
+  "cost_usd": 0.001438,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 99,
+    "commands": 6,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 19,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "",
+  "instruction": "On the Expenses page, approve the expense report submitted by Elin Fors and reject the expense report submitted by Per Åberg. Leave every other expense report pending."
+}

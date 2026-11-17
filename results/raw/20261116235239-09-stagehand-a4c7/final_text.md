@@ -1,0 +1,1 @@
+Saved the pipeline order: Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing.

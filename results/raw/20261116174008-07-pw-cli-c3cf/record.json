@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116174008-07-pw-cli-c3cf",
+  "ts": "2026-11-16T17:40:39.184Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 30.5,
+  "model_calls": 11,
+  "tokens": {
+    "input": 9223,
+    "output": 332,
+    "cache_read": 70982,
+    "cache_write": 0,
+    "total_in": 80205
+  },
+  "peak_prompt_tokens": 13265,
+  "cost_usd": 0.001798,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 34,
+    "commands": 10,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-07E9DD",
+  "instruction": "On the Customers page, archive the customer \"Nordlys AB\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

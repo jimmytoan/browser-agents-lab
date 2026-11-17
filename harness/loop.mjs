@@ -2,6 +2,7 @@
 // so they differ only in the tools they expose. Meters tokens, cost, calls and enforces the shared limits.
 import Anthropic from '@anthropic-ai/sdk';
 import { LIMITS, costOf } from './config.mjs';
+import { agentLoopOpenAI } from './loop-openai.mjs';
 
 let client;
 export class Meter {
@@ -22,6 +23,7 @@ export class Meter {
  * Runs tool calls of one turn in order. Returns { stopped_by, final_text }.
  */
 export async function agentLoop({ model, system, tools, prompt, exec, meter, deadline, log, limits = LIMITS }) {
+  if (model.startsWith('gpt-')) return agentLoopOpenAI({ model, system, tools, prompt, exec, meter, deadline, log, limits });
   client ??= new Anthropic();
   const messages = [{ role: 'user', content: prompt }];
   let finalText = '';

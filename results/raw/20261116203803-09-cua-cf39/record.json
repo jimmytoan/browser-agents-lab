@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116203803-09-cua-cf39",
+  "ts": "2026-11-16T20:38:32.239Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 204,
+  "variant": 0,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 28.5,
+  "model_calls": 8,
+  "tokens": {
+    "input": 10190,
+    "output": 619,
+    "cache_read": 34720,
+    "cache_write": 0,
+    "total_in": 44910
+  },
+  "peak_prompt_tokens": 10169,
+  "cost_usd": 0.001676,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 7,
+    "reasoning_tokens": 287,
+    "screenshots_sent": 7
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Credit check, Intake, Packing, Invoicing, Shipping, Picking, Quality check. Then save the order."
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "20261117004302-07-cua-0814",
+  "ts": "2026-11-17T00:46:08.785Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "cua",
+  "model": "gpt-6.1-sol",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 186,
+  "model_calls": 7,
+  "tokens": {
+    "input": 24580,
+    "output": 16209,
+    "cache_read": 65279,
+    "cache_write": 0,
+    "total_in": 89859
+  },
+  "peak_prompt_tokens": 24562,
+  "cost_usd": 0.217778,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 6,
+    "reasoning_tokens": 0,
+    "screenshots_sent": 6
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-07E9DD",
+  "instruction": "On the Customers page, archive the customer \"Nordlys AB\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

@@ -1,0 +1,45 @@
+{
+  "run_id": "20261117003353-05-pw-script-252a",
+  "ts": "2026-11-17T00:34:47.260Z",
+  "tag": "full",
+  "task": "05_datepicker_dropdown",
+  "level": 3,
+  "contestant": "pw-script",
+  "model": "gpt-6.1-sol",
+  "seed": 202,
+  "variant": 4,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "booking matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 54.2,
+  "model_calls": 6,
+  "tokens": {
+    "input": 6504,
+    "output": 986,
+    "cache_read": 9651,
+    "cache_write": 0,
+    "total_in": 16155
+  },
+  "peak_prompt_tokens": 5427,
+  "cost_usd": 0.023833,
+  "tool_calls": 5,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 22,
+    "commands": 5,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 23,
+    "directApi": 0,
+    "logins": 4
+  },
+  "answer": "",
+  "instruction": "Book a delivery (Deliveries page) for order reference SO-7218: delivery date 16 March 2027, carrier \"DHL Express\", time window Morning. Make exactly one booking."
+}

@@ -1,0 +1,1 @@
+Updated P-1160 to price 866 and stock 146, and verified the row was saved.

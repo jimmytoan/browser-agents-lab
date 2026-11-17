@@ -1,0 +1,1 @@
+I couldn’t complete the approvals: the report action icons were not clickable through the browser controls, and both reports remain pending.

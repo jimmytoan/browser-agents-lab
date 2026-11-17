@@ -1,0 +1,1 @@
+Applied an 11% discount to P-1017. No other product discounts were changed.

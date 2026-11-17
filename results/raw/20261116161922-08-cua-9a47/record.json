@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116161922-08-cua-9a47",
+  "ts": "2026-11-16T16:19:40.706Z",
+  "tag": "full",
+  "task": "08_iframe_shadow",
+  "level": 2,
+  "contestant": "cua",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "settings saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 17.9,
+  "model_calls": 6,
+  "tokens": {
+    "input": 7417,
+    "output": 294,
+    "cache_read": 18011,
+    "cache_write": 0,
+    "total_in": 25428
+  },
+  "peak_prompt_tokens": 7402,
+  "cost_usd": 0.001069,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 5,
+    "reasoning_tokens": 34,
+    "screenshots_sent": 5
+  },
+  "app": {
+    "requests": 8,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Settings page, in the Notifications section, set the alert threshold to 165, turn the weekly digest on, and save the notification settings."
+}

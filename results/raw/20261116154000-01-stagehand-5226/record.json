@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116154000-01-stagehand-5226",
+  "ts": "2026-11-16T15:40:36.056Z",
+  "tag": "full",
+  "task": "01_login_read",
+  "level": 1,
+  "contestant": "stagehand",
+  "model": "gpt-6-luna",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "answer matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 35.3,
+  "model_calls": 7,
+  "tokens": {
+    "input": 9225,
+    "output": 568,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total_in": 9225
+  },
+  "peak_prompt_tokens": 973,
+  "cost_usd": 0.001207,
+  "tool_calls": 6,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 0,
+    "inner": {
+      "input": 4521,
+      "output": 397,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.000651,
+      "raw": {
+        "actPromptTokens": 3136,
+        "actCompletionTokens": 138,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 8279,
+        "extractPromptTokens": 1385,
+        "extractCompletionTokens": 259,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 9177,
+        "observePromptTokens": 0,
+        "observeCompletionTokens": 0,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 0,
+        "totalPromptTokens": 4521,
+        "totalCompletionTokens": 397,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 17456
+      }
+    },
+    "outer_cost_usd": 0.000556
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "SEK 67,617",
+  "instruction": "Report the amount shown for \"Open invoices total\" on the Dashboard page."
+}

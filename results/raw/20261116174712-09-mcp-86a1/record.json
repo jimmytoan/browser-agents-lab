@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116174712-09-mcp-86a1",
+  "ts": "2026-11-16T17:47:56.645Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 43.7,
+  "model_calls": 14,
+  "tokens": {
+    "input": 6309,
+    "output": 613,
+    "cache_read": 69876,
+    "cache_write": 0,
+    "total_in": 76185
+  },
+  "peak_prompt_tokens": 9110,
+  "cost_usd": 0.001636,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 293
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Picking, Packing, Quality check, Credit check, Shipping, Intake, Invoicing. Then save the order."
+}

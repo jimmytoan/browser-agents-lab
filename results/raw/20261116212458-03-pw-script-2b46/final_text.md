@@ -1,0 +1,1 @@
+Flagged order SO-8484 (SEK 32,359), Nordlys AB’s highest-amount “On hold” order, for review. No other orders were flagged.

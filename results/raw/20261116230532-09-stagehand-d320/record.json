@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116230532-09-stagehand-d320",
+  "ts": "2026-11-16T23:07:51.764Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "gpt-6.1-sol",
+  "seed": 201,
+  "variant": 3,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 138.9,
+  "model_calls": 21,
+  "tokens": {
+    "input": 27305,
+    "output": 1911,
+    "cache_read": 28639,
+    "cache_write": 0,
+    "total_in": 55944
+  },
+  "peak_prompt_tokens": 2918,
+  "cost_usd": 0.076584,
+  "tool_calls": 20,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 41,
+    "inner": {
+      "input": 21093,
+      "output": 1310,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.055286,
+      "raw": {
+        "actPromptTokens": 12924,
+        "actCompletionTokens": 480,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 26428,
+        "extractPromptTokens": 6808,
+        "extractCompletionTokens": 724,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 44386,
+        "observePromptTokens": 1361,
+        "observeCompletionTokens": 106,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 5231,
+        "totalPromptTokens": 21093,
+        "totalCompletionTokens": 1310,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 76045
+      }
+    },
+    "outer_cost_usd": 0.021298
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Invoicing, Picking, Quality check, Credit check, Intake, Packing, Shipping. Then save the order."
+}

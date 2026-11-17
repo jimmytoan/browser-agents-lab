@@ -1,0 +1,71 @@
+{
+  "run_id": "20261116203832-09-stagehand-29c0",
+  "ts": "2026-11-16T20:41:29.228Z",
+  "tag": "full",
+  "task": "09_drag_reorder",
+  "level": 4,
+  "contestant": "stagehand",
+  "model": "gpt-6-luna",
+  "seed": 204,
+  "variant": 0,
+  "package": "@browserbasehq/stagehand",
+  "package_version": "4.4.0",
+  "success": true,
+  "why": "order saved",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 176.9,
+  "model_calls": 26,
+  "tokens": {
+    "input": 34447,
+    "output": 5926,
+    "cache_read": 57966,
+    "cache_write": 0,
+    "total_in": 92413
+  },
+  "peak_prompt_tokens": 4789,
+  "cost_usd": 0.006987,
+  "tool_calls": 25,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "reasoning_tokens": 1154,
+    "inner": {
+      "input": 26262,
+      "output": 4027,
+      "cached": 0,
+      "reasoning": 0,
+      "cost_usd": 0.00464,
+      "raw": {
+        "actPromptTokens": 14347,
+        "actCompletionTokens": 1303,
+        "actReasoningTokens": 0,
+        "actCachedInputTokens": 0,
+        "actInferenceTimeMs": 31222,
+        "extractPromptTokens": 7702,
+        "extractCompletionTokens": 1195,
+        "extractReasoningTokens": 0,
+        "extractCachedInputTokens": 0,
+        "extractInferenceTimeMs": 41353,
+        "observePromptTokens": 4213,
+        "observeCompletionTokens": 1529,
+        "observeReasoningTokens": 0,
+        "observeCachedInputTokens": 0,
+        "observeInferenceTimeMs": 26100,
+        "totalPromptTokens": 26262,
+        "totalCompletionTokens": 4027,
+        "totalReasoningTokens": 0,
+        "totalCachedInputTokens": 0,
+        "totalInferenceTimeMs": 98675
+      }
+    },
+    "outer_cost_usd": 0.002348
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pipeline page, reorder the stages by dragging so that the order from top to bottom is exactly: Credit check, Intake, Packing, Invoicing, Shipping, Picking, Quality check. Then save the order."
+}

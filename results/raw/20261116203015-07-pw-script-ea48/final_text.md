@@ -1,0 +1,1 @@
+Nordlys AB was archived, but the confirmation reference wasn’t captured; I can’t retrieve it from the UI. ANSWER: unavailable

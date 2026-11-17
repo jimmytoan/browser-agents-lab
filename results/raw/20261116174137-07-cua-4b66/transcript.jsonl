@@ -1,0 +1,22 @@
+{"ms":2108,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1103,"input_tokens_details":{"cache_write_tokens":1100,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1100},"cached_tokens":0},"output_tokens":30,"output_tokens_details":{"reasoning_tokens":11},"total_tokens":1133},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4531,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2343,"input_tokens_details":{"cache_write_tokens":1240,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1240},"cached_tokens":1100},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2432},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":699,"y":142}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":700,"y":183}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":499,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4798,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":4913,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5168,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5250,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5507,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6509,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":8938,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3642,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2340},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":3677},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":602,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":9196,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":10199,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":12654,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4887,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":3639},"output_tokens":59,"output_tokens_details":{"reasoning_tokens":22},"total_tokens":4946},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":864,"y":335}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":12910,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":13912,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18336,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6156,"input_tokens_details":{"cache_write_tokens":1269,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1269},"cached_tokens":4884},"output_tokens":72,"output_tokens_details":{"reasoning_tokens":9},"total_tokens":6228},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":633,"y":435}},{"name":"type","input":{"type":"type","text":"Nordlys AB"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":581,"y":484}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":18591,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18658,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":18912,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19914,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":23529,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7438,"input_tokens_details":{"cache_write_tokens":1282,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1282},"cached_tokens":6153},"output_tokens":65,"output_tokens_details":{"reasoning_tokens":44},"total_tokens":7503},"calls":[{"name":"wait","input":{"type":"wait"}}]}
+{"ms":24531,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":26628,"t":"model","stop":"completed","text":"Nordlys AB was archived.  \nANSWER: ARC-07E9DD","usage":{"input_tokens":8713,"input_tokens_details":{"cache_write_tokens":1275,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1275},"cached_tokens":7435},"output_tokens":19,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":8732},"calls":[]}

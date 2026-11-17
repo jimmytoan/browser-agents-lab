@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116232953-14-cua-2725",
+  "ts": "2026-11-16T23:30:17.781Z",
+  "tag": "full",
+  "task": "14_transient_key",
+  "level": 5,
+  "contestant": "cua",
+  "model": "gpt-6.1-sol",
+  "seed": 201,
+  "variant": 3,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "secret matches (keys generated: 1)",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 24,
+  "model_calls": 7,
+  "tokens": {
+    "input": 8694,
+    "output": 329,
+    "cache_read": 25437,
+    "cache_write": 0,
+    "total_in": 34131
+  },
+  "peak_prompt_tokens": 8676,
+  "cost_usd": 0.023222,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 6,
+    "reasoning_tokens": 44,
+    "screenshots_sent": 6
+  },
+  "app": {
+    "requests": 9,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Integrations page, generate a new signing key. The key is shown only briefly. Then enter that exact key as the signing secret on the Webhooks page and save. Generate a key only once if you can; the saved secret must equal the most recently generated key."
+}

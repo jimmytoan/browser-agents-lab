@@ -1,0 +1,34 @@
+app http://127.0.0.1:57514 | tag full | 15 tasks x 5 contestants x 3 trials on gpt-6.1-sol | batch budget $4
+20261117002633-03-cua-47f7  03_search_filter | cua | gpt-6.1-sol | seed 202 ... PASS (done; right order flagged) calls=8 in=43918 out=318 $0.0263 25.4s
+20261117002659-03-stagehand-58ac  03_search_filter | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; right order flagged) calls=17 in=46123 out=1773 $0.0726 105.6s
+20261117002844-04-mcp-b8b0  04_table_edit | mcp | gpt-6.1-sol | seed 202 ... PASS (done; row updated) calls=17 in=98938 out=399 $0.0238 56.1s
+20261117002940-04-pw-cli-61ea  04_table_edit | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; row updated) calls=10 in=84576 out=348 $0.0287 31.4s
+20261117003012-04-pw-script-6aba  04_table_edit | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; row updated) calls=5 in=7896 out=782 $0.0155 26.8s
+20261117003039-04-cua-1c7f  04_table_edit | cua | gpt-6.1-sol | seed 202 ... PASS (done; row updated) calls=8 in=43847 out=381 $0.0271 26.4s
+20261117003105-04-stagehand-cd8b  04_table_edit | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; row updated) calls=14 in=63804 out=1175 $0.1133 76.5s
+20261117003222-05-mcp-d7ff  05_datepicker_dropdown | mcp | gpt-6.1-sol | seed 202 ... PASS (done; booking matches) calls=18 in=119517 out=448 $0.0318 51.6s
+20261117003314-05-pw-cli-9004  05_datepicker_dropdown | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; booking matches) calls=11 in=71946 out=451 $0.0232 38.8s
+20261117003353-05-pw-script-252a  05_datepicker_dropdown | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; booking matches) calls=6 in=16155 out=986 $0.0238 54.2s
+20261117003447-05-cua-ca62  05_datepicker_dropdown | cua | gpt-6.1-sol | seed 202 ... PASS (done; booking matches) calls=8 in=44125 out=397 $0.0273 24.8s
+20261117003512-05-stagehand-9ba0  05_datepicker_dropdown | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; booking matches) calls=23 in=99152 out=2865 $0.1184 145.3s
+20261117003737-06-mcp-b803  06_upload | mcp | gpt-6.1-sol | seed 202 ... PASS (done; document matches) calls=16 in=85788 out=416 $0.0239 50.8s
+20261117003828-06-pw-cli-be78  06_upload | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; document matches) calls=12 in=76912 out=441 $0.0225 41.3s
+20261117003909-06-pw-script-838d  06_upload | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; document matches) calls=4 in=4391 out=660 $0.0127 22.2s
+20261117003932-06-cua-3e7d  06_upload | cua | gpt-6.1-sol | seed 202 ... PASS (done; document matches) calls=9 in=55699 out=390 $0.0309 25.9s
+20261117003957-06-stagehand-fd4a  06_upload | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+FAIL (done; 0 documents uploaded) calls=13 in=28944 out=1137 $0.0496 72.8s
+20261117004110-07-mcp-040a  07_modal_toast | mcp | gpt-6.1-sol | seed 202 ... PASS (done; archived, reference reported) calls=14 in=80171 out=310 $0.0218 38.8s
+20261117004149-07-pw-cli-2031  07_modal_toast | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; archived, reference reported) calls=10 in=64911 out=335 $0.0190 30.2s
+20261117004219-07-pw-script-2335  07_modal_toast | pw-script | gpt-6.1-sol | seed 202 ... FAIL (done; archived but answer "" lacks ARC-07E9DD) calls=7 in=11087 out=1102 $0.0195 42.7s
+20261117004302-07-cua-0814  07_modal_toast | cua | gpt-6.1-sol | seed 202 ... PASS (done; archived, reference reported) calls=7 in=89859 out=16209 $0.2178 186s
+20261117004608-07-stagehand-2d03  07_modal_toast | stagehand | gpt-6.1-sol | seed 202 ... [stagehand] INFO stagehand.init
+PASS (done; archived, reference reported) calls=14 in=38395 out=1370 $0.0661 85.7s
+20261117004734-08-mcp-b81a  08_iframe_shadow | mcp | gpt-6.1-sol | seed 202 ... PASS (done; settings saved) calls=12 in=53702 out=273 $0.0150 40.5s
+20261117004815-08-pw-cli-64d5  08_iframe_shadow | pw-cli | gpt-6.1-sol | seed 202 ... PASS (done; settings saved) calls=9 in=48183 out=325 $0.0140 33.6s
+20261117004848-08-pw-script-7125  08_iframe_shadow | pw-script | gpt-6.1-sol | seed 202 ... PASS (done; settings saved) calls=9 in=12838 out=1007 $0.0200 34.2s
+20261117004923-08-cua-899d  08_iframe_shadow | cua | gpt-6.1-sol | seed 202 ... PASS (done; settings saved) calls=5 in=49892 out=8212 $0.1139 70.2s
+
+26 runs, $1.1785 spent

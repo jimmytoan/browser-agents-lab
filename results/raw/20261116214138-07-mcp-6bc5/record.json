@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116214138-07-mcp-6bc5",
+  "ts": "2026-11-16T21:42:18.672Z",
+  "tag": "full",
+  "task": "07_modal_toast",
+  "level": 3,
+  "contestant": "mcp",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "archived, reference reported",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 40.3,
+  "model_calls": 13,
+  "tokens": {
+    "input": 7248,
+    "output": 298,
+    "cache_read": 71759,
+    "cache_write": 0,
+    "total_in": 79007
+  },
+  "peak_prompt_tokens": 10052,
+  "cost_usd": 0.024652,
+  "tool_calls": 12,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "ARC-7CEFEA",
+  "instruction": "On the Customers page, archive the customer \"Berg & Co\" (exactly that customer, not a similarly named one). After archiving, the app shows a confirmation with a reference code of the form ARC-XXXXXX; report that reference code."
+}

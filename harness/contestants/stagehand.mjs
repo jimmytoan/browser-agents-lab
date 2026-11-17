@@ -19,7 +19,7 @@ const tools = [
 export async function run(ctx) {
   const browser = await localBrowser.launch({ headless: true, viewport: VIEWPORT, executablePath: chromium.executablePath() });
   ctx.cleanup.push(() => browser.close().catch(() => {}));
-  const stagehand = await Stagehand.create({ browser, model: { modelName: `anthropic/${ctx.model}`, apiKey: process.env.ANTHROPIC_API_KEY } });
+  const stagehand = await Stagehand.create({ browser, model: ctx.model.startsWith('gpt-') ? { modelName: `openai/${ctx.model}`, apiKey: process.env.OPENAI_API_KEY } : { modelName: `anthropic/${ctx.model}`, apiKey: process.env.ANTHROPIC_API_KEY } });
   ctx.cleanup.unshift(() => stagehand.close().catch(() => {}));
   const page = () => browser.context.pages().then((p) => p[p.length - 1]);
 

@@ -1,0 +1,1 @@
+I couldn’t set the slider to exactly 11%, so I canceled without applying changes; all discounts remain unchanged.

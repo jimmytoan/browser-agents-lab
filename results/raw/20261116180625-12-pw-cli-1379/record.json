@@ -1,0 +1,45 @@
+{
+  "run_id": "20261116180625-12-pw-cli-1379",
+  "ts": "2026-11-16T18:07:11.826Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "pw-cli",
+  "model": "gpt-6-luna",
+  "seed": 202,
+  "variant": 4,
+  "package": "@playwright/cli",
+  "package_version": "0.1.24",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 46.6,
+  "model_calls": 14,
+  "tokens": {
+    "input": 10016,
+    "output": 821,
+    "cache_read": 107449,
+    "cache_write": 0,
+    "total_in": 117465
+  },
+  "peak_prompt_tokens": 14049,
+  "cost_usd": 0.002487,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "sandbox": "seatbelt",
+    "blocked": 0,
+    "reasoning_tokens": 315,
+    "commands": 13,
+    "curl_like": 0
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1048 to exactly 33% and apply it. Do not change any other product's discount."
+}

@@ -1,0 +1,1 @@
+Open invoices total: SEK 36,533. ANSWER: SEK 36,533

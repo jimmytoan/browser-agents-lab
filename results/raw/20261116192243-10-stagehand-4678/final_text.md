@@ -1,0 +1,1 @@
+I couldn’t complete the approvals: the expense action icons could not be activated, and both reports remain pending.

@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116205040-12-mcp-4ec6",
+  "ts": "2026-11-16T20:51:24.733Z",
+  "tag": "full",
+  "task": "12_hover_slider",
+  "level": 5,
+  "contestant": "mcp",
+  "model": "gpt-6-luna",
+  "seed": 204,
+  "variant": 0,
+  "package": "@playwright/mcp",
+  "package_version": "0.0.85",
+  "success": true,
+  "why": "discount matches",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 44.1,
+  "model_calls": 17,
+  "tokens": {
+    "input": 9161,
+    "output": 691,
+    "cache_read": 104811,
+    "cache_write": 0,
+    "total_in": 113972
+  },
+  "peak_prompt_tokens": 11953,
+  "cost_usd": 0.00231,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "tool_count": 25,
+    "tool_schema_chars": 18507,
+    "reasoning_tokens": 201
+  },
+  "app": {
+    "requests": 10,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Pricing page, set the discount for product P-1043 to exactly 17% and apply it. Do not change any other product's discount."
+}

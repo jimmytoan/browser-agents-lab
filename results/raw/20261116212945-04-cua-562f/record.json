@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116212945-04-cua-562f",
+  "ts": "2026-11-16T21:30:16.064Z",
+  "tag": "full",
+  "task": "04_table_edit",
+  "level": 2,
+  "contestant": "cua",
+  "model": "gpt-6.1-sol",
+  "seed": 200,
+  "variant": 2,
+  "package": "playwright",
+  "package_version": "1.65.1",
+  "success": true,
+  "why": "row updated",
+  "stopped_by": "done",
+  "error": null,
+  "elapsed_s": 30.6,
+  "model_calls": 8,
+  "tokens": {
+    "input": 9933,
+    "output": 381,
+    "cache_read": 33928,
+    "cache_write": 0,
+    "total_in": 43861
+  },
+  "peak_prompt_tokens": 9912,
+  "cost_usd": 0.027069,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "truncations": 0,
+  "extra": {
+    "screenshots": 7,
+    "reasoning_tokens": 0,
+    "screenshots_sent": 7
+  },
+  "app": {
+    "requests": 7,
+    "directApi": 0,
+    "logins": 1
+  },
+  "answer": "",
+  "instruction": "On the Products page, change product P-1215: set its price to 626 and its stock to 409, then save the row. Do not change any other product."
+}

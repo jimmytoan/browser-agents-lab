@@ -1,0 +1,42 @@
+{"ms":2219,"t":"model","stop":"completed","text":"","usage":{"input_tokens":1146,"input_tokens_details":{"cache_write_tokens":1143,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1143},"cached_tokens":0},"output_tokens":29,"output_tokens_details":{"reasoning_tokens":8},"total_tokens":1175},"calls":[{"name":"screenshot","input":{"type":"screenshot"}}]}
+{"ms":4698,"t":"model","stop":"completed","text":"","usage":{"input_tokens":2385,"input_tokens_details":{"cache_write_tokens":1239,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1239},"cached_tokens":1143},"output_tokens":89,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":2474},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":690,"y":142}},{"name":"type","input":{"type":"type","text":"ops@lab.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":685,"y":185}},{"name":"type","input":{"type":"type","text":"lab-ops-pass"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":495,"y":233}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":4960,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5056,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5309,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":5387,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":5640,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":6642,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":9784,"t":"model","stop":"completed","text":"","usage":{"input_tokens":3684,"input_tokens_details":{"cache_write_tokens":1299,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1299},"cached_tokens":2382},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":3719},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":232,"y":20}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":10037,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":11040,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":13935,"t":"model","stop":"completed","text":"","usage":{"input_tokens":4929,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":3681},"output_tokens":35,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":4964},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":80,"y":150}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":14192,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":15194,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":18134,"t":"model","stop":"completed","text":"","usage":{"input_tokens":6174,"input_tokens_details":{"cache_write_tokens":1245,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1245},"cached_tokens":4926},"output_tokens":153,"output_tokens_details":{"reasoning_tokens":30},"total_tokens":6327},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":262,"y":193}},{"name":"type","input":{"type":"type","text":"Kebne Components AB"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":259,"y":235}},{"name":"type","input":{"type":"type","text":"556182-4434"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":262,"y":279}},{"name":"type","input":{"type":"type","text":"inkop@kebne.test"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":53,"y":327}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":18388,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18518,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":18772,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":18844,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":19096,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":19193,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":19448,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":20450,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":23425,"t":"model","stop":"completed","text":"","usage":{"input_tokens":7537,"input_tokens_details":{"cache_write_tokens":1363,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1363},"cached_tokens":6171},"output_tokens":160,"output_tokens_details":{"reasoning_tokens":42},"total_tokens":7697},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":266,"y":193}},{"name":"type","input":{"type":"type","text":"Verkstadsgatan 98"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":263,"y":234}},{"name":"type","input":{"type":"type","text":"688 27"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":263,"y":278}},{"name":"type","input":{"type":"type","text":"Karlstad"}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":232,"y":321}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":23680,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":23798,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":24051,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24092,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":24346,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":24402,"t":"tool","name":"type","is_error":false,"result":"OK"}
+{"ms":24661,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":25663,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":28457,"t":"model","stop":"completed","text":"","usage":{"input_tokens":8907,"input_tokens_details":{"cache_write_tokens":1370,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1370},"cached_tokens":7534},"output_tokens":88,"output_tokens_details":{"reasoning_tokens":19},"total_tokens":8995},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":212,"y":487}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":366,"y":357}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":116,"y":401}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":28713,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":28968,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":29224,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":30226,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":35934,"t":"model","stop":"completed","text":"","usage":{"input_tokens":10205,"input_tokens_details":{"cache_write_tokens":1298,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1298},"cached_tokens":8904},"output_tokens":63,"output_tokens_details":{"reasoning_tokens":10},"total_tokens":10268},"calls":[{"name":"click","input":{"type":"click","button":"left","keys":null,"x":34,"y":458}},{"name":"click","input":{"type":"click","button":"left","keys":null,"x":152,"y":502}},{"name":"wait","input":{"type":"wait"}}]}
+{"ms":36189,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":36443,"t":"tool","name":"left_click","is_error":false,"result":"OK"}
+{"ms":37445,"t":"tool","name":"wait","is_error":false,"result":"OK"}
+{"ms":39743,"t":"model","stop":"completed","text":"Created supplier Kebne Components AB with 60-day payment terms.","usage":{"input_tokens":11478,"input_tokens_details":{"cache_write_tokens":1273,"cache_write_tokens_details":{"ttl_12h_tokens":0,"ttl_30m_tokens":1273},"cached_tokens":10202},"output_tokens":17,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":11495},"calls":[]}
